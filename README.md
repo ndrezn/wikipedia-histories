@@ -6,7 +6,7 @@ A simple tool to pull the complete edit history of a Wikipedia page in a variety
   >>> import wikipedia_histories
   
   # Generate a list of revisions for a specified page
-  >>> golden_swallow = get_history('Golden swallow')
+  >>> golden_swallow = wikipedia_histories.get_history('Golden swallow')
   
   # Show the revision IDs for every edit
   >>> golden_swallow
@@ -23,10 +23,10 @@ A simple tool to pull the complete edit history of a Wikipedia page in a variety
   # u'The golden swallow (Tachycineta euchrysea) is a passerine in the swallow family'...
 
   # Generate a dataframe with text and metadata from a the list of revisions
-  >>> build_df(golden_swallow)
+  >>> wikipedia_histories.build_df(golden_swallow)
 
   # Generate a JSON with text and metadata from the list of versions
-  >>> build_json(golden_swallow)
+  >>> wikipedia_histories.build_json(golden_swallow)
 ```
 
 

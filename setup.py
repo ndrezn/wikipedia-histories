@@ -1,4 +1,8 @@
 # -*- coding: utf-8 -*-
+
+# python3 setup.py sdist bdist_wheel
+# twine upload --skip-existing dist/*
+
 import codecs
 import os
 import re
@@ -20,7 +24,7 @@ install_reqs = [
 
 setuptools.setup(
     name="wikipedia_histories",
-    version="0.0.4",
+    version="0.0.11",
     author="Nathan Drezner",
     author_email="nathan@drezner.com",
     description="A simple package designed to collect the edit histories of Wikipedia pages",
