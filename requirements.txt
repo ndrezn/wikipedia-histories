@@ -1,0 +1,9 @@
+mwclient
+mwparserfromhell
+requests
+lxml
+time
+datetime
+asyncio
+aiohttp
+pandas
