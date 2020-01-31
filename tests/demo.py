@@ -2,6 +2,9 @@ import wikipedia_histories
 
 golden_swallow = wikipedia_histories.get_history('Golden swallow')
 
-df = build_df(golden_swallow)
+ratings = [revision.time for revision in golden_swallow]
+print(ratings)
 
-df.head
+df = wikipedia_histories.build_df(golden_swallow)
+
+print(df.head())

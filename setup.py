@@ -24,7 +24,7 @@ install_reqs = [
 
 setuptools.setup(
     name="wikipedia_histories",
-    version="0.0.11",
+    version="0.1.1",
     author="Nathan Drezner",
     author_email="nathan@drezner.com",
     description="A simple package designed to collect the edit histories of Wikipedia pages",

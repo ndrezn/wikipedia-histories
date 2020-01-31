@@ -17,16 +17,26 @@ A simple tool to pull the complete edit history of a Wikipedia page in a variety
   # u'Snowmanradio'
   
   # Show the text of at the time of a specific edit
-  >>> golden_swallow[16].text
+  >>> golden_swallow[16].content
   # u'The Golden Swallow (Tachycineta euchrysea) is a swallow.  The Golden Swallow formerly'...
-  >>> golden_swallow[200].text
+  >>> golden_swallow[200].content
   # u'The golden swallow (Tachycineta euchrysea) is a passerine in the swallow family'...
 
+  # Get the article rating at the time of the edit
+  >>> ratings = [revision.rating for revision in golden_swallow]
+  >>> ratings
+  # ['NA', 'NA', 'NA', 'NA', 'stub', 'stub', ...
+
+  # Get the time of each edit as a datetime object
+  >>> times = [revision.time for revision in golden_swallow]
+  >>> times
+  # [datetime.datetime(2007, 5, 14, 16, 15, 31), datetime.datetime(2007, 10, 4, 15, 36, 29), ...
+
   # Generate a dataframe with text and metadata from a the list of revisions
-  >>> wikipedia_histories.build_df(golden_swallow)
+  >>> df = wikipedia_histories.build_df(golden_swallow)
 
   # Generate a JSON with text and metadata from the list of versions
-  >>> wikipedia_histories.build_json(golden_swallow)
+  >>> jsonified = wikipedia_histories.build_json(golden_swallow)
 ```
 
 
@@ -34,6 +44,8 @@ A simple tool to pull the complete edit history of a Wikipedia page in a variety
 
 To install Wikipedia Histories, simply run:
 
-``$ pip install wikipedia-histories``
+```
+$ pip install wikipedia-histories
+```
 
 Wikipedia Histories is compatible with Python 3.6+.
