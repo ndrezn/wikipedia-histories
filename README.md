@@ -1,4 +1,6 @@
 # Wikipedia Histories
+![PyPI - Downloads](https://img.shields.io/pypi/dw/wikipedia-histories)
+
 
 A simple tool to pull the complete edit history of a Wikipedia page in a variety of formats, including JSON, DataFrame, or directly as an object.
 
