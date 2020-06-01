@@ -9,12 +9,14 @@ from time import mktime
 from datetime import datetime
 from lxml import html
 from mwclient import Site
+from .change import *
 
 
-# Pull users, handles hidden user errors
-# Input: sheet of metadata from mwclient
-# Output:
 def get_users(metadata):
+    """
+    Pull users, handles hidden user errors
+    "param metadata: sheet of metadata from mwclient
+    """
     users = []
     for rev in metadata:
         try:
@@ -24,11 +26,11 @@ def get_users(metadata):
     return users
 
 
-# Pull edit types (minor or not), handles untagged edits
-# Input: sheet of metadata from mwclient
-# Output: list of booleans representing whether each revision
-# of an article was tagged as minor or not
 def get_kind(metadata):
+    """
+    Gather edit types (minor or not), handles untagged edits
+    :param metadata: sheet of metadata from mwclient
+    """
     kind = []
     for rev in metadata:
         if "minor" in rev:
@@ -38,27 +40,31 @@ def get_kind(metadata):
     return kind
 
 
-# Check for comments
-# Input: sheet of metadata from mwclient
 def get_comment(metadata):
+    """
+    Check for comments
+    :param metadata: sheet of metadata from mwclient
+    """
     comment = []
     for rev in metadata:
         try:
             comment.append(rev["comment"])
-        except (KeyError):
+        except KeyError:
             comment.append("")
     return comment
 
 
-# Output classes of a page to a list (FA, good, etc.) given a talk page
-# Input: set of talk pages from metadata
 def get_ratings(talk):
+    """
+    Output classes of a page to a list (FA, good, etc.) given a talk page
+    :param talk: set of talk pages from metadata
+    """
     timestamps = [rev["timestamp"] for rev in talk.revisions()]
     ratings = []
     content = []
 
     for cur in talk.revisions(prop="content"):
-        if cur.__len__() is 1:
+        if cur.__len__() == 1:
             content.append(prev)
         else:
             content.append(cur)
@@ -88,9 +94,11 @@ def get_ratings(talk):
     return ratings
 
 
-# Pull plain text representation of a revision from API
-# Input: revision id of a page, 0 (initial attempt at pulling the page)
 async def get_text(revid, attempts):
+    """
+    Pull plain text representation of a revision from API
+    Input: revision id of a page, 0 (initial attempt at pulling the page)
+    """
     try:
         # async implementation of requests get
         async with aiohttp.ClientSession() as session:
@@ -101,7 +109,7 @@ async def get_text(revid, attempts):
                 response = await resp.json()
     # request errors from server
     except:
-        if attempts is 10:
+        if attempts == 10:
             return -1
         # If there's a server error, just re-send the request until the server complies
         return await get_text(revid, attempts + 1)
@@ -124,12 +132,29 @@ async def get_text(revid, attempts):
     return cur
 
 
-# Overall function
-# Input: article title
-# Output: complete list of histories as a json type
-# If count_skipped is true, also returns a tuple containing
-# the page history and the number of skipped pages
-async def compile_edits(title, count_skipped):
+async def get_texts(revids):
+    """
+    Get the text of articles given the list of revision ids
+    """
+    # Container for the revision texts
+    texts = []
+
+    # Gather body content of all revisions (asynchronously)
+    sema = 100
+    for i in range(0, revids.__len__(), +sema):
+        texts += await asyncio.gather(
+            *(get_text(revid, 0) for revid in revids[i : (i + sema)])
+        )
+    return texts
+
+
+def get_history(title, include_text=True):
+    """
+    Collects everything and returns a list of Change objects
+    :param title: article title
+    :param include_text: Whether to unclude body text or not. Speed increases if False
+    """
+
     # Load the article
     site = Site("en.wikipedia.org")
     page = site.pages[title]
@@ -137,38 +162,26 @@ async def compile_edits(title, count_skipped):
     ratings = get_ratings(talk)
 
     # Collect metadata information
-    metadata = [rev for rev in page.revisions()]
+    metadata = list(page.revisions())
     users = get_users(metadata)
     kind = get_kind(metadata)
     comments = get_comment(metadata)
 
     revids = []
-    history = []
 
     # Collect list of revision ids using the metadata pull
     for i in range(0, metadata.__len__()):
         revids.append(metadata[i]["revid"])
 
-    # Container for the revision texts
-    texts = []
-
-    # Gather body content of all revisions (asynchronously)
-    sema = 100
-    for i in range(0, metadata.__len__(), +sema):
-        texts += await asyncio.gather(
-            *(get_text(revid, 0) for revid in revids[i : (i + sema)])
-        )
-
-    # Initialize counter for the number of skipped pages
-    j = 0
+    # Get the text of the revisions. Performance is improved if this isn't done, but you lose the revisions
+    if include_text:
+        texts = asyncio.run(get_texts(revids))
+    else:
+        texts = [""] * len(metadata)
 
     # Iterate backwards through our metadata and put together the list of change items
+    history = []
     for i in range(metadata.__len__() - 1, -1, -1):
-
-        # Count deleted pages
-        if texts[i] is None:
-            j += 1
-
         # Iterate against talk page editions
         time = datetime.fromtimestamp(mktime(metadata[i]["timestamp"]))
         rating = "NA"
@@ -193,88 +206,49 @@ async def compile_edits(title, count_skipped):
         # Compile the list of changes
         history.append(change)
 
-    if count_skipped:
-        return (history, j)
-    else:
-        return history
+    return history
+
 
 def build_json(changes):
+    """
+    Make a json out of the change objects
+    :param changes: A list of changes
+    """
     jsonified = []
     for item in changes:
-        jsonified+=item.make_json()
+        jsonified += item.make_json()
 
     return jsonified
 
 
-# Takes input as a list of changes and a 
 def build_df(changes):
-    df = pd.DataFrame(columns=['Title','Time','Revid','Kind','User','Comment', 'Rating', 'Content'])
+    """
+    Make a dataframe out of the change objects
+    :param changes: A list of changes
+    """
+    df = pd.DataFrame(
+        columns=[
+            "Title",
+            "Time",
+            "Revid",
+            "Kind",
+            "User",
+            "Comment",
+            "Rating",
+            "Content",
+        ]
+    )
     i = 0
     for change in changes:
-        df.loc[i] = [change.title, change.time, change.revid, change.kind, change.user, change.comment, change.rating, change.content]
-        i+=1
-    return df
-
-
-# Pass the given title to the history collector
-def get_history(title, count_skipped=False):
-    return asyncio.run(compile_edits(title, count_skipped))
-
-
-# class to track data about each change of a page
-class Change:
-    # edit level
-    index = 0
-    # page title
-    title = ""
-    # time edit was made
-    time = 0
-    # id number of revision
-    revid = 0
-    # minor or non-minor edit
-    kind = 0
-    # user who made the edit
-    user = ""
-    # comment attached to the edit
-    comment = ""
-    # class of article (FA, Good, stub, etc.)
-    rating = 0
-    # content of the edit page
-    content = ""
-
-    def __init__(self, index, title, time, revid, kind, user, comment, rating, content):
-        self.index = index
-        self.title = title
-        self.time = time
-        self.revid = revid
-        self.kind = kind
-        self.user = user
-        self.comment = comment
-        self.rating = rating
-        self.content = content
-
-    def __str__(self):
-        return str(self.revid)
-    
-    def __repr__(self):
-        return str(self.revid)
-
-    # convert change object into json data type
-    # input: change object
-    def make_json(self):
-        body = [
-            {
-                "index": self.index,
-                "metadata": {
-                    "revid": self.revid,
-                    "time": str(self.time),
-                    "kind": str(self.kind),
-                    "user": str(self.user),
-                    "comment": str(self.comment),
-                    "rating": str(self.rating),
-                },
-                "text": self.content,
-            }
+        df.loc[i] = [
+            change.title,
+            change.time,
+            change.revid,
+            change.kind,
+            change.user,
+            change.comment,
+            change.rating,
+            change.content,
         ]
-        return body
-
+        i += 1
+    return df

@@ -6,3 +6,4 @@ datetime
 asyncio
 aiohttp
 pandas
+wikipedia-api
