@@ -8,21 +8,23 @@ for instance, if three total users edited both "The Dark Knight" and "Game of Th
 edge between those two nodes with a weight of three.
 """
 import random
+import os
 
 import pandas as pd
 import networkx as nx
 import time
-from progress.bar import IncrementalBar
+from progress.bar import Bar
 
 
-def get_documents(domain, size):
+def get_documents(domain, size, metadata_path):
     """
     Sample an equal number of articles from two different domains
     :param domain: can be 'sciences', 'sports', 'politics', or 'culture'
+    :param size: The number of documents to collect
+    :param metadata_path: The path to the metadata sheet
     """
-    metadata = "./results/data-sets/category-sampling/metadata_sheets/metadata.csv"
 
-    df = pd.read_csv(metadata)
+    df = pd.read_csv(metadata_path)
 
     # pick two random submediums from which to draw documents if we're picking from all
     # (e.g. ('democrat', 'biology') or ('republican', 'democrat'))
@@ -40,21 +42,21 @@ def get_documents(domain, size):
     return container
 
 
-def get_users(name, domain):
+def get_users(name, domain, path):
     """
     Get the list of users for an article given the dataframe
 
     :param name: the name of an article
     :param domain: the domain the article is a member of
     """
-    fpath = "./results/data-sets/category-sampling/" + domain + "/" + name + ".csv"
+    fpath = "{}/{}/{}.csv".format(path, domain, name)
 
-    try:
+    if os.path.exists(fpath):
         df = pd.read_csv(fpath)
-    except:  # In case the data isn't there
-        return None
+        return list(df["User"])
 
-    return list(df["User"])
+    # In case the data isn't there
+    return None
 
 
 def intersection(lst1, lst2):
@@ -68,14 +70,14 @@ def intersection(lst1, lst2):
     return lst3
 
 
-def build_graph(df):
+def build_graph(df, path):
     """
     Get the list of users for every article selected by the document selector
 
     :param df: A dataframe of selected articles (equal numbers from each domain)
     """
     df["Users"] = df.apply(
-        lambda row: get_users(row["Pages"], row["Domain"]), axis=1
+        lambda row: get_users(row["Pages"], row["Domain"], path), axis=1
     )  # get the user lists for each page
 
     df = df.dropna(subset=["Users"])
@@ -95,39 +97,46 @@ def build_graph(df):
         users1 = row1["Users"]
         for i2, row2 in df.iterrows():  # iterate through all other nodes and user lists
             node2 = row2["Pages"]
-            if node1 == node2:
-                continue
-            users2 = row2["Users"]
-            if not g.has_edge(
-                node1, node2
-            ):  # if there is not an edge between the two nodes
-                common_users = intersection(users1, users2)  # get the common users
-                g.add_edge(
-                    node1, node2, weight=len(common_users)
-                )  # add an edge to the network with a weight of the common users
+            if node1 != node2:
+                users2 = row2["Users"]
+                if not g.has_edge(
+                    node1, node2
+                ):  # if there is not an edge between the two nodes
+                    common_users = intersection(users1, users2)  # get the common users
+                    if len(common_users) != 0:
+                        g.add_edge(
+                            node1, node2, weight=len(common_users)
+                        )  # add an edge to the network with a weight of the common users
 
     return g
 
 
-def generate_networks(count, size, dfs):
+def generate_networks(
+    count,
+    size,
+    output_folder,
+    metadata_path,
+    files_path,
+    start=0,
+    mediums=["all", "culture", "politics", "sciences", "sports"],
+):
     """
     Generate networks for a set of mediums
 
     :param count: The number of articles to be referenced
     """
-    mediums = ["all", "culture", "politics", "sciences", "sports"]
-
-    bar = IncrementalBar("Building networks... ", max=count)
     for medium in mediums:
-        for i in range(0, count):
-            documents = []
-            # directory of jsons to be parsed
-            documents = get_documents(medium, size)
-            g = build_graph(documents)
-            path = "./results/data-sets/social-networks/{}/{}.GraphML".format(
-                medium, str(i)
-            )
-            nx.write_graphml(g, path)
-            bar.next()
+        bar = Bar("Generating for {}...".format(medium), max=count)
 
-    bar.finish()
+        for i in range(start, (count + start)):
+            bar.next()
+            if not os.path.isdir("{}/{}/".format(output_folder, medium)):
+                os.makedirs("{}/{}/".format(output_folder, medium))
+
+            out = "{}/{}/{}.GraphML".format(output_folder, medium, str(i))
+
+            if not os.path.exists(out):
+                documents = get_documents(medium, size, metadata_path)
+                g = build_graph(documents, files_path)
+                nx.write_graphml(g, out)
+        bar.finish()

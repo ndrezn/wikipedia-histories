@@ -48,45 +48,51 @@ def purity(attribute, louvain, graph):
     return mean(cur_purity)
 
 
-def get_assortativity(file):
+def get_assortativity(file, attribute):
     """
     Get the assortativity of a graph using networkX
     """
     g = nx.read_graphml(file)
 
-    a = nx.attribute_assortativity_coefficient(g, "category")
-    print(a)
+    a = nx.attribute_assortativity_coefficient(g, attribute)
     return a
 
 
-def get_purity(file):
+def get_purity(file, attribute):
     """
     Get the purity of a graph using igraph
     """
     g = igraph.load(file)
     louv = get_louvain(g)
-    p = purity("category", louv, g)
+    p = purity(attribute, louv, g)
     return p
 
 
-def get_clustering():
-    kinds = ["all", "culture", "sports", "politics", "sciences"]
+def get_clustering(
+    network_path,
+    attribute="category",
+    mediums=["all", "culture", "sports", "politics", "sciences"],
+):
 
     df = []
-    for kind in kinds:
-        directory = "results/data-sets/social-networks/" + kind + "/"
+    for medium in mediums:
+        directory = "{}/{}".format(network_path, medium)
 
-        files = [directory + f for f in os.listdir(directory) if not f.startswith(".")]
-        bar = IncrementalBar(kind + "... ", max=len(files))
+        files = [
+            "{}/{}/{}".format(network_path, medium, f)
+            for f in os.listdir(directory)
+            if not f.startswith(".")
+        ]
+        bar = IncrementalBar(medium + "... ", max=len(files))
 
         for file in files:
             bar.next()
             cur = {}
-            p = get_purity(file)
-            a = get_assortativity(file)
+            p = get_purity(file, attribute)
+            a = get_assortativity(file, attribute)
             cur["assortativity"] = a
             cur["purity"] = p
-            cur["kind"] = kind
+            cur["medium"] = medium
             df.append(cur)
 
         bar.finish()

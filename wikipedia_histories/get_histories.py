@@ -157,8 +157,14 @@ def get_history(title, include_text=True):
 
     # Load the article
     site = Site("en.wikipedia.org")
-    page = site.pages[title]
-    talk = site.pages["Talk:" + title]
+    try:
+        page = site.pages[title]
+    except:
+        return -1
+    try:
+        talk = site.pages["Talk:" + title]
+    except:
+        return -1
     ratings = get_ratings(talk)
 
     # Collect metadata information
