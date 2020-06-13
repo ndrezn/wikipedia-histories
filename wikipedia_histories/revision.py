@@ -3,7 +3,7 @@ Container for Change object
 """
 
 
-class Change:
+class Revision:
     """
     Class to track data about each change of a page
     """
@@ -37,25 +37,3 @@ class Change:
 
     def __repr__(self):
         return str(self.revid)
-
-    def make_json(self):
-        """
-        Convert change object into json data type
-
-        :param input: change object
-        """
-        body = [
-            {
-                "index": self.index,
-                "metadata": {
-                    "revid": self.revid,
-                    "time": str(self.time),
-                    "kind": str(self.kind),
-                    "user": str(self.user),
-                    "comment": str(self.comment),
-                    "rating": str(self.rating),
-                },
-                "text": self.content,
-            }
-        ]
-        return body

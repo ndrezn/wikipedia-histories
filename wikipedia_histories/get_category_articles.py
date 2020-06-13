@@ -27,14 +27,14 @@ def get_pages_of_cat(category, categorymembers, dict_of_cats, level=0, max_level
     return dict_of_cats
 
 
-def get_article_titles(domains):
+def find_articles(domains, max_level=2):
     wiki = wikipediaapi.Wikipedia("en")
 
     dfs = []
     for domain in domains:
         for category in domains[domain]:
             cat = wiki.page(category)
-            d = get_pages_of_cat(category, cat.categorymembers, {})
+            d = get_pages_of_cat(category, cat.categorymembers, {}, max_level=max_level)
 
             for subcat in d:
                 cur_df = pd.DataFrame()

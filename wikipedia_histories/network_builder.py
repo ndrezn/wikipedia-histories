@@ -12,7 +12,6 @@ import os
 
 import pandas as pd
 import networkx as nx
-import time
 from progress.bar import Bar
 
 
@@ -28,9 +27,20 @@ def get_documents(domain, size, metadata_path):
 
     # pick two random submediums from which to draw documents if we're picking from all
     # (e.g. ('democrat', 'biology') or ('republican', 'democrat'))
-    if domain != "all":
+    if domain is not None:
         df = df.loc[df["Domain"] == domain]
-    selected_categories = random.sample(df["Category"].unique().tolist(), 2)
+        selected_categories = random.sample(df["Category"].unique().tolist(), 2)
+
+    else:
+        # Select two categories from different domains
+        domains = random.sample(df["Domain"].unique().tolist(), 2)
+        df = df.loc[df["Domain"].isin(domains)]
+
+        dff = df.groupby("Domain")
+        selected_categories = []
+        for name, group in dff:
+            cat = random.choice(group["Category"].unique().tolist())
+            selected_categories.append(cat)
 
     # clear out rows of the dataframe which don't match the selected types
     container = pd.DataFrame()
@@ -112,31 +122,32 @@ def build_graph(df, path):
 
 
 def generate_networks(
-    count,
-    size,
-    output_folder,
-    metadata_path,
-    files_path,
-    start=0,
-    mediums=["all", "culture", "politics", "sciences", "sports"],
+    count=50,
+    size=100,
+    domain=None,
+    write=False,
+    output_path=None,
+    metadata_path=None,
+    articles_path=None,
 ):
     """
     Generate networks for a set of mediums
 
     :param count: The number of articles to be referenced
     """
-    for medium in mediums:
-        bar = Bar("Generating for {}...".format(medium), max=count)
+    bar = Bar("Generating for {}...".format(domain), max=count)
+    graphs = []
+    for i in range(0, count):
+        bar.next()
+        documents = get_documents(domain, size, metadata_path)
+        g = build_graph(documents, articles_path)
 
-        for i in range(start, (count + start)):
-            bar.next()
-            if not os.path.isdir("{}/{}/".format(output_folder, medium)):
-                os.makedirs("{}/{}/".format(output_folder, medium))
+        if write:
+            if not os.path.isdir("{}/{}/".format(output_path, domain)):
+                os.makedirs("{}/{}/".format(output_path, domain))
+            out = "{}/{}/{}.GraphML".format(output_path, domain, str(i))
+            nx.write_graphml(g, out)
+        graphs.append(g)
 
-            out = "{}/{}/{}.GraphML".format(output_folder, medium, str(i))
-
-            if not os.path.exists(out):
-                documents = get_documents(medium, size, metadata_path)
-                g = build_graph(documents, files_path)
-                nx.write_graphml(g, out)
-        bar.finish()
+    bar.finish()
+    return graphs

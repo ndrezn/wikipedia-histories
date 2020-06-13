@@ -1,21 +1,23 @@
 import asyncio
-import aiohttp
-import json
-import requests
-import mwparserfromhell as mw
-import pandas as pd
 
+import pandas as pd
+import aiohttp
 from time import mktime
+import mwparserfromhell as mw
+
 from datetime import datetime
 from lxml import html
 from mwclient import Site
-from .change import *
+from .revision import Revision
 
 
 def get_users(metadata):
     """
     Pull users, handles hidden user errors
-    "param metadata: sheet of metadata from mwclient
+    Parameters:
+        metadata: sheet of metadata from mwclient
+    Returns:
+        the list of users
     """
     users = []
     for rev in metadata:
@@ -29,7 +31,10 @@ def get_users(metadata):
 def get_kind(metadata):
     """
     Gather edit types (minor or not), handles untagged edits
-    :param metadata: sheet of metadata from mwclient
+    Parameters:
+        metadata: sheet of metadata from mwclient
+    Returns:
+        list of True/False representing whether an edit is minor
     """
     kind = []
     for rev in metadata:
@@ -43,7 +48,10 @@ def get_kind(metadata):
 def get_comment(metadata):
     """
     Check for comments
-    :param metadata: sheet of metadata from mwclient
+    Parameters:
+        metadata: sheet of metadata from mwclient
+    Returns:
+        The comments as a list
     """
     comment = []
     for rev in metadata:
@@ -57,7 +65,10 @@ def get_comment(metadata):
 def get_ratings(talk):
     """
     Output classes of a page to a list (FA, good, etc.) given a talk page
-    :param talk: set of talk pages from metadata
+    Parameters:
+        talk: set of talk pages from metadata
+    Returns:
+        The ratings and timestamps for a page
     """
     timestamps = [rev["timestamp"] for rev in talk.revisions()]
     ratings = []
@@ -94,10 +105,12 @@ def get_ratings(talk):
     return ratings
 
 
-async def get_text(revid, attempts):
+async def get_text(revid, attempts=0):
     """
     Pull plain text representation of a revision from API
-    Input: revision id of a page, 0 (initial attempt at pulling the page)
+    Parameters:
+        revid: revision id of a page
+        attempts: The number of attempts at retrieving the id so far
     """
     try:
         # async implementation of requests get
@@ -112,7 +125,7 @@ async def get_text(revid, attempts):
         if attempts == 10:
             return -1
         # If there's a server error, just re-send the request until the server complies
-        return await get_text(revid, attempts + 1)
+        return await get_text(revid, attempts=attempts + 1)
     # Check if page was deleted (deleted pages have no text and are therefore un-parsable)
     try:
         raw_html = response["parse"]["text"]["*"]
@@ -135,6 +148,11 @@ async def get_text(revid, attempts):
 async def get_texts(revids):
     """
     Get the text of articles given the list of revision ids
+    
+    Parameters:
+        revids: A list of revids (type int) correlating to article revisions
+    Returns:
+        The text for each revision id
     """
     # Container for the revision texts
     texts = []
@@ -143,7 +161,7 @@ async def get_texts(revids):
     sema = 100
     for i in range(0, revids.__len__(), +sema):
         texts += await asyncio.gather(
-            *(get_text(revid, 0) for revid in revids[i : (i + sema)])
+            *(get_text(revid) for revid in revids[i : (i + sema)])
         )
     return texts
 
@@ -151,8 +169,12 @@ async def get_texts(revids):
 def get_history(title, include_text=True):
     """
     Collects everything and returns a list of Change objects
-    :param title: article title
-    :param include_text: Whether to unclude body text or not. Speed increases if False
+
+    Parameters:
+        title: article title
+        include_text: Whether to unclude body text or not. Speed increases if False
+    Returns:
+        A list of Change objects representing each revision to the 
     """
 
     # Load the article
@@ -197,7 +219,7 @@ def get_history(title, include_text=True):
                 rating = item[0]
                 break
 
-        change = Change(
+        change = Revision(
             i,
             title,
             time,
@@ -215,46 +237,27 @@ def get_history(title, include_text=True):
     return history
 
 
-def build_json(changes):
-    """
-    Make a json out of the change objects
-    :param changes: A list of changes
-    """
-    jsonified = []
-    for item in changes:
-        jsonified += item.make_json()
-
-    return jsonified
-
-
 def build_df(changes):
     """
     Make a dataframe out of the change objects
-    :param changes: A list of changes
+    
+    Parameters:
+        changes: A list of changes
+    Returns:
+        A DataFrame representation of the changes
     """
-    df = pd.DataFrame(
-        columns=[
-            "Title",
-            "Time",
-            "Revid",
-            "Kind",
-            "User",
-            "Comment",
-            "Rating",
-            "Content",
-        ]
-    )
-    i = 0
+    df = []
+
     for change in changes:
-        df.loc[i] = [
-            change.title,
-            change.time,
-            change.revid,
-            change.kind,
-            change.user,
-            change.comment,
-            change.rating,
-            change.content,
-        ]
-        i += 1
-    return df
+        row = dict(
+            title=change.title,
+            time=change.time,
+            revid=change.revid,
+            kind=change.kind,
+            user=change.user,
+            comment=change.comment,
+            rating=change.rating,
+            text=change.content,
+        )
+        df.append(row)
+    return pd.DataFrame(row)

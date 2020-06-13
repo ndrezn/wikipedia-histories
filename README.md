@@ -4,6 +4,21 @@
 
 A simple tool to pull the complete edit history of a Wikipedia page in a variety of formats, including JSON, DataFrame, or directly as an object.
 
+
+## Installation
+
+To install Wikipedia Histories, simply run:
+
+```
+$ pip install wikipedia-histories
+```
+
+Wikipedia Histories is compatible with Python 3.6+.
+
+
+## Usage
+The module has basic functionality which allows it to be used to collect the revision history and metadata from a Wikipedia page in a convienent list of objects, which can be converted into a DataFrame. This also includes the article quality from every revision.
+
 ```python
   >>> import wikipedia_histories
   
@@ -36,18 +51,45 @@ A simple tool to pull the complete edit history of a Wikipedia page in a variety
 
   # Generate a dataframe with text and metadata from a the list of revisions
   >>> df = wikipedia_histories.build_df(golden_swallow)
-
-  # Generate a JSON with text and metadata from the list of versions
-  >>> jsonified = wikipedia_histories.build_json(golden_swallow)
 ```
 
+Additional metadata for the article, including 
+An example of this workflow is available in `tests/demo.py`.
 
-## Installation
+## Domain level analysis
+This module also contains functionality for advanced analysis of large sets of Wikipedia articles by generation social networks based on the editors who edited an article. 
 
-To install Wikipedia Histories, simply run:
+First, a domain is defined as a dictionary, where keys are domain names and values are lists of categories which represent that domain. For example, a set of domains representing "culture" and "politics":
 
+```python
+  culture = [
+      "Category:Television_in_the_United_States",
+      "Category:American_films",
+      "Category:American_novels",
+  ]
+  politics = [
+      "Category:Conservatism",
+      "Category:Liberalism",
+  ]
+  domains = {
+      "culture": culture,
+      "politics": politics,
+  }
 ```
-$ pip install wikipedia-histories
-```
 
-Wikipedia Histories is compatible with Python 3.6+.
+The articles represented by those domains, up to a certain depth of nested categories, can be collected and saved as a `csv`, with the category and domain attributes attached using `wikipedia_histories.find_articles`. Once this set of articles is collected, the articles themselves can be downloaded using `wikipedia_histories.get_history()` either with revision text or without. This set of articles can be used for analysis on Wikipedia revision behavior across categories or domains. 
+
+Once a set of articles is downloaded using this methodology, it's possible to collect aggregate metadata for those articles, including the number of unique editors, average added words per edit and average deleted words per edit, the article age, and the total number of edits, and save that information into a DataFrame using `wikipedia_histories.get_metadata()`.
+
+An example of this workflow is avaialble in `tests/collect_articles.py`.
+
+
+## Social network analysis
+It is also possible to build and analyze the networks of users who edited those articles, and study how domains relate to one another. For this analysis, first a set of articles representing categorical domains must be downloaded using and saved to folders representing domains and the metadata sheet must be saved. 
+
+Once this is set up, a set of networks representing connections within a domain or between domains can be generated using `wikipedia_histories.generate_networks()`. A `domain` is passed as input to signify which domain should be used to build the networks, if no `domain` is passed as input the networks generated will represent connections between categories from different domains. 
+
+Each domain has a number of nodes input using the attribute `size`, and a certain number of networks is generated using the attribute `count`. Each network has an equal number of nodes from one of two categories selected from the metadatasheet (categories being from whichever domain is passed as input).
+
+
+

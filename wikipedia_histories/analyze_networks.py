@@ -68,7 +68,7 @@ def get_purity(file, attribute):
     return p
 
 
-def get_clustering(
+def get_network_metadata(
     network_path,
     attribute="category",
     mediums=["all", "culture", "sports", "politics", "sciences"],

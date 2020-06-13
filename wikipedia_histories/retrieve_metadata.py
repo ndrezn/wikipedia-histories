@@ -23,7 +23,7 @@ def convert_to_datetime(time):
     return datetime.strptime(time, "%Y-%m-%d %H:%M:%S")
 
 
-def get_meta(df, title):
+def get_metadata(df, title):
     addition_lengths = []
     deletion_lengths = []
     time_diffs = []
