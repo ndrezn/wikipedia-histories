@@ -2,15 +2,14 @@
 ![PyPI - Downloads](https://img.shields.io/pypi/dw/wikipedia-histories)
 
 
-A simple tool to pull the complete edit history of a Wikipedia page in a variety of formats, including JSON, DataFrame, or directly as an object.
-
+A tool to pull the complete revision history of a Wikipedia page.
 
 ## Installation
 
 To install Wikipedia Histories, simply run:
 
-```
-$ pip install wikipedia-histories
+```bash
+ pip install wikipedia-histories
 ```
 
 Wikipedia Histories is compatible with Python 3.6+.
@@ -89,7 +88,7 @@ It is also possible to build and analyze the networks of users who edited those 
 
 Once this is set up, a set of networks representing connections within a domain or between domains can be generated using `wikipedia_histories.generate_networks()`. A `domain` is passed as input to signify which domain should be used to build the networks, if no `domain` is passed as input the networks generated will represent connections between categories from different domains. 
 
-Each domain has a number of nodes input using the attribute `size`, and a certain number of networks is generated using the attribute `count`. Each network has an equal number of nodes from one of two categories selected from the metadatasheet (categories being from whichever domain is passed as input).
+Each domain has a number of nodes input using the attribute `size`, and a certain number of networks is generated using the attribute `count`. Each network has an equal number of nodes from one of two categories selected from the metadata sheet (categories being from whichever domain is passed as input).
 
 
 
