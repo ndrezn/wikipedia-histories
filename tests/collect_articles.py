@@ -10,41 +10,6 @@ from progress.bar import IncrementalBar
 import wikipedia_histories
 
 
-def categories():
-    """
-    A sample set of categories for use with wikipedia_histories.find_articles()
-    """
-    sciences = [
-        "Category:Branches_of_biology",
-        "Category:Fields_of_mathematics",
-        "Category:Concepts_in_physics",
-        "Category:Chemistry",
-    ]
-    sports = [
-        "Category:Ice_hockey_in_the_United_States",
-        "Category:American_football_in_the_United_States",
-        "Category:Basketball_in_the_United_States",
-        "Category:Baseball_in_the_United_States",
-    ]
-    culture = [
-        "Category:Television_in_the_United_States",
-        "Category:American_films",
-        "Category:American_novels",
-    ]
-    politics = [
-        "Category:Conservatism",
-        "Category:Liberalism",
-    ]
-    domains = {
-        "sciences": sciences,
-        "sports": sports,
-        "culture": culture,
-        "politics": politics,
-    }
-
-    return domains
-
-
 def find_articles(domains):
     """
     Download a list of articles titles associated with a domain
