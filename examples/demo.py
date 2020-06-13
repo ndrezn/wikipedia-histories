@@ -4,6 +4,6 @@ golden_swallow = wikipedia_histories.get_history("Golden swallow", include_text=
 
 print(golden_swallow)
 
-df = wikipedia_histories.build_df(golden_swallow)
+df = wikipedia_histories.to_df(golden_swallow)
 
 print(df.head())

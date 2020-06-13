@@ -237,7 +237,7 @@ def get_history(title, include_text=True):
     return history
 
 
-def build_df(changes):
+def to_df(changes):
     """
     Make a dataframe out of the change objects
     

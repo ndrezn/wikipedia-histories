@@ -5,9 +5,6 @@ social networks based on the common editors between two articles
 
 import wikipedia_histories
 
-# paper = ["#80d3dc", "#f9a43f", "#fde28b", "#ec1b30"]
-# paper = sns.color_palette(paper)
-
 
 def build_networks(domain, output_folder, metadata_path, articles_path):
     """
