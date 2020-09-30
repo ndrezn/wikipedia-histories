@@ -51,3 +51,7 @@ $ pip install wikipedia-histories
 ```
 
 Wikipedia Histories is compatible with Python 3.6+.
+
+## Notes
+
+This package was used for a paper published by the McGill .txtlab: https://txtlab.org/2020/09/do-wikipedia-editors-specialize/; specifically the network analysis tool available in the branch [`network-analysis`](https://github.com/ndrezn/wikipedia-histories/tree/network-analysis) in this repository.
