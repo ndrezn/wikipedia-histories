@@ -1,6 +1,6 @@
 # Wikipedia Histories
-![PyPI - Downloads](https://img.shields.io/pypi/dw/wikipedia-histories)
-
+[![Downloads](https://pepy.tech/badge/wikipedia-histories)](https://pepy.tech/project/wikipedia-histories)
+[![Downloads](https://pepy.tech/badge/wikipedia-histories/week)](https://pepy.tech/project/wikipedia-histories/week)
 
 A simple tool to pull the complete edit history of a Wikipedia page in a variety of formats, including JSON, DataFrame, or directly as an object.
 
