@@ -6,7 +6,6 @@ represented by categories
 
 import os
 import pandas as pd
-from progress.bar import IncrementalBar
 import wikipedia_histories
 
 
@@ -25,7 +24,7 @@ def get_article(title):
     cur = wikipedia_histories.get_history(title, include_text=False)
     if cur == -1:
         return -1
-    df = wikipedia_histories.build_df(cur)
+    df = wikipedia_histories.to_df(cur)
     return df
 
 
@@ -55,10 +54,8 @@ def aggregate_metadata(mediums, files_path):
     for medium in mediums:
         directory = "{}/{}/".format(files_path, medium)
         files = os.listdir(directory)
-        bar = IncrementalBar(medium + "... ", max=len(files))
 
         for file in files:
-            bar.next()
             page = pd.read_csv(directory + file)
 
             try:
@@ -67,7 +64,6 @@ def aggregate_metadata(mediums, files_path):
                 continue
             row["medium"] = medium
             df.append(row)
-        bar.finish()
 
     df = pd.DataFrame(df)
     return df

@@ -7,7 +7,6 @@ import pandas as pd
 
 import igraph
 import networkx as nx
-from progress.bar import IncrementalBar
 
 
 def get_louvain(g):
@@ -83,10 +82,8 @@ def get_network_metadata(
             for f in os.listdir(directory)
             if not f.startswith(".")
         ]
-        bar = IncrementalBar(medium + "... ", max=len(files))
 
         for file in files:
-            bar.next()
             cur = {}
             p = get_purity(file, attribute)
             a = get_assortativity(file, attribute)
@@ -94,8 +91,6 @@ def get_network_metadata(
             cur["purity"] = p
             cur["medium"] = medium
             df.append(cur)
-
-        bar.finish()
 
     df = pd.DataFrame(df)
 

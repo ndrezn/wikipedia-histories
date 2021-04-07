@@ -12,7 +12,6 @@ import os
 
 import pandas as pd
 import networkx as nx
-from progress.bar import Bar
 
 
 def get_documents(domain, size, metadata_path):
@@ -135,10 +134,8 @@ def generate_networks(
 
     :param count: The number of articles to be referenced
     """
-    bar = Bar("Generating for {}...".format(domain), max=count)
     graphs = []
     for i in range(0, count):
-        bar.next()
         documents = get_documents(domain, size, metadata_path)
         g = build_graph(documents, articles_path)
 
@@ -149,5 +146,4 @@ def generate_networks(
             nx.write_graphml(g, out)
         graphs.append(g)
 
-    bar.finish()
     return graphs
