@@ -1,6 +1,6 @@
 # Wikipedia Histories
-![PyPI - Downloads](https://img.shields.io/pypi/dw/wikipedia-histories)
-
+[![Downloads](https://pepy.tech/badge/wikipedia-histories)](https://pepy.tech/project/wikipedia-histories)
+[![Downloads](https://pepy.tech/badge/wikipedia-histories/week)](https://pepy.tech/project/wikipedia-histories/week)
 
 A tool to pull the complete revision history of a Wikipedia page.
 
@@ -111,6 +111,8 @@ Once generated, the networks can be analyzed using the `get_network_metadata()` 
 
 An example of this workflow is available in `examples/collect_networks.py`.
 
+Wikipedia Histories is compatible with Python 3.6+.
 
+## Notes
 
-
+This package was used for a paper published by the McGill .txtlab: https://txtlab.org/2020/09/do-wikipedia-editors-specialize/.
