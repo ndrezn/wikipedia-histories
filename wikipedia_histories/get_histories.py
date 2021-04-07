@@ -117,7 +117,11 @@ async def get_text(revid, attempts=0):
         async with aiohttp.ClientSession() as session:
             async with session.get(
                 "https://wikipedia.org/w/api.php",
-                params={"action": "parse", "format": "json", "oldid": revid,},
+                params={
+                    "action": "parse",
+                    "format": "json",
+                    "oldid": revid,
+                },
             ) as resp:
                 response = await resp.json()
     # request errors from server
@@ -148,7 +152,7 @@ async def get_text(revid, attempts=0):
 async def get_texts(revids):
     """
     Get the text of articles given the list of revision ids
-    
+
     Parameters:
         revids: A list of revids (type int) correlating to article revisions
     Returns:
@@ -174,7 +178,7 @@ def get_history(title, include_text=True):
         title: article title
         include_text: Whether to unclude body text or not. Speed increases if False
     Returns:
-        A list of Change objects representing each revision to the 
+        A list of Change objects representing each revision to the
     """
 
     # Load the article
@@ -240,7 +244,7 @@ def get_history(title, include_text=True):
 def to_df(changes):
     """
     Make a dataframe out of the change objects
-    
+
     Parameters:
         changes: A list of changes
     Returns:
@@ -260,4 +264,4 @@ def to_df(changes):
             text=change.content,
         )
         df.append(row)
-    return pd.DataFrame(row)
+    return pd.DataFrame(df)
