@@ -25,7 +25,7 @@ setuptools.setup(
     name="wikipedia_histories",
     version="1.0.1",
     author="Nathan Drezner",
-    author_email="nathan@drezner.com",
+    author_email="nathan@drezner.xyz",
     description="A simple package designed to collect the edit histories of Wikipedia pages",
     long_description=long_description,
     long_description_content_type="text/markdown",
