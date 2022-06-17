@@ -167,7 +167,7 @@ async def get_texts(revids, lang_code="en"):
     sema = 100
     for i in range(0, revids.__len__(), +sema):
         texts += await asyncio.gather(
-            *(get_text(revid, lang_code) for revid in revids[i : (i + sema)])
+            *(get_text(revid, lang_code=lang_code) for revid in revids[i : (i + sema)])
         )
     return texts
 
