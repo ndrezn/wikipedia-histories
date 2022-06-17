@@ -13,7 +13,7 @@ from requests.exceptions import ConnectionError
 from .revision import Revision
 
 
-def get_users(metadata):
+def _get_users(metadata):
     """
     Pull users, handles hidden user errors
     Parameters:
@@ -197,7 +197,7 @@ def get_history(title, include_text=True, domain="en.wikipedia.org"):
 
     # Collect metadata information
     metadata = list(page.revisions())
-    users = get_users(metadata)
+    users = _get_users(metadata)
     kind = get_kind(metadata)
     comments = get_comment(metadata)
 
