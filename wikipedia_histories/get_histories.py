@@ -1,12 +1,11 @@
 import asyncio
 import re
-
-import pandas as pd
-import aiohttp
-from time import mktime
-import mwparserfromhell as mw
-
 from datetime import datetime
+from time import mktime
+
+import aiohttp
+import mwparserfromhell as mw
+import pandas as pd
 from lxml import html
 from mwclient import Site
 from requests.exceptions import ConnectionError
