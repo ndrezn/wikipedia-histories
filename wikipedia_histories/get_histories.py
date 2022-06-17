@@ -8,6 +8,8 @@ import mwparserfromhell as mw
 from datetime import datetime
 from lxml import html
 from mwclient import Site
+from requests.exceptions import ConnectionError
+
 from .revision import Revision
 
 
@@ -170,7 +172,7 @@ async def get_texts(revids):
     return texts
 
 
-def get_history(title, include_text=True):
+def get_history(title, include_text=True, domain="en.wikipedia.org"):
     """
     Collects everything and returns a list of Change objects
 
@@ -182,10 +184,10 @@ def get_history(title, include_text=True):
     """
 
     # Load the article
-    site = Site("en.wikipedia.org")
     try:
+        site = Site(domain)
         page = site.pages[title]
-    except:
+    except ConnectionError:
         return -1
     try:
         talk = site.pages["Talk:" + title]
