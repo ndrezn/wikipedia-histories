@@ -1,4 +1,5 @@
 import asyncio
+import re
 
 import pandas as pd
 import aiohttp
@@ -107,7 +108,7 @@ def get_ratings(talk):
     return ratings
 
 
-async def get_text(revid, attempts=0):
+async def get_text(revid, attempts=0, lang_code="en"):
     """
     Pull plain text representation of a revision from API
     Parameters:
@@ -118,7 +119,7 @@ async def get_text(revid, attempts=0):
         # async implementation of requests get
         async with aiohttp.ClientSession() as session:
             async with session.get(
-                "https://wikipedia.org/w/api.php",
+                f"https://{lang_code}.wikipedia.org/w/api.php",
                 params={
                     "action": "parse",
                     "format": "json",
@@ -131,7 +132,7 @@ async def get_text(revid, attempts=0):
         if attempts == 10:
             return -1
         # If there's a server error, just re-send the request until the server complies
-        return await get_text(revid, attempts=attempts + 1)
+        return await get_text(revid, attempts=attempts + 1, lang_code=lang_code)
     # Check if page was deleted (deleted pages have no text and are therefore un-parsable)
     try:
         raw_html = response["parse"]["text"]["*"]
@@ -151,7 +152,7 @@ async def get_text(revid, attempts=0):
     return cur
 
 
-async def get_texts(revids):
+async def get_texts(revids, lang_code="en"):
     """
     Get the text of articles given the list of revision ids
 
@@ -167,7 +168,7 @@ async def get_texts(revids):
     sema = 100
     for i in range(0, revids.__len__(), +sema):
         texts += await asyncio.gather(
-            *(get_text(revid) for revid in revids[i : (i + sema)])
+            *(get_text(revid, lang_code) for revid in revids[i : (i + sema)])
         )
     return texts
 
@@ -209,7 +210,8 @@ def get_history(title, include_text=True, domain="en.wikipedia.org"):
 
     # Get the text of the revisions. Performance is improved if this isn't done, but you lose the revisions
     if include_text:
-        texts = asyncio.run(get_texts(revids))
+        lang_code = extract_lang_code_from_domain(domain)
+        texts = asyncio.run(get_texts(revids, lang_code))
     else:
         texts = [""] * len(metadata)
 
@@ -267,3 +269,10 @@ def to_df(changes):
         )
         df.append(row)
     return pd.DataFrame(df)
+
+
+def extract_lang_code_from_domain(domain: str) -> str:
+    match = re.match(r"([a-z-]+).wikipedia.org", domain)
+    if match:
+        return match.group(1)
+    return ""
