@@ -76,6 +76,7 @@ def get_ratings(talk):
     ratings = []
     content = []
 
+    prev = None
     for cur in talk.revisions(prop="content"):
         if cur.__len__() == 1:
             content.append(prev)
@@ -119,11 +120,7 @@ async def get_text(revid, attempts=0, lang_code="en"):
         async with aiohttp.ClientSession() as session:
             async with session.get(
                 f"https://{lang_code}.wikipedia.org/w/api.php",
-                params={
-                    "action": "parse",
-                    "format": "json",
-                    "oldid": revid,
-                },
+                params={"action": "parse", "format": "json", "oldid": revid,},
             ) as resp:
                 response = await resp.json()
     # request errors from server
