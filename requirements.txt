@@ -2,7 +2,7 @@ aiohttp==3.7.4.post0
 lxml==4.9.1
 mwclient==0.10.1
 mwparserfromhell==0.6
-networkx==2.6
+networkx>=2.6
 pandas==1.2.3
 python-igraph==0.9.1
 wikipedia-api==0.5.4
