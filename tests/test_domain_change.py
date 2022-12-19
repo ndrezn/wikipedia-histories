@@ -1,6 +1,6 @@
 import asyncio
 
-import wikipedia_histories
+from src import wikipedia_histories
 
 
 def test_get_history_with_default() -> None:
