@@ -34,7 +34,7 @@ setuptools.setup(
     version="1.0.1",
     author="Nathan Drezner",
     author_email="nathan@drezner.xyz",
-    description="A package designed to collect the edit histories of Wikipedia pages",
+    description="A Python tool to pull the complete edit history of a Wikipedia page",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/ndrezn/wikipedia-histories",
