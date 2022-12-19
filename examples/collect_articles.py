@@ -13,7 +13,9 @@ def find_articles(domains):
     """
     Download a list of articles titles associated with a domain
     """
-    df = wikipedia_histories.find_articles(domains, max_level=2)
+    df = wikipedia_histories.networks.get_category_articles.find_articles(
+        domains, max_level=2
+    )
     return df
 
 
