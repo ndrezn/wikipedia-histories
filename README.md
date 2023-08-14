@@ -1,6 +1,6 @@
 # Wikipedia Histories
-[![Downloads](https://pepy.tech/badge/wikipedia-histories)](https://pepy.tech/project/wikipedia-histories)
-[![Downloads](https://pepy.tech/badge/wikipedia-histories/week)](https://pepy.tech/project/wikipedia-histories/week)
+[![Downloads](https://static.pepy.tech/badge/wikipedia-histories)](https://pepy.tech/project/wikipedia-histories)
+[![Downloads](https://static.pepy.tech/badge/wikipedia-histories/month)](https://pepy.tech/project/wikipedia-histories)
 
 A tool to pull the complete revision history of a Wikipedia page.
 
