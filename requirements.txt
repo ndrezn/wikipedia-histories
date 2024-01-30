@@ -1,4 +1,4 @@
-aiohttp>=3.8.0
+aiohttp>=3.9.2
 lxml==4.9.1
 mwclient==0.10.1
 mwparserfromhell==0.6
