@@ -1,4 +1,5 @@
 import asyncio
+import re
 
 import pytest
 
@@ -69,6 +70,12 @@ def test_invalid_language_code() -> None:
     lang = ""
     text = asyncio.run(wikipedia_histories.get_text(321061, lang_code=lang))
     assert text == -1
+
+
+@pytest.mark.vcr
+def test_get_text_raw_html() -> None:
+    html_text = asyncio.run(wikipedia_histories.get_text(321061, lang_code="zh-min-nan", raw_html=True))
+    assert re.search(r"<\s*p", html_text, re.IGNORECASE) is not None
 
 
 @pytest.mark.vcr

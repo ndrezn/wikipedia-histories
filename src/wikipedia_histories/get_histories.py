@@ -108,12 +108,15 @@ def get_ratings(talk):
     return ratings
 
 
-async def get_text(revid, attempts=0, lang_code="en"):
+async def get_text(revid, attempts=0, lang_code="en", raw_html=False):
     """
-    Pull plain text representation of a revision from API
+    Pull plain text or raw HTML representation of a revision from API.
+
     Parameters:
         revid: revision id of a page
         attempts: The number of attempts at retrieving the id so far
+        lang_code: language code for the wikipedia domain
+        raw_html: If True, return raw HTML content (unparsed) instead of plain text.
     """
     try:
         # async implementation of requests get
@@ -129,15 +132,20 @@ async def get_text(revid, attempts=0, lang_code="en"):
         if attempts == 10:
             return -1
         # If there's a server error, just re-send the request until the server complies
-        return await get_text(revid, attempts=attempts + 1, lang_code=lang_code)
+        return await get_text(revid, attempts=attempts + 1, lang_code=lang_code, raw_html=raw_html)
     # Check if page was deleted (deleted pages have no text and are therefore un-parsable)
     try:
-        raw_html = response["parse"]["text"]["*"]
+        raw_html_content = response["parse"]["text"]["*"]
     # Page error (represents deleted pages)
     except KeyError:
         return None
+
+    # Return raw HTML if the toggle is set
+    if raw_html:
+        return raw_html_content
+
     # Parse raw html from response
-    document = html.document_fromstring(raw_html)
+    document = html.document_fromstring(raw_html_content)
     text = document.xpath("//p")
     paragraphs = []
     for paragraph in text:
@@ -149,7 +157,7 @@ async def get_text(revid, attempts=0, lang_code="en"):
     return cur
 
 
-async def get_texts(revids, lang_code="en"):
+async def get_texts(revids, lang_code="en", raw_html=False):
     """
     Get the text of articles given the list of revision ids
 
@@ -165,18 +173,19 @@ async def get_texts(revids, lang_code="en"):
     sema = 100
     for i in range(0, revids.__len__(), +sema):
         texts += await asyncio.gather(
-            *(get_text(revid, lang_code=lang_code) for revid in revids[i : (i + sema)])
+            *(get_text(revid, lang_code=lang_code, raw_html=raw_html) for revid in revids[i : (i + sema)])
         )
     return texts
 
 
-def get_history(title, include_text=True, domain="en.wikipedia.org"):
+def get_history(title, include_text=True, raw_html=False, domain="en.wikipedia.org"):
     """
     Collects everything and returns a list of Change objects
 
     Parameters:
         title: article title
         include_text: Whether to unclude body text or not. Speed increases if False
+        raw_html: If True, get raw HTML instead of plain text.
     Returns:
         A list of Change objects representing each revision to the
     """
@@ -208,7 +217,7 @@ def get_history(title, include_text=True, domain="en.wikipedia.org"):
     # Get the text of the revisions. Performance is improved if this isn't done, but you lose the revisions
     if include_text:
         lang_code = extract_lang_code_from_domain(domain)
-        texts = asyncio.run(get_texts(revids, lang_code))
+        texts = asyncio.run(get_texts(revids, lang_code, raw_html=raw_html))
     else:
         texts = [""] * len(metadata)
 
@@ -235,8 +244,8 @@ def get_history(title, include_text=True, domain="en.wikipedia.org"):
             rating,
             texts[i],
         )
-
-        # Compile the list of changes
+        if raw_html:
+            change.raw_html = texts[i]  # set raw_html attribute for raw HTML content
         history.append(change)
 
     return history
