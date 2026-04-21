@@ -18,7 +18,7 @@ setuptools.setup(
     url="https://github.com/ndrezn/wikipedia-histories",
     install_requires=[
         "aiohttp>=3.8.0",
-        "lxml==4.9.1",
+        "lxml==6.1.0",
         "mwclient==0.10.1",
         "mwparserfromhell==0.6",
         "pandas>=1.2.3",
