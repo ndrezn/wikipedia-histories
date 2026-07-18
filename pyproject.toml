@@ -26,6 +26,13 @@ classifiers = [
 
 [project.optional-dependencies]
 networks = ["networkx>=2.6", "python-igraph>=0.9.1"]
+dev = ["pytest>=7", "pytest-recording"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.vcr]
+record_mode = "none"
 
 [project.urls]
 Homepage = "https://github.com/ndrezn/wikipedia-histories"
