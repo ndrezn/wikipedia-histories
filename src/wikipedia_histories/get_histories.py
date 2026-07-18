@@ -117,12 +117,13 @@ async def get_text(revid, attempts=0, lang_code="en"):
     """
     try:
         # async implementation of requests get
-        async with aiohttp.ClientSession() as session:
+        headers = {"User-Agent": "wikipedia-histories/1.1 (https://github.com/ndrezn/wikipedia-histories)"}
+        async with aiohttp.ClientSession(headers=headers) as session:
             async with session.get(
                 f"https://{lang_code}.wikipedia.org/w/api.php",
                 params={"action": "parse", "format": "json", "oldid": revid,},
             ) as resp:
-                response = await resp.json()
+                response = await resp.json(content_type=None)
     # request errors from server
     except:
         if attempts == 10:
