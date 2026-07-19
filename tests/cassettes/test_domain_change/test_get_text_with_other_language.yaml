@@ -111,22 +111,18 @@ interactions:
         th\u00f3-l\u016bn:Ph\u00ed"}],"templates":[{"ns":10,"exists":"","*":"Pang-b\u00f4\u0358:Stub"},{"ns":10,"exists":"","*":"Pang-b\u00f4\u0358:Ph\u00ed"},{"ns":10,"exists":"","*":"Pang-b\u00f4\u0358:Asbox"},{"ns":10,"exists":"","*":"Pang-b\u00f4\u0358:Hlist/styles.css"},{"ns":828,"exists":"","*":"\u6a21\u7d44:Asbox"},{"ns":828,"exists":"","*":"\u6a21\u7d44:Buffer"},{"ns":828,"exists":"","*":"\u6a21\u7d44:Arguments"},{"ns":828,"exists":"","*":"\u6a21\u7d44:Navbar"},{"ns":828,"exists":"","*":"\u6a21\u7d44:Navbar/configuration"},{"ns":828,"exists":"","*":"\u6a21\u7d44:Navbar/styles.css"}],"images":["Human_Embryo_-_Approximately_8_weeks_estimated_gestational_age.jpg","Wiki_letter_w.svg"],"externallinks":[],"sections":[],"tocdata":null,"parsewarnings":[],"displaytitle":"<span
         lang=\"nan\" dir=\"ltr\"><span class=\"mw-page-title-main\">Phoe-thai</span></span>","iwlinks":[],"properties":[{"name":"page_image_free","*":"Human_Embryo_-_Approximately_8_weeks_estimated_gestational_age.jpg"},{"name":"wikibase_item","*":"Q33196"}]}}'
     headers:
-      Accept-Ranges:
-      - bytes
       Age:
       - '0'
       Cache-Control:
       - private, must-revalidate, max-age=0
       Content-Disposition:
       - inline; filename=api-result.json
-      Content-Encoding:
-      - gzip
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Sun, 19 Jul 2026 02:08:49 GMT
+      - Sun, 19 Jul 2026 02:11:36 GMT
       Server:
-      - mw-api-ext.eqiad.main-66d79c8c8-kll79
+      - mw-api-ext.eqiad.main-66d79c8c8-f54s8
       Set-Cookie:
       - WMF-Last-Access=19-Jul-2026;Path=/;HttpOnly;secure;Expires=Thu, 20 Aug 2026
         00:00:00 GMT
@@ -134,12 +130,14 @@ interactions:
         20 Aug 2026 00:00:00 GMT
       - GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; Path=/; secure; Domain=.wikipedia.org
       - NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600
-      - WMF-Uniq=qQA6E7Tr3_DDnomM10qF5wOiAAAAAFvdAPmd4tWi3Kybx2eaI0TTVsIhchD4F7l2;Domain=.wikipedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Mon,
+      - WMF-Uniq=Jvo_F21sq1w66qCpeiMeIQOiAAAAAFvdxYgc0wuoOF-feLAvUsLXmAD0XLJIukSF;Domain=.wikipedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Mon,
         19 Jul 2027 00:00:00 GMT
       Transfer-Encoding:
       - chunked
       Vary:
       - Accept-Encoding,X-Subdomain,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization,User-Agent
+      content-length:
+      - '26471'
       content-security-policy:
       - default-src 'self'; script-src 'none'; object-src 'none'
       nel:
@@ -149,7 +147,7 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server-timing:
-      - cache;desc="pass", host;desc="cp1112",co_id;desc="951524006"
+      - cache;desc="pass", host;desc="cp1112",co_id;desc="2473310482"
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
       x-analytics:
@@ -165,7 +163,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - e5fc2d86-19f7-4167-ae29-b2e799890f00
+      - 89b1b65c-adb4-4468-8d92-8162b71b77ce
     status:
       code: 200
       message: OK
