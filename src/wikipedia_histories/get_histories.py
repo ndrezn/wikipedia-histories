@@ -124,7 +124,7 @@ async def get_text(revid, attempts=0, lang_code="en", raw_html=False):
         async with aiohttp.ClientSession(headers=headers) as session:
             async with session.get(
                 f"https://{lang_code}.wikipedia.org/w/api.php",
-                params={"action": "parse", "format": "json", "oldid": revid,},
+                params={"action": "parse", "format": "json", "oldid": revid, "prop": "text", "disablelimitreport": 1, "disabletoc": 1},
             ) as resp:
                 response = await resp.json(content_type=None)
     # request errors from server
@@ -178,7 +178,7 @@ async def get_texts(revids, lang_code="en", raw_html=False):
     return texts
 
 
-def get_history(title, include_text=True, domain="en.wikipedia.org", raw_html=False):
+def get_history(title, include_text=True, domain="en.wikipedia.org", raw_html=False, start=None, end=None, limit=None):
     """
     Collects everything and returns a list of Change objects
 
@@ -186,6 +186,9 @@ def get_history(title, include_text=True, domain="en.wikipedia.org", raw_html=Fa
         title: article title
         include_text: Whether to unclude body text or not. Speed increases if False
         raw_html: If True, get raw HTML instead of plain text.
+        start: Only include revisions at or after this datetime
+        end: Only include revisions at or before this datetime
+        limit: Maximum number of revisions to return
     Returns:
         A list of Change objects representing each revision to the
     """
@@ -203,7 +206,14 @@ def get_history(title, include_text=True, domain="en.wikipedia.org", raw_html=Fa
     ratings = get_ratings(talk)
 
     # Collect metadata information
-    metadata = list(page.revisions())
+    kwargs = {}
+    if start is not None:
+        kwargs["start"] = start
+    if end is not None:
+        kwargs["end"] = end
+    if limit is not None:
+        kwargs["limit"] = limit
+    metadata = list(page.revisions(**kwargs))
     users = _get_users(metadata)
     kind = get_kind(metadata)
     comments = get_comment(metadata)
