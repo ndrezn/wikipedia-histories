@@ -74,6 +74,13 @@ def test_invalid_language_code() -> None:
 
 
 @pytest.mark.vcr
+def test_get_text_split() -> None:
+    paragraphs = asyncio.run(wikipedia_histories.get_text(31820970, split=True))
+    assert isinstance(paragraphs, list)
+    assert any("Andrei Broder" in p for p in paragraphs)
+
+
+@pytest.mark.vcr
 def test_get_text_raw_html() -> None:
     html_text = asyncio.run(wikipedia_histories.get_text(321061, lang_code="zh-min-nan", raw_html=True))
     assert "<p" in html_text
