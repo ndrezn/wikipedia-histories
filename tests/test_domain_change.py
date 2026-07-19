@@ -5,11 +5,13 @@ import pytest
 from src import wikipedia_histories
 
 
+@pytest.mark.vcr
 def test_get_history_with_default() -> None:
     data = wikipedia_histories.get_history("Andrei Broder", include_text=False)
     assert data != []
 
 
+@pytest.mark.vcr
 def test_get_history_with_other_domain() -> None:
     data = wikipedia_histories.get_history(
         "Andrei Broder", include_text=False, domain="fr.wikipedia.org"
