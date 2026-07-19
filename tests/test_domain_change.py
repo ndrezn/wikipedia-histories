@@ -72,6 +72,12 @@ def test_invalid_language_code() -> None:
 
 
 @pytest.mark.vcr
+def test_get_text_raw_html() -> None:
+    html_text = asyncio.run(wikipedia_histories.get_text(321061, lang_code="zh-min-nan", raw_html=True))
+    assert "<p" in html_text
+
+
+@pytest.mark.vcr
 def test_integration() -> None:
     domain = "tr.wikipedia.org"
     data_tr = wikipedia_histories.get_history(

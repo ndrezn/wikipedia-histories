@@ -8,7 +8,7 @@ class Revision:
     Class to track data about each change of a page
     """
 
-    def __init__(self, index, title, time, revid, kind, user, comment, rating, content):
+    def __init__(self, index, title, time, revid, kind, user, comment, rating, content, raw_html=None):
         """
         Create a change object
 
@@ -31,6 +31,7 @@ class Revision:
         self.comment = comment
         self.rating = rating
         self.content = content
+        self.raw_html = raw_html
 
     def __str__(self):
         return str(self.revid)
