@@ -17,7 +17,7 @@ interactions:
       string: '{"batchcomplete":"","query":{"general":{"mainpage":"Wikip\u00e9dia:Accueil
         principal","base":"https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal","sitename":"Wikip\u00e9dia","logo":"//fr.wikipedia.org/static/images/project-logos/frwiki-25.png","generator":"MediaWiki
         1.47.0-wmf.11","phpversion":"8.3.32","phpsapi":"fpm-fcgi","dbtype":"mysql","dbversion":"10.11.16-MariaDB-log","langconversion":"","linkconversion":"","titleconversion":"","linkprefixcharset":"","linkprefix":"","linktrail":"/^([a-z\u00e0\u00e2\u00e7\u00e9\u00e8\u00ea\u00ee\u00f4\u00fb\u00e4\u00eb\u00ef\u00f6\u00fc\u00f9\u00c7\u00c9\u00c2\u00ca\u00ce\u00d4\u00db\u00c4\u00cb\u00cf\u00d6\u00dc\u00c0\u00c8\u00d9]+)(.*)$/sDu","legaltitlechars":"
-        %!\"$&''()*,\\-.\\/0-9:;=?@A-Z\\\\^_`a-z~\\x80-\\xFF+","invalidusernamechars":"@:>=","git-hash":"35ce3778f6617f21451012abc66e4bc84e742f03","git-branch":"wmf/1.47.0-wmf.11","case":"first-letter","lang":"fr","fallback":[{"code":"en"}],"fallback8bitEncoding":"windows-1252","writeapi":"","maxarticlesize":2097152,"timezone":"Europe/Paris","timeoffset":120,"articlepath":"/wiki/$1","scriptpath":"/w","script":"/w/index.php","variantarticlepath":false,"server":"//fr.wikipedia.org","servername":"fr.wikipedia.org","wikiid":"frwiki","time":"2026-07-19T02:26:42Z","misermode":"","uploadsenabled":"","maxuploadsize":5368709120,"minuploadchunksize":1024,"galleryoptions":{"imagesPerRow":0,"imageWidth":120,"imageHeight":120,"captionLength":"","showBytes":"","mode":"traditional","showDimensions":""},"thumblimits":[180,250,400],"imagelimits":[{"width":320,"height":240},{"width":640,"height":480},{"width":800,"height":600},{"width":1024,"height":768},{"width":1280,"height":1024},{"width":2560,"height":2048}],"favicon":"https://fr.wikipedia.org/static/favicon/wikipedia.ico","centralidlookupprovider":"CentralAuth","allcentralidlookupproviders":["CentralAuth","local"],"interwikimagic":"","magiclinks":{"ISBN":"","PMID":"","RFC":""},"categorycollation":"uca-fr-u-kn","nofollowlinks":"","nofollownsexceptions":[],"nofollowdomainexceptions":["mediawiki.org","wikibooks.org","wikimedia.com","wikimedia.org","wikinews.org","wikipedia.org","wikiquote.org","wikisource.org","wikiversity.org","wiktionary.org","wikivoyage.org","wikidata.org","wikifunctions.org","tools.wmflabs.org","toolforge.org","etherpad.wmflabs.org"],"wmf-config":{"wmfMasterDatacenter":"eqiad","wmfEtcdLastModifiedIndex":3855669},"citeresponsivereferences":"","max-page-id":17526440,"linter":{"high":["deletable-table-tag","duplicate-ids","html5-misnesting","misc-tidy-replacement-issues","multiline-html-table-in-list","multiple-unclosed-formatting-tags","pwrap-bug-workaround","self-closed-tag","template-arg-in-extension-tag","tidy-font-bug","tidy-whitespace-bug","unclosed-quotes-in-heading"],"medium":["bogus-image-options","fostered","misnested-tag","multi-colon-escape","wikilink-in-extlink"],"low":["empty-heading","missing-end-tag","missing-end-tag-in-heading","night-mode-unaware-background-color","obsolete-tag","pre-expansion","stripped-tag"]},"mobileserver":"https://fr.wikipedia.org","pageviewservice-supported-metrics":{"pageviews":{"pageviews":""},"siteviews":{"pageviews":"","uniques":""},"mostviewed":{"pageviews":""}},"readinglists-config":{"maxListsPerUser":100,"maxEntriesPerList":5000,"deletedRetentionDays":30}},"namespaces":{"-2":{"id":-2,"case":"first-letter","canonical":"Media","*":"M\u00e9dia"},"-1":{"id":-1,"case":"first-letter","canonical":"Special","*":"Sp\u00e9cial"},"0":{"id":0,"case":"first-letter","content":"","*":""},"1":{"id":1,"case":"first-letter","subpages":"","canonical":"Talk","*":"Discussion"},"2":{"id":2,"case":"first-letter","subpages":"","canonical":"User","*":"Utilisateur"},"3":{"id":3,"case":"first-letter","subpages":"","canonical":"User
+        %!\"$&''()*,\\-.\\/0-9:;=?@A-Z\\\\^_`a-z~\\x80-\\xFF+","invalidusernamechars":"@:>=","git-hash":"35ce3778f6617f21451012abc66e4bc84e742f03","git-branch":"wmf/1.47.0-wmf.11","case":"first-letter","lang":"fr","fallback":[{"code":"en"}],"fallback8bitEncoding":"windows-1252","writeapi":"","maxarticlesize":2097152,"timezone":"Europe/Paris","timeoffset":120,"articlepath":"/wiki/$1","scriptpath":"/w","script":"/w/index.php","variantarticlepath":false,"server":"//fr.wikipedia.org","servername":"fr.wikipedia.org","wikiid":"frwiki","time":"2026-07-19T02:32:41Z","misermode":"","uploadsenabled":"","maxuploadsize":5368709120,"minuploadchunksize":1024,"galleryoptions":{"imagesPerRow":0,"imageWidth":120,"imageHeight":120,"captionLength":"","showBytes":"","mode":"traditional","showDimensions":""},"thumblimits":[180,250,400],"imagelimits":[{"width":320,"height":240},{"width":640,"height":480},{"width":800,"height":600},{"width":1024,"height":768},{"width":1280,"height":1024},{"width":2560,"height":2048}],"favicon":"https://fr.wikipedia.org/static/favicon/wikipedia.ico","centralidlookupprovider":"CentralAuth","allcentralidlookupproviders":["CentralAuth","local"],"interwikimagic":"","magiclinks":{"ISBN":"","PMID":"","RFC":""},"categorycollation":"uca-fr-u-kn","nofollowlinks":"","nofollownsexceptions":[],"nofollowdomainexceptions":["mediawiki.org","wikibooks.org","wikimedia.com","wikimedia.org","wikinews.org","wikipedia.org","wikiquote.org","wikisource.org","wikiversity.org","wiktionary.org","wikivoyage.org","wikidata.org","wikifunctions.org","tools.wmflabs.org","toolforge.org","etherpad.wmflabs.org"],"wmf-config":{"wmfMasterDatacenter":"eqiad","wmfEtcdLastModifiedIndex":3855669},"citeresponsivereferences":"","max-page-id":17526441,"linter":{"high":["deletable-table-tag","duplicate-ids","html5-misnesting","misc-tidy-replacement-issues","multiline-html-table-in-list","multiple-unclosed-formatting-tags","pwrap-bug-workaround","self-closed-tag","template-arg-in-extension-tag","tidy-font-bug","tidy-whitespace-bug","unclosed-quotes-in-heading"],"medium":["bogus-image-options","fostered","misnested-tag","multi-colon-escape","wikilink-in-extlink"],"low":["empty-heading","missing-end-tag","missing-end-tag-in-heading","night-mode-unaware-background-color","obsolete-tag","pre-expansion","stripped-tag"]},"mobileserver":"https://fr.wikipedia.org","pageviewservice-supported-metrics":{"pageviews":{"pageviews":""},"siteviews":{"pageviews":"","uniques":""},"mostviewed":{"pageviews":""}},"readinglists-config":{"maxListsPerUser":100,"maxEntriesPerList":5000,"deletedRetentionDays":30}},"namespaces":{"-2":{"id":-2,"case":"first-letter","canonical":"Media","*":"M\u00e9dia"},"-1":{"id":-1,"case":"first-letter","canonical":"Special","*":"Sp\u00e9cial"},"0":{"id":0,"case":"first-letter","content":"","*":""},"1":{"id":1,"case":"first-letter","subpages":"","canonical":"Talk","*":"Discussion"},"2":{"id":2,"case":"first-letter","subpages":"","canonical":"User","*":"Utilisateur"},"3":{"id":3,"case":"first-letter","subpages":"","canonical":"User
         talk","*":"Discussion utilisateur"},"4":{"id":4,"case":"first-letter","subpages":"","canonical":"Project","*":"Wikip\u00e9dia"},"5":{"id":5,"case":"first-letter","subpages":"","canonical":"Project
         talk","*":"Discussion Wikip\u00e9dia"},"6":{"id":6,"case":"first-letter","canonical":"File","*":"Fichier"},"7":{"id":7,"case":"first-letter","subpages":"","canonical":"File
         talk","*":"Discussion fichier"},"8":{"id":8,"case":"first-letter","canonical":"MediaWiki","namespaceprotection":"editinterface","*":"MediaWiki"},"9":{"id":9,"case":"first-letter","subpages":"","canonical":"MediaWiki
@@ -32,6 +32,8 @@ interactions:
         talk","*":"Discussion module"},"1728":{"id":1728,"case":"first-letter","subpages":"","canonical":"Event","*":"Event"},"1729":{"id":1729,"case":"first-letter","subpages":"","canonical":"Event
         talk","*":"Event talk"},"2600":{"id":2600,"case":"first-letter","canonical":"Topic","defaultcontentmodel":"flow-board","*":"Sujet"}},"userinfo":{"id":0,"name":"107.167.253.208","anon":"","groups":["*"],"rights":["createaccount","autocreateaccount","read","edit","createpage","createtalk","viewmyprivateinfo","editmyprivateinfo","editmyoptions","urlshortener-create-url","centralauth-merge","abusefilter-log","echo-read-notifications","flow-hide","flow-edit-title"]}}}'
     headers:
+      accept-ranges:
+      - bytes
       age:
       - '0'
       cache-control:
@@ -45,7 +47,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Sun, 19 Jul 2026 02:26:42 GMT
+      - Sun, 19 Jul 2026 02:32:41 GMT
       nel:
       - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
         0.0}'
@@ -53,9 +55,9 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server:
-      - mw-api-ext.eqiad.main-66d79c8c8-s5mqs
+      - mw-api-ext.eqiad.main-66d79c8c8-9b5n5
       server-timing:
-      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;",co_id;desc="2273154766"
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=treatment;",co_id;desc="897842424"
       set-cookie:
       - WMF-Last-Access=19-Jul-2026;Path=/;HttpOnly;secure;Expires=Thu, 20 Aug 2026
         00:00:00 GMT
@@ -63,7 +65,7 @@ interactions:
         20 Aug 2026 00:00:00 GMT
       - GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; Path=/; secure; Domain=.wikipedia.org
       - NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600
-      - WMF-Uniq=2Qsn49CjQZJyxtm8HR9gKQOiAAAAAFvdmTxOFxHa6bdh5UF_Ij5bj8LmiQaHhhbP;Domain=.wikipedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Mon,
+      - WMF-Uniq=FzlCEoinA9LnfHmK6NbcFgOiAAAAAFvdBthVQsTEKNQS7WvpATvsO2XzNCSl0jux;Domain=.wikipedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Mon,
         19 Jul 2027 00:00:00 GMT
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
@@ -84,7 +86,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - 591dac52-4f97-406b-8008-4a8a2a82e94a
+      - a54e6159-0343-4588-9dc4-31f3572142dd
     status:
       code: 200
       message: OK
@@ -99,7 +101,7 @@ interactions:
       - keep-alive
       Cookie:
       - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
-        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=2Qsn49CjQZJyxtm8HR9gKQOiAAAAAFvdmTxOFxHa6bdh5UF_Ij5bj8LmiQaHhhbP
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=FzlCEoinA9LnfHmK6NbcFgOiAAAAAFvdBthVQsTEKNQS7WvpATvsO2XzNCSl0jux
       User-Agent:
       - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
     method: GET
@@ -109,6 +111,8 @@ interactions:
       string: '{"batchcomplete":"","query":{"pages":{"8019489":{"pageid":8019489,"ns":0,"title":"Andrei
         Broder","contentmodel":"wikitext","pagelanguage":"fr","pagelanguagehtmlcode":"fr","pagelanguagedir":"ltr","touched":"2026-07-15T13:39:06Z","lastrevid":227273697,"length":2216,"protection":[],"restrictiontypes":["edit","move"]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
     headers:
+      accept-ranges:
+      - bytes
       age:
       - '0'
       cache-control:
@@ -122,7 +126,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Sun, 19 Jul 2026 02:26:42 GMT
+      - Sun, 19 Jul 2026 02:32:41 GMT
       nel:
       - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
         0.0}'
@@ -130,11 +134,11 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server:
-      - mw-api-ext.eqiad.main-66d79c8c8-lz6bp
+      - mw-api-ext.eqiad.main-66d79c8c8-2gqwd
       server-timing:
-      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;",co_id;desc="1519715452"
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=treatment;",co_id;desc="4235499995"
       set-cookie:
-      - WMF-Uniq=2Qsn49CjQZJyxtm8HR9gKQOiAAEBAFvd1ATKSl6pxS85Z-EqNFVBpYvcUtNCPmAU;Domain=.wikipedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Mon,
+      - WMF-Uniq=FzlCEoinA9LnfHmK6NbcFgOiAAEBAFvdkc2rXjhOHTaXZ7runcen16hzGcQMiVhZ;Domain=.wikipedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Mon,
         19 Jul 2027 00:00:00 GMT
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
@@ -153,7 +157,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - 1395fb7e-7242-4648-b7b1-88c5c8b97de6
+      - c68c526c-68ec-4e61-9ac5-11bf39ffd81c
     status:
       code: 200
       message: OK
@@ -168,7 +172,7 @@ interactions:
       - keep-alive
       Cookie:
       - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
-        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=2Qsn49CjQZJyxtm8HR9gKQOiAAEBAFvd1ATKSl6pxS85Z-EqNFVBpYvcUtNCPmAU
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=FzlCEoinA9LnfHmK6NbcFgOiAAEBAFvdkc2rXjhOHTaXZ7runcen16hzGcQMiVhZ
       User-Agent:
       - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
     method: GET
@@ -179,6 +183,8 @@ interactions:
         Broder"}],"pages":{"9330495":{"pageid":9330495,"ns":1,"title":"Discussion:Andrei
         Broder","contentmodel":"wikitext","pagelanguage":"fr","pagelanguagehtmlcode":"fr","pagelanguagedir":"ltr","touched":"2026-07-12T11:07:28Z","lastrevid":133928212,"length":50,"protection":[],"restrictiontypes":["edit","move"]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
     headers:
+      accept-ranges:
+      - bytes
       age:
       - '0'
       cache-control:
@@ -192,7 +198,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Sun, 19 Jul 2026 02:26:42 GMT
+      - Sun, 19 Jul 2026 02:32:41 GMT
       nel:
       - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
         0.0}'
@@ -200,9 +206,9 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server:
-      - mw-api-ext.eqiad.main-66d79c8c8-c6hlv
+      - mw-api-ext.eqiad.main-66d79c8c8-mtdxm
       server-timing:
-      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;",co_id;desc="4012176418"
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=treatment;",co_id;desc="4141046199"
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
       vary:
@@ -220,7 +226,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - 10c4753b-5999-4fa5-aff1-103818bb9abc
+      - e9801bd4-c9f4-423c-841a-40a495da8a1c
     status:
       code: 200
       message: OK
@@ -235,7 +241,7 @@ interactions:
       - keep-alive
       Cookie:
       - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
-        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=2Qsn49CjQZJyxtm8HR9gKQOiAAEBAFvd1ATKSl6pxS85Z-EqNFVBpYvcUtNCPmAU
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=FzlCEoinA9LnfHmK6NbcFgOiAAEBAFvdkc2rXjhOHTaXZ7runcen16hzGcQMiVhZ
       User-Agent:
       - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
     method: GET
@@ -248,6 +254,8 @@ interactions:
         [[WP:RBOT]], ajoute \u00e9valuation pour le [[Projet:Cryptologie]], avancement
         et importance inconnus"}]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
     headers:
+      accept-ranges:
+      - bytes
       age:
       - '0'
       cache-control:
@@ -261,7 +269,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Sun, 19 Jul 2026 02:26:42 GMT
+      - Sun, 19 Jul 2026 02:32:41 GMT
       nel:
       - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
         0.0}'
@@ -269,9 +277,9 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server:
-      - mw-api-ext.eqiad.main-66d79c8c8-7ffsv
+      - mw-api-ext.eqiad.main-66d79c8c8-lvvwb
       server-timing:
-      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;",co_id;desc="3469283844"
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=treatment;",co_id;desc="3854525194"
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
       vary:
@@ -289,7 +297,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - e8abfdc8-870c-407e-893a-28e126a04170
+      - dd0d6904-5aa7-470a-a5aa-87a6ad479e51
     status:
       code: 200
       message: OK
@@ -304,7 +312,7 @@ interactions:
       - keep-alive
       Cookie:
       - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
-        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=2Qsn49CjQZJyxtm8HR9gKQOiAAEBAFvd1ATKSl6pxS85Z-EqNFVBpYvcUtNCPmAU
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=FzlCEoinA9LnfHmK6NbcFgOiAAEBAFvdkc2rXjhOHTaXZ7runcen16hzGcQMiVhZ
       User-Agent:
       - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
     method: GET
@@ -314,6 +322,8 @@ interactions:
       string: '{"batchcomplete":"","query":{"pages":{"9330495":{"pageid":9330495,"ns":1,"title":"Discussion:Andrei
         Broder","revisions":[{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{Wikiprojet\n|Cryptologie|faible\n|avancement=BD\n}}"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{Wikiprojet\n|Cryptologie|?\n|avancement=BD\n}}"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{Wikiprojet\n|Cryptologie|?\n|avancement=?\n}}"}]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
     headers:
+      accept-ranges:
+      - bytes
       age:
       - '0'
       cache-control:
@@ -327,7 +337,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Sun, 19 Jul 2026 02:26:42 GMT
+      - Sun, 19 Jul 2026 02:32:41 GMT
       nel:
       - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
         0.0}'
@@ -335,9 +345,9 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server:
-      - mw-api-ext.eqiad.main-66d79c8c8-ct4bt
+      - mw-api-ext.eqiad.main-66d79c8c8-ckjxf
       server-timing:
-      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;",co_id;desc="1610454802"
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=treatment;",co_id;desc="834473693"
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
       vary:
@@ -355,7 +365,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - db423899-29ea-4a40-b81d-df896c166d98
+      - d851e3c4-332a-4730-af29-0108f1d80dab
     status:
       code: 200
       message: OK
@@ -370,7 +380,7 @@ interactions:
       - keep-alive
       Cookie:
       - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
-        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=2Qsn49CjQZJyxtm8HR9gKQOiAAEBAFvd1ATKSl6pxS85Z-EqNFVBpYvcUtNCPmAU
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=FzlCEoinA9LnfHmK6NbcFgOiAAEBAFvdkc2rXjhOHTaXZ7runcen16hzGcQMiVhZ
       User-Agent:
       - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
     method: GET
@@ -413,8 +423,10 @@ interactions:
         en 1953, est un scientifique [[\u00c9m\u00e9ritat|\u00e9m\u00e9rite]] chez
         [[Google]].  =..."}]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
     headers:
+      accept-ranges:
+      - bytes
       age:
-      - '2'
+      - '0'
       cache-control:
       - private, must-revalidate, max-age=0
       content-disposition:
@@ -426,7 +438,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Sun, 19 Jul 2026 02:26:42 GMT
+      - Sun, 19 Jul 2026 02:32:41 GMT
       nel:
       - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
         0.0}'
@@ -434,9 +446,9 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server:
-      - mw-api-ext.eqiad.main-66d79c8c8-lz6bp
+      - mw-api-ext.eqiad.canary-76b57ff5cd-ghpg2
       server-timing:
-      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;",co_id;desc="1097650042"
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=treatment;",co_id;desc="996383"
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
       transfer-encoding:
@@ -456,7 +468,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - 4990688c-b4fa-4ef3-b190-1df98e7655cb
+      - fa942927-1b01-4481-93c3-a1cc4d959e95
     status:
       code: 200
       message: OK

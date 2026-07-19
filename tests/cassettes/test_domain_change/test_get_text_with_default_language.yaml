@@ -5,7 +5,7 @@ interactions:
       User-Agent:
       - wikipedia-histories/1.1 (https://github.com/ndrezn/wikipedia-histories)
     method: GET
-    uri: https://en.wikipedia.org/w/api.php?action=parse&format=json&oldid=31820970
+    uri: https://en.wikipedia.org/w/api.php?action=parse&format=json&oldid=31820970&prop=text&disablelimitreport=1&disabletoc=1
   response:
     body:
       string: '{"parse":{"title":"Andrei Broder","pageid":3458109,"revid":31820970,"text":{"*":"<div
@@ -80,38 +80,12 @@ interactions:
         talk:Compu-bio-stub\"><abbr title=\"Discuss this template\">t</abbr></a></li><li
         class=\"nv-edit\"><a href=\"/wiki/Special:EditPage/Template:Compu-bio-stub\"
         title=\"Special:EditPage/Template:Compu-bio-stub\"><abbr title=\"Edit this
-        template\">e</abbr></a></li></ul></div></div>\n<!-- \nNewPP limit report\nParsed
-        by mw\u2010api\u2010ext.eqiad.main\u201066d79c8c8\u2010db94m\nCached time:
-        20260719020848\nCache expiry: 2592000\nReduced expiry: false\nComplications:
-        []\nCPU time usage: 0.070 seconds\nReal time usage: 0.083 seconds\nPreprocessor
-        visited node count: 26/1000000\nRevision size: 537/2097152 bytes\nPost\u2010expand
-        include size: 3063/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest
-        expansion depth: 4/100\nExpensive parser function count: 0/500\nUnstrip recursion
-        depth: 0/20\nUnstrip post\u2010expand size: 4220/5000000 bytes\nLua time usage:
-        0.050/10.000 seconds\nLua memory usage: 832574/52428800 bytes\nNumber of Wikibase
-        entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%   68.446      1
-        Template:Compu-bio-stub\n100.00%   68.446      1 -total\n 97.70%   66.872      1
-        Template:Article_stub_box\n-->\n\n<!-- Render ID c73747e5-8316-11f1-bfbb-1b863fdafedd
-        -->\n\n<!-- Saved in RevisionOutputCache with key enwiki:rcache:31820970:dateformat=default
-        and timestamp 20260719020848 and revision id 31820970.\n -->\n</div>"},"langlinks":[{"lang":"de","url":"https://de.wikipedia.org/wiki/Andrei_Broder","langname":"German","autonym":"Deutsch","*":"Andrei
-        Broder"},{"lang":"fr","url":"https://fr.wikipedia.org/wiki/Andrei_Broder","langname":"French","autonym":"fran\u00e7ais","*":"Andrei
-        Broder"},{"lang":"he","url":"https://he.wikipedia.org/wiki/%D7%90%D7%A0%D7%93%D7%A8%D7%99_%D7%91%D7%A8%D7%95%D7%93%D7%A8","langname":"Hebrew","autonym":"\u05e2\u05d1\u05e8\u05d9\u05ea","*":"\u05d0\u05e0\u05d3\u05e8\u05d9
-        \u05d1\u05e8\u05d5\u05d3\u05e8"},{"lang":"ig","url":"https://ig.wikipedia.org/wiki/Andrei_Broder","langname":"Igbo","autonym":"Igbo","*":"Andrei
-        Broder"},{"lang":"ro","url":"https://ro.wikipedia.org/wiki/Andrei_Broder","langname":"Romanian","autonym":"rom\u00e2n\u0103","*":"Andrei
-        Broder"},{"lang":"sw","url":"https://sw.wikipedia.org/wiki/Andrei_Broder","langname":"Swahili","autonym":"Kiswahili","*":"Andrei
-        Broder"},{"lang":"uk","url":"https://uk.wikipedia.org/wiki/%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B9_%D0%91%D1%80%D0%BE%D0%B4%D0%B5%D1%80","langname":"Ukrainian","autonym":"\u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430","*":"\u0410\u043d\u0434\u0440\u0435\u0439
-        \u0411\u0440\u043e\u0434\u0435\u0440"},{"lang":"yi","url":"https://yi.wikipedia.org/wiki/%D7%A2%D7%A0%D7%93%D7%A8%D7%99_%D7%91%D7%A8%D7%90%D7%93%D7%A2%D7%A8","langname":"Yiddish","autonym":"\u05d9\u05d9\u05b4\u05d3\u05d9\u05e9","*":"\u05e2\u05e0\u05d3\u05e8\u05d9
-        \u05d1\u05e8\u05d0\u05d3\u05e2\u05e8"}],"categories":[{"sortkey":"","hidden":"","*":"All_stub_articles"},{"sortkey":"","*":"Computer_specialist_stubs"}],"links":[{"ns":10,"exists":"","*":"Template:Compu-bio-stub"},{"ns":0,"exists":"","*":"1985"},{"ns":0,"exists":"","*":"AltaVista"},{"ns":0,"exists":"","*":"Captcha"},{"ns":0,"exists":"","*":"Donald
-        Knuth"},{"ns":0,"exists":"","*":"IBM Research"},{"ns":0,"exists":"","*":"Internet"},{"ns":0,"exists":"","*":"Stanford
-        University"},{"ns":0,"exists":"","*":"Yahoo"},{"ns":4,"exists":"","*":"Wikipedia:Stub"},{"ns":11,"exists":"","*":"Template
-        talk:Compu-bio-stub"}],"templates":[{"ns":10,"exists":"","*":"Template:Compu-bio-stub"},{"ns":10,"exists":"","*":"Template:Article
-        stub box"},{"ns":10,"exists":"","*":"Template:Hlist/styles.css"},{"ns":828,"exists":"","*":"Module:Article
-        stub box"},{"ns":828,"exists":"","*":"Module:Buffer"},{"ns":828,"exists":"","*":"Module:Arguments"},{"ns":828,"exists":"","*":"Module:Navbar"},{"ns":828,"exists":"","*":"Module:Navbar/configuration"},{"ns":828,"exists":"","*":"Module:Navbar/styles.css"},{"ns":828,"exists":"","*":"Module:Article
-        stub box/styles.css"}],"images":["Desktop_computer_clipart_-_Yellow_theme.svg"],"externallinks":[],"sections":[],"tocdata":null,"parsewarnings":[],"displaytitle":"<span
-        lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Andrei Broder</span></span>","iwlinks":[],"properties":[{"name":"wikibase_item","*":"Q2895803"}]}}'
+        template\">e</abbr></a></li></ul></div></div></div>"}}}'
     headers:
+      Accept-Ranges:
+      - bytes
       Age:
-      - '0'
+      - '2'
       Cache-Control:
       - private, must-revalidate, max-age=0
       Content-Disposition:
@@ -119,9 +93,9 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Sun, 19 Jul 2026 02:11:36 GMT
+      - Sun, 19 Jul 2026 02:32:41 GMT
       Server:
-      - mw-api-ext.eqiad.main-66d79c8c8-cw2k6
+      - mw-api-ext.eqiad.main-66d79c8c8-f54s8
       Set-Cookie:
       - WMF-Last-Access=19-Jul-2026;Path=/;HttpOnly;secure;Expires=Thu, 20 Aug 2026
         00:00:00 GMT
@@ -129,14 +103,14 @@ interactions:
         20 Aug 2026 00:00:00 GMT
       - GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; Path=/; secure; Domain=.wikipedia.org
       - NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600
-      - WMF-Uniq=oJncGD3E5_woWR0rg4bKlwOiAAAAAFvd18vZ1na7eSSk0vnWyXs-3sI-31GLtZdv;Domain=.wikipedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Mon,
+      - WMF-Uniq=JuO0qH2e8xGvEsnuy5VqOwOiAAAAAFvdN0kD_fo2kLViPNEs9VSG2L53otqwKkgL;Domain=.wikipedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Mon,
         19 Jul 2027 00:00:00 GMT
       Transfer-Encoding:
       - chunked
       Vary:
       - Accept-Encoding,X-Subdomain,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization,User-Agent
       content-length:
-      - '10993'
+      - '6997'
       content-security-policy:
       - default-src 'self'; script-src 'none'; object-src 'none'
       nel:
@@ -146,7 +120,7 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server-timing:
-      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=treatment;",co_id;desc="50939494"
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=treatment;",co_id;desc="4138139201"
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
       x-analytics:
@@ -162,7 +136,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - 7a37d2a0-c1e1-4d73-9a4a-2c8a9245fc52
+      - bcedab2a-5049-4cfb-919c-26420e426d1a
     status:
       code: 200
       message: OK
