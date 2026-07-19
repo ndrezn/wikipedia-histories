@@ -1,0 +1,849 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://en.wikipedia.org/w/api.php?meta=siteinfo%7Cuserinfo%7Cuserinfo&siprop=general%7Cnamespaces&uiprop=groups%7Crights%7Cblockinfo%7Chasmsg&continue=&action=query&format=json
+  response:
+    body:
+      string: '{"batchcomplete":"","query":{"general":{"mainpage":"Main Page","base":"https://en.wikipedia.org/wiki/Main_Page","sitename":"Wikipedia","logo":"//en.wikipedia.org/static/images/project-logos/enwiki-25.png","generator":"MediaWiki
+        1.47.0-wmf.11","phpversion":"8.3.32","phpsapi":"fpm-fcgi","dbtype":"mysql","dbversion":"10.11.16-MariaDB-log","langconversion":"","linkconversion":"","titleconversion":"","linkprefixcharset":"","linkprefix":"","linktrail":"/^([a-z]+)(.*)$/sD","legaltitlechars":"
+        %!\"$&''()*,\\-.\\/0-9:;=?@A-Z\\\\^_`a-z~\\x80-\\xFF+","invalidusernamechars":"@:>=","git-hash":"35ce3778f6617f21451012abc66e4bc84e742f03","git-branch":"wmf/1.47.0-wmf.11","case":"first-letter","lang":"en","fallback":[],"fallback8bitEncoding":"windows-1252","writeapi":"","maxarticlesize":2097152,"timezone":"UTC","timeoffset":0,"articlepath":"/wiki/$1","scriptpath":"/w","script":"/w/index.php","variantarticlepath":false,"server":"//en.wikipedia.org","servername":"en.wikipedia.org","wikiid":"enwiki","time":"2026-07-19T02:26:41Z","misermode":"","uploadsenabled":"","maxuploadsize":5368709120,"minuploadchunksize":1024,"galleryoptions":{"imagesPerRow":0,"imageWidth":120,"imageHeight":120,"captionLength":"","showBytes":"","mode":"traditional","showDimensions":""},"thumblimits":[180,250,400],"imagelimits":[{"width":320,"height":240},{"width":640,"height":480},{"width":800,"height":600},{"width":1024,"height":768},{"width":1280,"height":1024},{"width":2560,"height":2048}],"favicon":"https://en.wikipedia.org/static/favicon/wikipedia.ico","centralidlookupprovider":"CentralAuth","allcentralidlookupproviders":["CentralAuth","local"],"interwikimagic":"","magiclinks":[],"categorycollation":"uca-default-u-kn","nofollowlinks":"","nofollownsexceptions":[],"nofollowdomainexceptions":["mediawiki.org","wikibooks.org","wikimedia.com","wikimedia.org","wikinews.org","wikipedia.org","wikiquote.org","wikisource.org","wikiversity.org","wiktionary.org","wikivoyage.org","wikidata.org","wikifunctions.org","tools.wmflabs.org","toolforge.org","etherpad.wmflabs.org"],"wmf-config":{"wmfMasterDatacenter":"eqiad","wmfEtcdLastModifiedIndex":3855669},"citeresponsivereferences":"","max-page-id":83727275,"linter":{"high":["deletable-table-tag","duplicate-ids","html5-misnesting","misc-tidy-replacement-issues","multiline-html-table-in-list","multiple-unclosed-formatting-tags","pwrap-bug-workaround","self-closed-tag","template-arg-in-extension-tag","tidy-font-bug","tidy-whitespace-bug","unclosed-quotes-in-heading"],"medium":["bogus-image-options","fostered","misnested-tag","multi-colon-escape","wikilink-in-extlink"],"low":["empty-heading","missing-end-tag","missing-end-tag-in-heading","night-mode-unaware-background-color","obsolete-tag","pre-expansion","stripped-tag"]},"mobileserver":"https://en.wikipedia.org","pageviewservice-supported-metrics":{"pageviews":{"pageviews":""},"siteviews":{"pageviews":"","uniques":""},"mostviewed":{"pageviews":""}},"readinglists-config":{"maxListsPerUser":100,"maxEntriesPerList":5000,"deletedRetentionDays":30}},"namespaces":{"-2":{"id":-2,"case":"first-letter","canonical":"Media","*":"Media"},"-1":{"id":-1,"case":"first-letter","canonical":"Special","*":"Special"},"0":{"id":0,"case":"first-letter","content":"","*":""},"1":{"id":1,"case":"first-letter","subpages":"","canonical":"Talk","*":"Talk"},"2":{"id":2,"case":"first-letter","subpages":"","canonical":"User","*":"User"},"3":{"id":3,"case":"first-letter","subpages":"","canonical":"User
+        talk","*":"User talk"},"4":{"id":4,"case":"first-letter","subpages":"","canonical":"Project","*":"Wikipedia"},"5":{"id":5,"case":"first-letter","subpages":"","canonical":"Project
+        talk","*":"Wikipedia talk"},"6":{"id":6,"case":"first-letter","canonical":"File","*":"File"},"7":{"id":7,"case":"first-letter","subpages":"","canonical":"File
+        talk","*":"File talk"},"8":{"id":8,"case":"first-letter","canonical":"MediaWiki","namespaceprotection":"editinterface","*":"MediaWiki"},"9":{"id":9,"case":"first-letter","subpages":"","canonical":"MediaWiki
+        talk","*":"MediaWiki talk"},"10":{"id":10,"case":"first-letter","subpages":"","canonical":"Template","*":"Template"},"11":{"id":11,"case":"first-letter","subpages":"","canonical":"Template
+        talk","*":"Template talk"},"12":{"id":12,"case":"first-letter","subpages":"","canonical":"Help","*":"Help"},"13":{"id":13,"case":"first-letter","subpages":"","canonical":"Help
+        talk","*":"Help talk"},"14":{"id":14,"case":"first-letter","subpages":"","canonical":"Category","*":"Category"},"15":{"id":15,"case":"first-letter","subpages":"","canonical":"Category
+        talk","*":"Category talk"},"100":{"id":100,"case":"first-letter","subpages":"","canonical":"Portal","*":"Portal"},"101":{"id":101,"case":"first-letter","subpages":"","canonical":"Portal
+        talk","*":"Portal talk"},"118":{"id":118,"case":"first-letter","subpages":"","canonical":"Draft","*":"Draft"},"119":{"id":119,"case":"first-letter","subpages":"","canonical":"Draft
+        talk","*":"Draft talk"},"126":{"id":126,"case":"first-letter","canonical":"MOS","*":"MOS"},"127":{"id":127,"case":"first-letter","canonical":"MOS
+        talk","*":"MOS talk"},"710":{"id":710,"case":"first-letter","canonical":"TimedText","*":"TimedText"},"711":{"id":711,"case":"first-letter","canonical":"TimedText
+        talk","*":"TimedText talk"},"828":{"id":828,"case":"first-letter","subpages":"","canonical":"Module","*":"Module"},"829":{"id":829,"case":"first-letter","subpages":"","canonical":"Module
+        talk","*":"Module talk"},"1728":{"id":1728,"case":"first-letter","subpages":"","canonical":"Event","*":"Event"},"1729":{"id":1729,"case":"first-letter","subpages":"","canonical":"Event
+        talk","*":"Event talk"}},"userinfo":{"id":0,"name":"107.167.253.208","anon":"","groups":["*"],"rights":["createaccount","autocreateaccount","read","edit","createtalk","viewmyprivateinfo","editmyprivateinfo","editmyoptions","abusefilter-log-detail","urlshortener-create-url","centralauth-merge","abusefilter-view","abusefilter-log","echo-read-notifications"]}}}'
+    headers:
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-length:
+      - '5972'
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:26:41 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-sbbt6
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="3822090553"
+      set-cookie:
+      - WMF-Last-Access=19-Jul-2026;Path=/;HttpOnly;secure;Expires=Thu, 20 Aug 2026
+        00:00:00 GMT
+      - WMF-Last-Access-Global=19-Jul-2026;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        20 Aug 2026 00:00:00 GMT
+      - GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600
+      - WMF-Uniq=-J23C-sMeQOmr_6Dy5QTMgOiAAAAAFvdT-_qcFC0sqD-IWIdT8jZEyV82aHqg_DG;Domain=.wikipedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Mon,
+        19 Jul 2027 00:00:00 GMT
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - e3d69d13-a479-4bbf-8571-e238f5e07553
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=-J23C-sMeQOmr_6Dy5QTMgOiAAAAAFvdT-_qcFC0sqD-IWIdT8jZEyV82aHqg_DG
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://en.wikipedia.org/w/api.php?prop=info&titles=Andrei+Broder&inprop=protection&continue=&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"batchcomplete":"","query":{"pages":{"3458109":{"pageid":3458109,"ns":0,"title":"Andrei
+        Broder","contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2026-07-17T02:54:16Z","lastrevid":1359982198,"length":8336,"protection":[],"restrictiontypes":["edit","move"]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
+    headers:
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-length:
+      - '374'
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:26:41 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-b92tr
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="3564987226"
+      set-cookie:
+      - WMF-Uniq=-J23C-sMeQOmr_6Dy5QTMgOiAAEBAFvd0NEhG2R18i_THFbiYbp6fuU_iNhMdMe5;Domain=.wikipedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Mon,
+        19 Jul 2027 00:00:00 GMT
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      vary:
+      - Accept-Encoding,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - 42793632-47a5-473f-9abb-4eddbf833eb4
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=-J23C-sMeQOmr_6Dy5QTMgOiAAEBAFvd0NEhG2R18i_THFbiYbp6fuU_iNhMdMe5
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://en.wikipedia.org/w/api.php?prop=info&titles=Talk%3AAndrei+Broder&inprop=protection&continue=&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"batchcomplete":"","query":{"pages":{"6294784":{"pageid":6294784,"ns":1,"title":"Talk:Andrei
+        Broder","contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2026-07-18T09:05:19Z","lastrevid":1321746988,"length":1252,"protection":[],"restrictiontypes":["edit","move"]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
+    headers:
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-length:
+      - '379'
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:26:41 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-pl2l8
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="2615554358"
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      vary:
+      - Accept-Encoding,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - 8c7ca796-a22a-494a-ba06-3dcb72a5530b
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=-J23C-sMeQOmr_6Dy5QTMgOiAAEBAFvd0NEhG2R18i_THFbiYbp6fuU_iNhMdMe5
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://en.wikipedia.org/w/api.php?prop=revisions&titles=Talk%3AAndrei+Broder&rvdir=older&rvprop=ids%7Ctimestamp%7Cflags%7Ccomment%7Cuser&rvlimit=50&continue=&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"batchcomplete":"","query":{"pages":{"6294784":{"pageid":6294784,"ns":1,"title":"Talk:Andrei
+        Broder","revisions":[{"revid":1321746988,"parentid":1256877249,"user":"~2025-33016-58","temp":"","timestamp":"2025-11-12T11:58:42Z","comment":"completed"},{"revid":1256877249,"parentid":1206443066,"minor":"","user":"Tom.Reding","timestamp":"2024-11-12T00:42:11Z","comment":"/*
+        top */ -dup blp params; cleanup"},{"revid":1206443066,"parentid":835740694,"minor":"","user":"Cewbot","timestamp":"2024-02-12T04:52:13Z","comment":"[[User:Cewbot/log/20200122/configuration|Maintain
+        {{WPBS}}]]: 4 WikiProject templates. Keep majority rating \"Stub\" in {{WPBS}}.
+        Remove 3 same ratings as {{WPBS}} in {{WikiProject Biography}}, {{WikiProject
+        Israel}}, {{WikiProject Internet culture}}."},{"revid":835740694,"parentid":789069323,"user":"BenKuykendall","timestamp":"2018-04-10T13:56:43Z","comment":"added
+        wikiproject computer science"},{"revid":789069323,"parentid":676191590,"user":"InternetArchiveBot","timestamp":"2017-07-05T04:35:45Z","comment":"Notification
+        of altered sources needing review #IABot (v1.4)"},{"revid":676191590,"parentid":571735170,"minor":"","user":"Ricky81682","timestamp":"2015-08-15T09:20:29Z","comment":"tagging
+        using [[Project:AWB|AWB]]"},{"revid":571735170,"parentid":521879287,"minor":"","user":"BattyBot","timestamp":"2013-09-06T04:01:41Z","comment":"[[WP:AWB/GF#Talk
+        page general fixes|Talk page general fixes]] & other cleanup using [[Project:AWB|AWB]]
+        (9466)"},{"revid":521879287,"parentid":521878577,"user":"Ottawahitech","timestamp":"2012-11-07T20:26:45Z","comment":"{{Skip
+        to talk}}"},{"revid":521878577,"parentid":355479685,"user":"Ottawahitech","timestamp":"2012-11-07T20:22:18Z","comment":"{{WikiProject
+        Internet Culture}}"},{"revid":355479685,"parentid":134520706,"user":"ListasBot","timestamp":"2010-04-12T05:04:20Z","comment":"Applied
+        fixes to WPBiography template.  [[User talk:ListasBot|Did I get it wrong?]]"},{"revid":134520706,"parentid":117754295,"user":"Ian
+        Pitchford","timestamp":"2007-05-30T08:37:29Z","comment":"WikiProject Israel  using
+        [[Project:AWB|AWB]]"},{"revid":117754295,"parentid":106995803,"user":"Kingbotk","timestamp":"2007-03-25T14:24:42Z","comment":"Bot
+        ([[User:Kingbotk#FAQ|FAQ]]) ([[User:Kingbotk/P|Plugin]]) Tag [[Category:Israeli
+        people by occupation]]. Added {{[[Template:WikiProject Israel|WikiProject
+        Israel]]}}, listas=Broder, Andrei."},{"revid":106995803,"parentid":67995632,"user":"MenasimBot","timestamp":"2007-02-10T03:03:58Z","comment":"Tagging
+        ([[User:Kingbotk/P|Plugin]]) class=Stub, auto=yes."},{"revid":67995632,"parentid":0,"user":"Kingbotk","timestamp":"2006-08-06T11:57:24Z","comment":"Tag
+        with {{[[Template:WPBiography|WPBiography]]}} for [[Wikipedia:Version 1.0
+        Editorial Team/Index|WP1.0 assessments]], and remove {{[[Template:Blp|Blp]]}}"}]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
+    headers:
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-length:
+      - '2872'
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:26:41 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-4vwr6
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="1351386113"
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      vary:
+      - Accept-Encoding,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - 6eab6f75-fd90-4931-8b2e-048dcd623556
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=-J23C-sMeQOmr_6Dy5QTMgOiAAEBAFvd0NEhG2R18i_THFbiYbp6fuU_iNhMdMe5
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://en.wikipedia.org/w/api.php?prop=revisions&titles=Talk%3AAndrei+Broder&rvdir=older&rvprop=content&rvlimit=50&continue=&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"batchcomplete":"","query":{"pages":{"6294784":{"pageid":6294784,"ns":1,"title":"Talk:Andrei
+        Broder","revisions":[{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{Skip
+        to talk}}\n{{WikiProject banner shell|class=Stub|blp=yes|listas=Broder, Andrei|1=\n{{WikiProject
+        Biography|auto=yes}}\n{{WikiProject Israel|importance=low}}\n{{WikiProject
+        Internet culture}}\n{{WikiProject Computer science}}\n}}\n\n== External links
+        modified ==\n\nHello fellow Wikipedians,\n\nI have just modified one external
+        link on [[Andrei Broder]]. Please take a moment to review [https://en.wikipedia.org/w/index.php?diff=prev&oldid=789069321
+        my edit]. If you have any questions, or need the bot to ignore the links,
+        or the page altogether, please visit [[User:Cyberpower678/FaQs#InternetArchiveBot|this
+        simple FaQ]] for additional information. I made the following changes:\n*Added
+        archive https://web.archive.org/web/20060216002843/http://docs.yahoo.com/docs/pr/release1271.html
+        to http://docs.yahoo.com/docs/pr/release1271.html\n\nWhen you have finished
+        reviewing my changes, you may follow the instructions on the template below
+        to fix any issues with the URLs.\n\n{{sourcecheck|checked=false|needhelp=}}\n\nCheers.\u2014[[User:InternetArchiveBot|''''''<span
+        style=\"color:darkgrey;font-family:monospace\">InternetArchiveBot</span>'''''']]
+        <span style=\"color:green;font-family:Rockwell\">([[User talk:InternetArchiveBot|Report
+        bug]])</span> 04:35, 5 July 2017 (UTC)"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{Skip
+        to talk}}\n{{WikiProject banner shell|class=Stub|blp=yes|listas=Broder, Andrei|1=\n{{WikiProject
+        Biography|auto=yes}}\n{{WikiProject Israel|importance=low}}\n{{WikiProject
+        Internet culture}}\n{{WikiProject Computer science|needs-infobox=yes}}\n}}\n\n==
+        External links modified ==\n\nHello fellow Wikipedians,\n\nI have just modified
+        one external link on [[Andrei Broder]]. Please take a moment to review [https://en.wikipedia.org/w/index.php?diff=prev&oldid=789069321
+        my edit]. If you have any questions, or need the bot to ignore the links,
+        or the page altogether, please visit [[User:Cyberpower678/FaQs#InternetArchiveBot|this
+        simple FaQ]] for additional information. I made the following changes:\n*Added
+        archive https://web.archive.org/web/20060216002843/http://docs.yahoo.com/docs/pr/release1271.html
+        to http://docs.yahoo.com/docs/pr/release1271.html\n\nWhen you have finished
+        reviewing my changes, you may follow the instructions on the template below
+        to fix any issues with the URLs.\n\n{{sourcecheck|checked=false|needhelp=}}\n\nCheers.\u2014[[User:InternetArchiveBot|''''''<span
+        style=\"color:darkgrey;font-family:monospace\">InternetArchiveBot</span>'''''']]
+        <span style=\"color:green;font-family:Rockwell\">([[User talk:InternetArchiveBot|Report
+        bug]])</span> 04:35, 5 July 2017 (UTC)"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{Skip
+        to talk}}\n{{WikiProject banner shell|class=Stub|living=yes|listas=Broder,
+        Andrei|1=\n{{WikiProject Biography|auto=yes}}\n{{WikiProject Israel|importance=low}}\n{{WikiProject
+        Internet culture}}\n{{WikiProject Computer science|needs-infobox=y}}\n| blp=yes\n}}\n\n==
+        External links modified ==\n\nHello fellow Wikipedians,\n\nI have just modified
+        one external link on [[Andrei Broder]]. Please take a moment to review [https://en.wikipedia.org/w/index.php?diff=prev&oldid=789069321
+        my edit]. If you have any questions, or need the bot to ignore the links,
+        or the page altogether, please visit [[User:Cyberpower678/FaQs#InternetArchiveBot|this
+        simple FaQ]] for additional information. I made the following changes:\n*Added
+        archive https://web.archive.org/web/20060216002843/http://docs.yahoo.com/docs/pr/release1271.html
+        to http://docs.yahoo.com/docs/pr/release1271.html\n\nWhen you have finished
+        reviewing my changes, you may follow the instructions on the template below
+        to fix any issues with the URLs.\n\n{{sourcecheck|checked=false|needhelp=}}\n\nCheers.\u2014[[User:InternetArchiveBot|''''''<span
+        style=\"color:darkgrey;font-family:monospace\">InternetArchiveBot</span>'''''']]
+        <span style=\"color:green;font-family:Rockwell\">([[User talk:InternetArchiveBot|Report
+        bug]])</span> 04:35, 5 July 2017 (UTC)"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{Skip
+        to talk}}\n{{WikiProjectBannerShell|1=\n{{WikiProject Biography|living=yes\n|class=Stub\n|auto=yes\n|listas=Broder,
+        Andrei\n}}\n{{WikiProject Israel|class=stub|importance=low}}\n{{WikiProject
+        Internet culture|class=Stub}}\n{{WikiProject Computer science|needs-infobox=y}}\n|
+        blp=yes\n}}\n\n== External links modified ==\n\nHello fellow Wikipedians,\n\nI
+        have just modified one external link on [[Andrei Broder]]. Please take a moment
+        to review [https://en.wikipedia.org/w/index.php?diff=prev&oldid=789069321
+        my edit]. If you have any questions, or need the bot to ignore the links,
+        or the page altogether, please visit [[User:Cyberpower678/FaQs#InternetArchiveBot|this
+        simple FaQ]] for additional information. I made the following changes:\n*Added
+        archive https://web.archive.org/web/20060216002843/http://docs.yahoo.com/docs/pr/release1271.html
+        to http://docs.yahoo.com/docs/pr/release1271.html\n\nWhen you have finished
+        reviewing my changes, you may follow the instructions on the template below
+        to fix any issues with the URLs.\n\n{{sourcecheck|checked=false|needhelp=}}\n\nCheers.\u2014[[User:InternetArchiveBot|''''''<span
+        style=\"color:darkgrey;font-family:monospace\">InternetArchiveBot</span>'''''']]
+        <span style=\"color:green;font-family:Rockwell\">([[User talk:InternetArchiveBot|Report
+        bug]])</span> 04:35, 5 July 2017 (UTC)"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{Skip
+        to talk}}\n{{WikiProjectBannerShell|1=\n{{WikiProject Biography|living=yes\n|class=Stub\n|auto=yes\n|listas=Broder,
+        Andrei\n}}\n{{WikiProject Israel|class=stub|importance=low}}\n{{WikiProject
+        Internet culture|class=Stub}}\n| blp=yes\n}}\n\n== External links modified
+        ==\n\nHello fellow Wikipedians,\n\nI have just modified one external link
+        on [[Andrei Broder]]. Please take a moment to review [https://en.wikipedia.org/w/index.php?diff=prev&oldid=789069321
+        my edit]. If you have any questions, or need the bot to ignore the links,
+        or the page altogether, please visit [[User:Cyberpower678/FaQs#InternetArchiveBot|this
+        simple FaQ]] for additional information. I made the following changes:\n*Added
+        archive https://web.archive.org/web/20060216002843/http://docs.yahoo.com/docs/pr/release1271.html
+        to http://docs.yahoo.com/docs/pr/release1271.html\n\nWhen you have finished
+        reviewing my changes, you may follow the instructions on the template below
+        to fix any issues with the URLs.\n\n{{sourcecheck|checked=false|needhelp=}}\n\nCheers.\u2014[[User:InternetArchiveBot|''''''<span
+        style=\"color:darkgrey;font-family:monospace\">InternetArchiveBot</span>'''''']]
+        <span style=\"color:green;font-family:Rockwell\">([[User talk:InternetArchiveBot|Report
+        bug]])</span> 04:35, 5 July 2017 (UTC)"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{Skip
+        to talk}}\n{{WikiProjectBannerShell|1=\n{{WikiProject Biography|living=yes\n|class=Stub\n|auto=yes\n|listas=Broder,
+        Andrei\n}}\n{{WikiProject Israel|class=stub|importance=low}}\n{{WikiProject
+        Internet culture|class=Stub}}\n| blp=yes\n}}"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{Skip
+        to talk}}\n{{WikiProjectBannerShell|1=\n{{WikiProject Biography|living=yes\n|class=Stub\n|auto=yes\n|listas=Broder,
+        Andrei\n}}\n{{WikiProject Israel|class=stub|importance=low}}\n{{WikiProject
+        Internet culture}}\n| blp=yes\n}}"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{Skip
+        to talk}}\n{{WPBiography\n|living=yes\n|class=Stub\n|auto=yes\n|listas=Broder,
+        Andrei\n}}\n{{WikiProject Israel|class=stub|importance=low}}\n{{WikiProject
+        Internet Culture}}"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{WPBiography\n|living=yes\n|class=Stub\n|auto=yes\n|listas=Broder,
+        Andrei\n}}\n{{WikiProject Israel|class=stub|importance=low}}\n{{WikiProject
+        Internet Culture}}"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{WPBiography\n|living=yes\n|class=Stub\n|auto=yes\n|listas=Broder,
+        Andrei\n}}\n{{WikiProject Israel|class=stub|importance=low}}"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{WPBiography\n|living=yes\n|class=Stub\n|priority=\n|auto=yes\n|listas=Broder,
+        Andrei\n}}\n{{WikiProject Israel|class=stub|importance=low}}"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{WPBiography\n|living=yes\n|class=Stub\n|priority=\n|auto=yes\n|listas=Broder,
+        Andrei\n}}\n{{WikiProject Israel|class=|importance=}}"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{WPBiography\n|living=yes\n|class=Stub\n|priority=\n|auto=yes\n}}"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{WPBiography|living=yes|class=|importance=}}"}]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
+    headers:
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-length:
+      - '8917'
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:26:41 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-q5pgq
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="2668218267"
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - d8f73439-b488-4264-af89-97c4fc60582d
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=-J23C-sMeQOmr_6Dy5QTMgOiAAEBAFvd0NEhG2R18i_THFbiYbp6fuU_iNhMdMe5
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://en.wikipedia.org/w/api.php?prop=revisions&titles=Andrei+Broder&rvdir=older&rvprop=ids%7Ctimestamp%7Cflags%7Ccomment%7Cuser&rvlimit=50&continue=&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"continue":{"rvcontinue":"20181017182556|864512816","continue":"||userinfo"},"query":{"pages":{"3458109":{"pageid":3458109,"ns":0,"title":"Andrei
+        Broder","revisions":[{"revid":1359982198,"parentid":1358999322,"user":"Melcous","timestamp":"2026-06-18T13:38:10Z","comment":"nationality
+        and occupation before current role"},{"revid":1358999322,"parentid":1354843310,"user":"Andrei
+        Stroe","timestamp":"2026-06-12T11:28:48Z","comment":"Added {{[[Template:Third-party|Third-party]]}}
+        tag"},{"revid":1354843310,"parentid":1348844281,"user":"Chopcha","timestamp":"2026-05-18T15:09:21Z","comment":"needs
+        a source"},{"revid":1348844281,"parentid":1348844112,"user":"Chopcha","timestamp":"2026-04-14T15:19:38Z","comment":"removed
+        dead link"},{"revid":1348844112,"parentid":1338420659,"user":"Chopcha","timestamp":"2026-04-14T15:18:35Z","comment":"unnecessary"},{"revid":1338420659,"parentid":1334544817,"minor":"","user":"OpalYosutebito","timestamp":"2026-02-15T01:45:51Z","comment":"/*
+        top */ Cleaning up [[:Category:Pages using infobox person with deprecated
+        parameters]]; -nationality param"},{"revid":1334544817,"parentid":1318679201,"minor":"","user":"JJMC89
+        bot III","timestamp":"2026-01-24T05:00:52Z","comment":"Merging [[:Category:2007
+        fellows of the Association for Computing Machinery]] to [[:Category:Fellows
+        of the Association for Computing Machinery]] per [[Wikipedia:Categories for
+        discussion/Log/2026 January 2#Category:Fellows of the Association for Computing
+        Machinery by year]]"},{"revid":1318679201,"parentid":1318277111,"minor":"","user":"JJMC89
+        bot III","timestamp":"2025-10-25T10:03:25Z","comment":"Moving [[:Category:American
+        technology chief executives]] to [[:Category:American chief executives in
+        technology]] per [[Wikipedia:Categories for discussion/Speedy]]"},{"revid":1318277111,"parentid":1296417325,"minor":"","user":"JJMC89
+        bot III","timestamp":"2025-10-22T23:16:19Z","comment":"Moving [[:Category:American
+        computer businesspeople]] to [[:Category:American businesspeople in the computer
+        industry]] per [[Wikipedia:Categories for discussion/Speedy]]"},{"revid":1296417325,"parentid":1262604376,"minor":"","user":"OAbot","timestamp":"2025-06-19T22:03:37Z","comment":"[[Wikipedia:OABOT|Open
+        access bot]]: url-access updated in citation with #oabot."},{"revid":1262604376,"parentid":1245483159,"user":"Citation
+        bot","timestamp":"2024-12-12T06:45:09Z","comment":"Altered template type.
+        | [[:en:WP:UCB|Use this bot]]. [[:en:WP:DBUG|Report bugs]]. | Suggested by
+        Headbomb | Linked from Wikipedia:WikiProject_Academic_Journals/Journals_cited_by_Wikipedia/Sandbox2
+        | #UCB_webform_linked 23/467"},{"revid":1245483159,"parentid":1236714172,"minor":"","user":"JJMC89
+        bot III","timestamp":"2024-09-13T07:25:06Z","comment":"Moving [[:Category:2007
+        Fellows of the Association for Computing Machinery]] to [[:Category:2007 fellows
+        of the Association for Computing Machinery]] per [[Wikipedia:Categories for
+        discussion/Speedy]]"},{"revid":1236714172,"parentid":1235656960,"user":"Citation
+        bot","timestamp":"2024-07-26T05:16:51Z","comment":"Removed parameters. | [[:en:WP:UCB|Use
+        this bot]]. [[:en:WP:DBUG|Report bugs]]. | Suggested by Abductive | [[Category:IBM
+        employees]] | #UCB_Category 142/406"},{"revid":1235656960,"parentid":1235656282,"user":"Turgidson","timestamp":"2024-07-20T13:21:36Z","comment":"add
+        to infobox, fix ref"},{"revid":1235656282,"parentid":1235627619,"user":"Turgidson","timestamp":"2024-07-20T13:15:36Z","comment":"c/e,
+        add links"},{"revid":1235627619,"parentid":1235627511,"user":"Whizkin","timestamp":"2024-07-20T09:17:47Z","comment":"Incorporate
+        image into infobox"},{"revid":1235627511,"parentid":1211538774,"user":"Whizkin","timestamp":"2024-07-20T09:16:41Z","comment":"Infobox
+        scientist"},{"revid":1211538774,"parentid":1171871440,"user":"FrostlyBot","timestamp":"2024-03-03T02:20:23Z","comment":"/*
+        External links */Replace category to be year-specific ([[Wikipedia:Bots/Requests
+        for approval/FrostlySnowman 11|BRFA]])"},{"revid":1171871440,"parentid":1166494570,"user":"Citation
+        bot","timestamp":"2023-08-23T17:39:58Z","comment":"Alter: title, journal.
+        | [[:en:WP:UCB|Use this bot]]. [[:en:WP:DBUG|Report bugs]]. | Suggested by
+        Headbomb | Linked from Wikipedia:WikiProject_Academic_Journals/Journals_cited_by_Wikipedia/Sandbox3
+        | #UCB_webform_linked 92/1947"},{"revid":1166494570,"parentid":1153081838,"user":"Citation
+        bot","timestamp":"2023-07-21T23:10:29Z","comment":"Alter: title, template
+        type. Add: s2cid, chapter-url, chapter. Removed or converted URL. | [[:en:WP:UCB|Use
+        this bot]]. [[:en:WP:DBUG|Report bugs]]. | Suggested by Headbomb | Linked
+        from Wikipedia:WikiProject_Academic_Journals/Journals_cited_by_Wikipedia/Sandbox2
+        | #UCB_webform_linked 142/3179"},{"revid":1153081838,"parentid":1153032846,"user":"Turgidson","timestamp":"2023-05-04T03:24:27Z","comment":"/*
+        Education and career */ better way to cite GS"},{"revid":1153032846,"parentid":1112142087,"user":"Cactus
+        Green12","timestamp":"2023-05-03T20:15:37Z","comment":"/* Education and career
+        */"},{"revid":1112142087,"parentid":1112142005,"user":"Turgidson","timestamp":"2022-09-24T21:47:43Z","comment":"added
+        [[Category:Romanian emigrants to Israel]] using [[WP:HC|HotCat]]"},{"revid":1112142005,"parentid":1112139553,"user":"Turgidson","timestamp":"2022-09-24T21:47:08Z","comment":"/*
+        External links */ interview"},{"revid":1112139553,"parentid":1087221456,"user":"Turgidson","timestamp":"2022-09-24T21:30:46Z","comment":"added
+        [[Category:Scientists from Bucharest]] using [[WP:HC|HotCat]]"},{"revid":1087221456,"parentid":1086424067,"user":"Citation
+        bot","timestamp":"2022-05-11T04:10:04Z","comment":"Add: doi, pages, issue,
+        volume. Formatted [[WP:ENDASH|dashes]]. | [[WP:UCB|Use this bot]]. [[WP:DBUG|Report
+        bugs]]. | Suggested by Whoop whoop pull up | Linked from User:Whoop_whoop_pull_up/sandbox2
+        | #UCB_webform_linked 43/2662"},{"revid":1086424067,"parentid":1048846907,"user":"Ser
+        Amantio di Nicolao","timestamp":"2022-05-06T03:04:24Z","comment":"short description"},{"revid":1048846907,"parentid":1037807955,"user":"Skullcinema","timestamp":"2021-10-08T09:48:03Z","comment":"cite
+        patent fix"},{"revid":1037807955,"parentid":1037295932,"minor":"","user":"WikiCleanerBot","timestamp":"2021-08-08T20:51:48Z","comment":"v2.04b
+        - [[User:WikiCleanerBot#T20|Bot T20 CW#61]] - Fix errors for [[WP:WCW|CW project]]
+        (Reference before punctuation)"},{"revid":1037295932,"parentid":1033610280,"user":"98.33.110.33","anon":"","timestamp":"2021-08-05T17:43:14Z","comment":"update
+        link from parked domain"},{"revid":1033610280,"parentid":1032130256,"user":"148.85.255.146","anon":"","timestamp":"2021-07-14T19:03:07Z","comment":"Add
+        2020 Paris Kanellakis award."},{"revid":1032130256,"parentid":1024381271,"minor":"","user":"FrescoBot","timestamp":"2021-07-05T17:33:56Z","comment":"Bot:
+        [[User:FrescoBot/Links|link syntax]]"},{"revid":1024381271,"parentid":1024381130,"user":"144.171.219.118","anon":"","timestamp":"2021-05-21T19:31:14Z","comment":"/*
+        Awards and honors */"},{"revid":1024381130,"parentid":1003692057,"user":"144.171.219.118","anon":"","timestamp":"2021-05-21T19:30:13Z","comment":"/*
+        Education and career */"},{"revid":1003692057,"parentid":997067312,"user":"BillHPike","timestamp":"2021-01-30T06:06:13Z","comment":"[[mos:
+        IMGSIZE]]"},{"revid":997067312,"parentid":987253647,"minor":"","user":"Tom.Reding","timestamp":"2020-12-29T21:15:39Z","comment":"Enum
+        2 author/editor WLs; [[WP:GenFixes]] on"},{"revid":987253647,"parentid":987249735,"user":"Oleg4280","timestamp":"2020-11-05T21:43:47Z","comment":"/*
+        Awards and honors */ for his work on [[w-shingling]] and [[MinHash|min-hashing]]
+        (not [[Shingling]])"},{"revid":987249735,"parentid":986763912,"user":"Oleg4280","timestamp":"2020-11-05T21:13:13Z","comment":"/*
+        Awards and honors */ working link fix (in web-archive was 2011, not 2012)"},{"revid":986763912,"parentid":962635817,"user":"Citation
+        bot","timestamp":"2020-11-02T21:36:54Z","comment":"Alter: pages. Add: s2cid,
+        isbn, doi. Formatted [[WP:ENDASH|dashes]]. | You can [[WP:UCB|use this bot]]
+        yourself. [[WP:DBUG|Report bugs here]]. | Suggested by Abductive | [[Category:Fellows
+        of the Association for Computing Machinery]] | via #UCB_Category 661/728"},{"revid":962635817,"parentid":959771942,"user":"Skikneedeep","timestamp":"2020-06-15T05:49:51Z","comment":"/*
+        Education and career */ paragraph breaks"},{"revid":959771942,"parentid":915749804,"user":"5.15.99.194","anon":"","timestamp":"2020-05-30T14:53:31Z","comment":""},{"revid":915749804,"parentid":908810682,"minor":"","user":"Monkbot","timestamp":"2019-09-15T03:24:30Z","comment":"[[User:Monkbot/task
+        16: remove replace deprecated dead-url params|Task 16]]: replaced (3\u00d7)
+        / removed (0\u00d7) deprecated |dead-url= and |deadurl= with |url-status=;"},{"revid":908810682,"parentid":897850631,"user":"Shipmark","timestamp":"2019-08-01T04:06:00Z","comment":"removed
+        a broken link"},{"revid":897850631,"parentid":887080438,"user":"InternetArchiveBot","timestamp":"2019-05-19T19:13:18Z","comment":"Rescuing
+        1 sources and tagging 0 as dead. #IABot (v2.0beta14)"},{"revid":887080438,"parentid":884976492,"minor":"","user":"Citation
+        bot","timestamp":"2019-03-10T13:26:26Z","comment":"Add: doi, pages, issue,
+        volume. | You can [[WP:UCB|use this bot]] yourself. [[WP:DBUG|Report bugs
+        here]]. | [[WP:UCB|User-activated]]."},{"revid":884976492,"parentid":874271528,"minor":"","user":"Chris
+        the speller","timestamp":"2019-02-25T04:56:45Z","comment":"cap, other cleanup"},{"revid":874271528,"parentid":874271438,"user":"2601:646:C000:9039:815F:969:B367:BE7A","anon":"","timestamp":"2018-12-18T05:21:30Z","comment":"/*
+        External links */ cleanup of deadlink"},{"revid":874271438,"parentid":873835019,"user":"2601:646:C000:9039:815F:969:B367:BE7A","anon":"","timestamp":"2018-12-18T05:20:18Z","comment":"/*
+        External links */  Private link not readable by public http://www.ysearchblog.com/2006/03/03/search-without-a-box-a-chat-with-andrei-broder-part-1/"},{"revid":873835019,"parentid":873834919,"minor":"","user":"JackintheBox","timestamp":"2018-12-15T12:13:00Z","comment":"Reverted
+        edits by [[Special:Contributions/203.205.32.74|203.205.32.74]] ([[User talk:203.205.32.74|talk]])
+        ([[WP:HG|HG]]) (3.4.6)"},{"revid":873834919,"parentid":864512816,"user":"203.205.32.74","anon":"","timestamp":"2018-12-15T12:12:06Z","comment":"/*
+        Education and career */"}]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
+    headers:
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-length:
+      - '10391'
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:26:41 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-vf6x4
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="1012380598"
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - 4c3430ec-229f-4b0c-ac1c-d2bb4f6a3124
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=-J23C-sMeQOmr_6Dy5QTMgOiAAEBAFvd0NEhG2R18i_THFbiYbp6fuU_iNhMdMe5
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://en.wikipedia.org/w/api.php?prop=revisions&titles=Andrei+Broder&rvdir=older&rvprop=ids%7Ctimestamp%7Cflags%7Ccomment%7Cuser&rvlimit=50&rvcontinue=20181017182556%7C864512816&continue=%7C%7Cuserinfo&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"continue":{"rvcontinue":"20110406155945|422711107","continue":"||userinfo"},"query":{"pages":{"3458109":{"pageid":3458109,"ns":0,"title":"Andrei
+        Broder","revisions":[{"revid":864512816,"parentid":857682661,"user":"InternetArchiveBot","timestamp":"2018-10-17T18:25:56Z","comment":"Rescuing
+        1 sources and tagging 0 as dead. #IABot (v2.0beta9)"},{"revid":857682661,"parentid":857682085,"minor":"","user":"JJMC89","timestamp":"2018-09-02T09:30:10Z","comment":"Reverted
+        edits by [[Special:Contributions/93.172.120.236|93.172.120.236]] ([[User talk:93.172.120.236|talk]]):
+        addition of [[WP:BLP|unsourced content]] to a biographical article ([[WP:HG|HG]])
+        (3.4.4)"},{"revid":857682085,"parentid":831779284,"user":"93.172.120.236","anon":"","timestamp":"2018-09-02T09:23:26Z","comment":"/*
+        Education and career */"},{"revid":831779284,"parentid":828421592,"user":"Greyhound4334","timestamp":"2018-03-22T04:31:59Z","comment":"c/e"},{"revid":828421592,"parentid":789069321,"user":"202.161.127.138","anon":"","timestamp":"2018-03-02T12:52:08Z","comment":"/*
+        Contributions */"},{"revid":789069321,"parentid":752567073,"user":"InternetArchiveBot","timestamp":"2017-07-05T04:35:44Z","comment":"Rescuing
+        1 sources and tagging 0 as dead. #IABot (v1.4)"},{"revid":752567073,"parentid":735954748,"minor":"","user":"Cheater
+        no1","timestamp":"2016-12-02T00:20:42Z","comment":"/* Contributions */ link
+        to w-shingling"},{"revid":735954748,"parentid":732382541,"minor":"","user":"Yobot","timestamp":"2016-08-24T06:01:12Z","comment":"clean
+        up / fix section header naming ([[WP:ASL]]) using [[Project:AWB|AWB]] (12082)"},{"revid":732382541,"parentid":726026640,"user":"Robofish","timestamp":"2016-07-31T16:27:12Z","comment":"Undid
+        revision 726026640 by [[Special:Contributions/8.37.237.219|8.37.237.219]]
+        ([[User talk:8.37.237.219|talk]]) - apparent mistaken/test edit"},{"revid":726026640,"parentid":713612457,"user":"8.37.237.219","anon":"","timestamp":"2016-06-19T14:24:34Z","comment":"/*
+        Contributions */"},{"revid":713612457,"parentid":706438185,"minor":"","user":"Albmedina","timestamp":"2016-04-05T01:26:44Z","comment":"Fixed
+        typo"},{"revid":706438185,"parentid":704289106,"user":"KasparBot","timestamp":"2016-02-23T09:13:21Z","comment":"migrating
+        [[Wikipedia:Persondata|Persondata]] to Wikidata, [[toollabs:kasparbot/persondata/|please
+        help]], see [[toollabs:kasparbot/persondata/challenge.php/article/Andrei Broder|challenges
+        for this article]]"},{"revid":704289106,"parentid":704289046,"user":"BelBivDov","timestamp":"2016-02-10T18:30:01Z","comment":"/*
+        References */ changed title"},{"revid":704289046,"parentid":704163825,"user":"BelBivDov","timestamp":"2016-02-10T18:29:36Z","comment":"/*
+        Notes */ changed title"},{"revid":704163825,"parentid":696370795,"user":"Jan
+        Winnicki","timestamp":"2016-02-09T22:56:22Z","comment":"/* Contributions */
+        algorithm for uniform spanning trees"},{"revid":696370795,"parentid":676828156,"minor":"","user":"Chris
+        the speller","timestamp":"2015-12-22T18:19:39Z","comment":"punct"},{"revid":676828156,"parentid":671773123,"user":"182.74.246.98","anon":"","timestamp":"2015-08-19T12:22:27Z","comment":"/*
+        Contributions */"},{"revid":671773123,"parentid":663220971,"user":"David Eppstein","timestamp":"2015-07-16T22:01:02Z","comment":"sectionize"},{"revid":663220971,"parentid":661629234,"user":"KasparBot","timestamp":"2015-05-20T07:02:20Z","comment":"embed
+        authority control with wikidata information"},{"revid":661629234,"parentid":631676917,"user":"5.15.74.19","anon":"","timestamp":"2015-05-10T00:30:31Z","comment":""},{"revid":631676917,"parentid":609705284,"user":"Postcard
+        Cathy","timestamp":"2014-10-29T22:59:38Z","comment":"removed [[Category:American
+        chief executives]]; added [[Category:American technology chief executives]]
+        using [[WP:HC|HotCat]]"},{"revid":609705284,"parentid":608405937,"minor":"","user":"Mogism","timestamp":"2014-05-22T18:40:44Z","comment":"Cleanup/[[WP:AWB/T|Typo
+        fixing]], [[WP:AWB/T|typo(s) fixed]]: pubished \u2192 published using [[Project:AWB|AWB]]"},{"revid":608405937,"parentid":605748653,"minor":"","user":"Monkbot","timestamp":"2014-05-13T16:30:44Z","comment":"Task
+        5: Fix [[Help:CS1_errors#deprecated_params|CS1 deprecated coauthor parameter
+        errors]]"},{"revid":605748653,"parentid":599389698,"user":"23.252.54.246","anon":"","timestamp":"2014-04-25T13:44:40Z","comment":""},{"revid":599389698,"parentid":599268962,"minor":"","user":"ChrisGualtieri","timestamp":"2014-03-13T04:34:25Z","comment":"Checkwiki
+        61 + General Fixes, removed stub tag using [[Project:AWB|AWB]]"},{"revid":599268962,"parentid":599268860,"user":"Yoellem","timestamp":"2014-03-12T10:43:03Z","comment":""},{"revid":599268860,"parentid":599268295,"user":"Yoellem","timestamp":"2014-03-12T10:41:53Z","comment":""},{"revid":599268295,"parentid":599267483,"user":"Yoellem","timestamp":"2014-03-12T10:35:12Z","comment":""},{"revid":599267483,"parentid":599266264,"user":"Yoellem","timestamp":"2014-03-12T10:25:06Z","comment":""},{"revid":599266264,"parentid":599265368,"user":"Yoellem","timestamp":"2014-03-12T10:08:54Z","comment":""},{"revid":599265368,"parentid":599265298,"user":"Yoellem","timestamp":"2014-03-12T09:58:44Z","comment":""},{"revid":599265298,"parentid":599265217,"user":"Yoellem","timestamp":"2014-03-12T09:57:52Z","comment":""},{"revid":599265217,"parentid":591334185,"minor":"","user":"Yoellem","timestamp":"2014-03-12T09:57:00Z","comment":""},{"revid":591334185,"parentid":580068197,"user":"Gareth
+        Jones","timestamp":"2014-01-18T22:40:44Z","comment":"rm Dr [[WP:CREDENTIAL]],
+        add MathGenealogy link"},{"revid":580068197,"parentid":579247878,"minor":"","user":"Jayjg","timestamp":"2013-11-03T22:23:29Z","comment":"clean
+        up, fix grammar/shorter using [[Project:AWB|AWB]]"},{"revid":579247878,"parentid":574469643,"user":"Omnipaedista","timestamp":"2013-10-29T08:49:01Z","comment":"per
+        [[WP:APPENDIX]]"},{"revid":574469643,"parentid":574394031,"minor":"","user":"Monty845","timestamp":"2013-09-25T14:54:23Z","comment":"[[Help:Reverting|Reverted]]
+        edits by [[Special:Contributions/161.253.117.4|161.253.117.4]] ([[User talk:161.253.117.4|talk]])
+        to last version by Johndburger"},{"revid":574394031,"parentid":549390748,"user":"161.253.117.4","anon":"","timestamp":"2013-09-24T23:52:52Z","comment":""},{"revid":549390748,"parentid":544233771,"user":"Johndburger","timestamp":"2013-04-08T20:36:34Z","comment":"Extend
+        [[WP:PERSONDATA]]"},{"revid":544233771,"parentid":539496632,"minor":"","user":"Addbot","timestamp":"2013-03-15T00:25:50Z","comment":"[[User:Addbot|Bot:]]
+        Migrating 2 interwiki links, now provided by [[Wikipedia:Wikidata|Wikidata]]
+        on [[d:q2895803]]"},{"revid":539496632,"parentid":529571237,"user":"Toddst1","timestamp":"2013-02-21T19:23:48Z","comment":"/*
+        References */ unverifiable cat(s)"},{"revid":529571237,"parentid":492891961,"user":"MZMcBride","timestamp":"2012-12-24T08:38:29Z","comment":"-[[:Category:Article
+        Feedback 5]]"},{"revid":492891961,"parentid":488702754,"user":"216.239.45.4","anon":"","timestamp":"2012-05-16T17:21:24Z","comment":""},{"revid":488702754,"parentid":486264479,"minor":"","user":"Download","timestamp":"2012-04-22T20:09:51Z","comment":"/*
+        References */gen fixes using [[Project:AWB|AWB]]"},{"revid":486264479,"parentid":484098924,"user":"Ottawahitech","timestamp":"2012-04-08T14:59:25Z","comment":"removed
+        [[Category:Yahoo!]]; added [[Category:Yahoo! employees]] using [[WP:HC|HotCat]]"},{"revid":484098924,"parentid":469530323,"user":"209.131.48.66","anon":"","timestamp":"2012-03-27T00:16:46Z","comment":""},{"revid":469530323,"parentid":449395975,"user":"Reedy
+        Bot","timestamp":"2012-01-04T16:18:57Z","comment":"/* References */Tagging
+        for [[Wikipedia:Article Feedback Tool|AFT v5]]"},{"revid":449395975,"parentid":436248516,"minor":"","user":"RjwilmsiBot","timestamp":"2011-09-09T21:12:53Z","comment":"/*
+        References */Adding Persondata using [[Project:AWB|AWB]] (7822)"},{"revid":436248516,"parentid":424329030,"minor":"","user":"Cydebot","timestamp":"2011-06-26T00:54:20Z","comment":"Robot
+        - Moving category  Israeli immigrants to the United States to [[:Category:
+        Israeli emigrants to the United States]] per [[WP:CFD|CFD]] at [[Wikipedia:Categories
+        for discussion/Log/2011 June 13]]."},{"revid":424329030,"parentid":422711107,"user":"80.254.146.4","anon":"","timestamp":"2011-04-16T07:13:21Z","comment":"Add
+        ref to WWW9 paper"}]}}}}'
+    headers:
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-length:
+      - '8336'
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:26:41 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-mtdxm
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="3573666197"
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,X-Subdomain,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - 98941e8e-51b7-4cc5-b9d0-c4f2d1e5e580
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=-J23C-sMeQOmr_6Dy5QTMgOiAAEBAFvd0NEhG2R18i_THFbiYbp6fuU_iNhMdMe5
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://en.wikipedia.org/w/api.php?prop=revisions&titles=Andrei+Broder&rvdir=older&rvprop=ids%7Ctimestamp%7Cflags%7Ccomment%7Cuser&rvlimit=50&rvcontinue=20110406155945%7C422711107&continue=%7C%7Cuserinfo&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"batchcomplete":"","query":{"pages":{"3458109":{"pageid":3458109,"ns":0,"title":"Andrei
+        Broder","revisions":[{"revid":422711107,"parentid":422380872,"minor":"","user":"Aviados","timestamp":"2011-04-06T15:59:45Z","comment":"[[Category:Israeli
+        immigrants to the United States]]"},{"revid":422380872,"parentid":410086474,"minor":"","user":"ChuispastonBot","timestamp":"2011-04-04T20:35:45Z","comment":"r2.7.1)
+        (robot Adding: [[he:\u05d0\u05e0\u05d3\u05e8\u05d9 \u05d1\u05e8\u05d5\u05d3\u05e8]]"},{"revid":410086474,"parentid":387988649,"user":"David
+        Eppstein","timestamp":"2011-01-26T01:49:48Z","comment":"link to new article
+        on [[MinHash]]"},{"revid":387988649,"parentid":382610062,"minor":"","user":"Lockley","timestamp":"2010-09-30T21:29:19Z","comment":"/*
+        References */ narrow cat"},{"revid":382610062,"parentid":351194591,"minor":"","user":"Cydebot","timestamp":"2010-09-03T04:17:25Z","comment":"Robot
+        - Speedily moving category Technion - Israel Institute of Technology alumni
+        to Technion \u2013 Israel Institute of Technology alumni per [[WP:CFDS|CFDS]]."},{"revid":351194591,"parentid":351189982,"user":"X7q","timestamp":"2010-03-21T17:51:20Z","comment":"/*
+        References */ corrected dead link; - link to deleted video"},{"revid":351189982,"parentid":257760487,"user":"Rsocol","timestamp":"2010-03-21T17:22:33Z","comment":"added
+        image (from commons)"},{"revid":257760487,"parentid":236571889,"minor":"","user":"Waacstats","timestamp":"2008-12-13T20:35:37Z","comment":"Stub-sorting.
+        [[Wikipedia:WikiProject Stub sorting|You can help!]]"},{"revid":236571889,"parentid":210569639,"user":"Lightbot","timestamp":"2008-09-06T02:03:00Z","comment":"Units/dates/other"},{"revid":210569639,"parentid":205041002,"minor":"","user":"Jiddisch~enwiki","timestamp":"2008-05-06T14:12:40Z","comment":"+yi"},{"revid":205041002,"parentid":185289688,"user":"RobertWallner","timestamp":"2008-04-12T01:03:43Z","comment":"changed
+        link from Fellow to Research Fellow"},{"revid":185289688,"parentid":176140659,"user":"140.112.30.84","anon":"","timestamp":"2008-01-18T21:41:15Z","comment":""},{"revid":176140659,"parentid":175647793,"user":"Janm67","timestamp":"2007-12-06T13:03:55Z","comment":"Category"},{"revid":175647793,"parentid":170104484,"user":"71.58.62.22","anon":"","timestamp":"2007-12-04T04:19:23Z","comment":""},{"revid":170104484,"parentid":169704659,"user":"Masterpiece2000","timestamp":"2007-11-08T15:02:22Z","comment":"Added
+        a category."},{"revid":169704659,"parentid":169612830,"minor":"","user":"MetsBot","timestamp":"2007-11-06T22:39:12Z","comment":"clean
+        up and adding [[Category:Year of birth missing (living people)]]  using [[Project:AutoWikiBrowser|AWB]]"},{"revid":169612830,"parentid":168745316,"user":"Masterpiece2000","timestamp":"2007-11-06T15:35:51Z","comment":"Removed
+        a category."},{"revid":168745316,"parentid":165631720,"minor":"","user":"Cydebot","timestamp":"2007-11-02T15:41:02Z","comment":"Robot
+        - Removing category Erd\u0151s number 2 per [[WP:CFD|CFD]] at [[Wikipedia:Categories
+        for discussion/Log/2007 October 28]]."},{"revid":165631720,"parentid":159101628,"minor":"","user":"Cydebot","timestamp":"2007-10-19T14:21:12Z","comment":"Robot
+        - Moving category American entrepreneurs to American businesspeople per [[WP:CFD|CFD]]
+        at [[Wikipedia:Categories for discussion/Log/2007 October 13]]."},{"revid":159101628,"parentid":153062022,"user":"RS1900","timestamp":"2007-09-20T03:57:54Z","comment":"Categorized."},{"revid":153062022,"parentid":135185690,"user":"SmackBot","timestamp":"2007-08-23T02:19:34Z","comment":"Defaultsort
+        for people stubs (and/or gen fixes)"},{"revid":135185690,"parentid":129693299,"user":"Ntsimp","timestamp":"2007-06-01T21:46:26Z","comment":"/*
+        References */ +cat"},{"revid":129693299,"parentid":129692940,"user":"Tugbug","timestamp":"2007-05-10T00:51:37Z","comment":"+year
+        of birth missing category"},{"revid":129692940,"parentid":94348738,"user":"Tugbug","timestamp":"2007-05-10T00:50:05Z","comment":"wikification,
+        punctuation, some rewording"},{"revid":94348738,"parentid":90515313,"minor":"","user":"Cydebot","timestamp":"2006-12-14T20:10:18Z","comment":"Robot
+        - Moving category Jewish-American scientists to Jewish American scientists
+        per [[WP:CFD|CFD]] at [[Wikipedia:Categories for deletion/Log/2006 November
+        22]]."},{"revid":90515313,"parentid":87863256,"user":"Praghpragh","timestamp":"2006-11-27T21:27:10Z","comment":""},{"revid":87863256,"parentid":76213997,"minor":"","user":"DavisLee","timestamp":"2006-11-14T23:18:09Z","comment":"Corrected
+        spelling of appoints"},{"revid":76213997,"parentid":71404181,"user":"Shmuliko","timestamp":"2006-09-17T12:08:50Z","comment":""},{"revid":71404181,"parentid":70554884,"minor":"","user":"Jack
+        O''Lantern","timestamp":"2006-08-23T16:08:04Z","comment":"/* References */"},{"revid":70554884,"parentid":61420254,"minor":"","user":"Vegaswikian","timestamp":"2006-08-19T07:57:46Z","comment":"/*
+        References */ cat"},{"revid":61420254,"parentid":59528969,"user":"The Mad
+        Bomber","timestamp":"2006-06-30T19:11:39Z","comment":""},{"revid":59528969,"parentid":57020925,"user":"Erp","timestamp":"2006-06-19T23:28:04Z","comment":"category
+        Stanford University alumni"},{"revid":57020925,"parentid":57020767,"user":"Lajbi","timestamp":"2006-06-05T16:47:06Z","comment":"rm
+        non-existing category"},{"revid":57020767,"parentid":56612167,"user":"Lajbi","timestamp":"2006-06-05T16:45:43Z","comment":"added
+        categories"},{"revid":56612167,"parentid":54257513,"minor":"","user":"Mets501","timestamp":"2006-06-03T03:54:53Z","comment":"Yahoo
+        --> Yahoo! and clean up  using [[Wikipedia:AutoWikiBrowser|AWB]]"},{"revid":54257513,"parentid":52049382,"user":"81.38.188.198","anon":"","timestamp":"2006-05-20T22:23:21Z","comment":""},{"revid":52049382,"parentid":46088198,"user":"Smackbot","timestamp":"2006-05-07T22:55:10Z","comment":"Reference
+        -> References as there are more than one   using [[Wikipedia:AutoWikiBrowser|AWB]]"},{"revid":46088198,"parentid":46087422,"user":"4.228.216.66","anon":"","timestamp":"2006-03-30T00:05:01Z","comment":""},{"revid":46087422,"parentid":42180159,"user":"4.228.216.66","anon":"","timestamp":"2006-03-29T23:59:12Z","comment":""},{"revid":42180159,"parentid":42179687,"minor":"","user":"ChaTo","timestamp":"2006-03-04T10:15:01Z","comment":""},{"revid":42179687,"parentid":41010349,"minor":"","user":"ChaTo","timestamp":"2006-03-04T10:07:07Z","comment":"Recent
+        interview"},{"revid":41010349,"parentid":31820970,"minor":"","user":"DabMachine","timestamp":"2006-02-24T13:31:41Z","comment":"disambiguation
+        from [[Yahoo]] to [[Yahoo!]] - ([[WP:DPL|You can help!]])"},{"revid":31820970,"parentid":0,"user":"JVittes","timestamp":"2005-12-18T06:22:01Z","comment":"I
+        made a stub because there was a link to making it, if you want to delete it
+        please delete the link to this page as well."}]}}}}'
+    headers:
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-length:
+      - '6786'
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:26:42 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-hkcfw
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="2726537284"
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,X-Subdomain,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - 39ab9d26-fc8f-4a7a-a1c8-b95af583f31b
+    status:
+      code: 200
+      message: OK
+version: 1

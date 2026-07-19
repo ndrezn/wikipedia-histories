@@ -1,0 +1,463 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://fr.wikipedia.org/w/api.php?meta=siteinfo%7Cuserinfo%7Cuserinfo&siprop=general%7Cnamespaces&uiprop=groups%7Crights%7Cblockinfo%7Chasmsg&continue=&action=query&format=json
+  response:
+    body:
+      string: '{"batchcomplete":"","query":{"general":{"mainpage":"Wikip\u00e9dia:Accueil
+        principal","base":"https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal","sitename":"Wikip\u00e9dia","logo":"//fr.wikipedia.org/static/images/project-logos/frwiki-25.png","generator":"MediaWiki
+        1.47.0-wmf.11","phpversion":"8.3.32","phpsapi":"fpm-fcgi","dbtype":"mysql","dbversion":"10.11.16-MariaDB-log","langconversion":"","linkconversion":"","titleconversion":"","linkprefixcharset":"","linkprefix":"","linktrail":"/^([a-z\u00e0\u00e2\u00e7\u00e9\u00e8\u00ea\u00ee\u00f4\u00fb\u00e4\u00eb\u00ef\u00f6\u00fc\u00f9\u00c7\u00c9\u00c2\u00ca\u00ce\u00d4\u00db\u00c4\u00cb\u00cf\u00d6\u00dc\u00c0\u00c8\u00d9]+)(.*)$/sDu","legaltitlechars":"
+        %!\"$&''()*,\\-.\\/0-9:;=?@A-Z\\\\^_`a-z~\\x80-\\xFF+","invalidusernamechars":"@:>=","git-hash":"35ce3778f6617f21451012abc66e4bc84e742f03","git-branch":"wmf/1.47.0-wmf.11","case":"first-letter","lang":"fr","fallback":[{"code":"en"}],"fallback8bitEncoding":"windows-1252","writeapi":"","maxarticlesize":2097152,"timezone":"Europe/Paris","timeoffset":120,"articlepath":"/wiki/$1","scriptpath":"/w","script":"/w/index.php","variantarticlepath":false,"server":"//fr.wikipedia.org","servername":"fr.wikipedia.org","wikiid":"frwiki","time":"2026-07-19T02:26:42Z","misermode":"","uploadsenabled":"","maxuploadsize":5368709120,"minuploadchunksize":1024,"galleryoptions":{"imagesPerRow":0,"imageWidth":120,"imageHeight":120,"captionLength":"","showBytes":"","mode":"traditional","showDimensions":""},"thumblimits":[180,250,400],"imagelimits":[{"width":320,"height":240},{"width":640,"height":480},{"width":800,"height":600},{"width":1024,"height":768},{"width":1280,"height":1024},{"width":2560,"height":2048}],"favicon":"https://fr.wikipedia.org/static/favicon/wikipedia.ico","centralidlookupprovider":"CentralAuth","allcentralidlookupproviders":["CentralAuth","local"],"interwikimagic":"","magiclinks":{"ISBN":"","PMID":"","RFC":""},"categorycollation":"uca-fr-u-kn","nofollowlinks":"","nofollownsexceptions":[],"nofollowdomainexceptions":["mediawiki.org","wikibooks.org","wikimedia.com","wikimedia.org","wikinews.org","wikipedia.org","wikiquote.org","wikisource.org","wikiversity.org","wiktionary.org","wikivoyage.org","wikidata.org","wikifunctions.org","tools.wmflabs.org","toolforge.org","etherpad.wmflabs.org"],"wmf-config":{"wmfMasterDatacenter":"eqiad","wmfEtcdLastModifiedIndex":3855669},"citeresponsivereferences":"","max-page-id":17526440,"linter":{"high":["deletable-table-tag","duplicate-ids","html5-misnesting","misc-tidy-replacement-issues","multiline-html-table-in-list","multiple-unclosed-formatting-tags","pwrap-bug-workaround","self-closed-tag","template-arg-in-extension-tag","tidy-font-bug","tidy-whitespace-bug","unclosed-quotes-in-heading"],"medium":["bogus-image-options","fostered","misnested-tag","multi-colon-escape","wikilink-in-extlink"],"low":["empty-heading","missing-end-tag","missing-end-tag-in-heading","night-mode-unaware-background-color","obsolete-tag","pre-expansion","stripped-tag"]},"mobileserver":"https://fr.wikipedia.org","pageviewservice-supported-metrics":{"pageviews":{"pageviews":""},"siteviews":{"pageviews":"","uniques":""},"mostviewed":{"pageviews":""}},"readinglists-config":{"maxListsPerUser":100,"maxEntriesPerList":5000,"deletedRetentionDays":30}},"namespaces":{"-2":{"id":-2,"case":"first-letter","canonical":"Media","*":"M\u00e9dia"},"-1":{"id":-1,"case":"first-letter","canonical":"Special","*":"Sp\u00e9cial"},"0":{"id":0,"case":"first-letter","content":"","*":""},"1":{"id":1,"case":"first-letter","subpages":"","canonical":"Talk","*":"Discussion"},"2":{"id":2,"case":"first-letter","subpages":"","canonical":"User","*":"Utilisateur"},"3":{"id":3,"case":"first-letter","subpages":"","canonical":"User
+        talk","*":"Discussion utilisateur"},"4":{"id":4,"case":"first-letter","subpages":"","canonical":"Project","*":"Wikip\u00e9dia"},"5":{"id":5,"case":"first-letter","subpages":"","canonical":"Project
+        talk","*":"Discussion Wikip\u00e9dia"},"6":{"id":6,"case":"first-letter","canonical":"File","*":"Fichier"},"7":{"id":7,"case":"first-letter","subpages":"","canonical":"File
+        talk","*":"Discussion fichier"},"8":{"id":8,"case":"first-letter","canonical":"MediaWiki","namespaceprotection":"editinterface","*":"MediaWiki"},"9":{"id":9,"case":"first-letter","subpages":"","canonical":"MediaWiki
+        talk","*":"Discussion MediaWiki"},"10":{"id":10,"case":"first-letter","subpages":"","canonical":"Template","*":"Mod\u00e8le"},"11":{"id":11,"case":"first-letter","subpages":"","canonical":"Template
+        talk","*":"Discussion mod\u00e8le"},"12":{"id":12,"case":"first-letter","subpages":"","canonical":"Help","*":"Aide"},"13":{"id":13,"case":"first-letter","subpages":"","canonical":"Help
+        talk","*":"Discussion aide"},"14":{"id":14,"case":"first-letter","subpages":"","canonical":"Category","*":"Cat\u00e9gorie"},"15":{"id":15,"case":"first-letter","subpages":"","canonical":"Category
+        talk","*":"Discussion cat\u00e9gorie"},"100":{"id":100,"case":"first-letter","subpages":"","canonical":"Portail","*":"Portail"},"101":{"id":101,"case":"first-letter","subpages":"","canonical":"Discussion
+        Portail","*":"Discussion Portail"},"102":{"id":102,"case":"first-letter","subpages":"","canonical":"Projet","*":"Projet"},"103":{"id":103,"case":"first-letter","subpages":"","canonical":"Discussion
+        Projet","*":"Discussion Projet"},"104":{"id":104,"case":"first-letter","subpages":"","canonical":"R\u00e9f\u00e9rence","*":"R\u00e9f\u00e9rence"},"105":{"id":105,"case":"first-letter","subpages":"","canonical":"Discussion
+        R\u00e9f\u00e9rence","*":"Discussion R\u00e9f\u00e9rence"},"710":{"id":710,"case":"first-letter","canonical":"TimedText","*":"TimedText"},"711":{"id":711,"case":"first-letter","canonical":"TimedText
+        talk","*":"TimedText talk"},"828":{"id":828,"case":"first-letter","subpages":"","canonical":"Module","*":"Module"},"829":{"id":829,"case":"first-letter","subpages":"","canonical":"Module
+        talk","*":"Discussion module"},"1728":{"id":1728,"case":"first-letter","subpages":"","canonical":"Event","*":"Event"},"1729":{"id":1729,"case":"first-letter","subpages":"","canonical":"Event
+        talk","*":"Event talk"},"2600":{"id":2600,"case":"first-letter","canonical":"Topic","defaultcontentmodel":"flow-board","*":"Sujet"}},"userinfo":{"id":0,"name":"107.167.253.208","anon":"","groups":["*"],"rights":["createaccount","autocreateaccount","read","edit","createpage","createtalk","viewmyprivateinfo","editmyprivateinfo","editmyoptions","urlshortener-create-url","centralauth-merge","abusefilter-log","echo-read-notifications","flow-hide","flow-edit-title"]}}}'
+    headers:
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-length:
+      - '6606'
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:26:42 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-s5mqs
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;",co_id;desc="2273154766"
+      set-cookie:
+      - WMF-Last-Access=19-Jul-2026;Path=/;HttpOnly;secure;Expires=Thu, 20 Aug 2026
+        00:00:00 GMT
+      - WMF-Last-Access-Global=19-Jul-2026;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        20 Aug 2026 00:00:00 GMT
+      - GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600
+      - WMF-Uniq=2Qsn49CjQZJyxtm8HR9gKQOiAAAAAFvdmTxOFxHa6bdh5UF_Ij5bj8LmiQaHhhbP;Domain=.wikipedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Mon,
+        19 Jul 2027 00:00:00 GMT
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - 591dac52-4f97-406b-8008-4a8a2a82e94a
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=2Qsn49CjQZJyxtm8HR9gKQOiAAAAAFvdmTxOFxHa6bdh5UF_Ij5bj8LmiQaHhhbP
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://fr.wikipedia.org/w/api.php?prop=info&titles=Andrei+Broder&inprop=protection&continue=&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"batchcomplete":"","query":{"pages":{"8019489":{"pageid":8019489,"ns":0,"title":"Andrei
+        Broder","contentmodel":"wikitext","pagelanguage":"fr","pagelanguagehtmlcode":"fr","pagelanguagedir":"ltr","touched":"2026-07-15T13:39:06Z","lastrevid":227273697,"length":2216,"protection":[],"restrictiontypes":["edit","move"]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
+    headers:
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-length:
+      - '373'
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:26:42 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-lz6bp
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;",co_id;desc="1519715452"
+      set-cookie:
+      - WMF-Uniq=2Qsn49CjQZJyxtm8HR9gKQOiAAEBAFvd1ATKSl6pxS85Z-EqNFVBpYvcUtNCPmAU;Domain=.wikipedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Mon,
+        19 Jul 2027 00:00:00 GMT
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      vary:
+      - Accept-Encoding,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - 1395fb7e-7242-4648-b7b1-88c5c8b97de6
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=2Qsn49CjQZJyxtm8HR9gKQOiAAEBAFvd1ATKSl6pxS85Z-EqNFVBpYvcUtNCPmAU
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://fr.wikipedia.org/w/api.php?prop=info&titles=Talk%3AAndrei+Broder&inprop=protection&continue=&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"batchcomplete":"","query":{"normalized":[{"from":"Talk:Andrei Broder","to":"Discussion:Andrei
+        Broder"}],"pages":{"9330495":{"pageid":9330495,"ns":1,"title":"Discussion:Andrei
+        Broder","contentmodel":"wikitext","pagelanguage":"fr","pagelanguagehtmlcode":"fr","pagelanguagedir":"ltr","touched":"2026-07-12T11:07:28Z","lastrevid":133928212,"length":50,"protection":[],"restrictiontypes":["edit","move"]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
+    headers:
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-length:
+      - '459'
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:26:42 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-c6hlv
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;",co_id;desc="4012176418"
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      vary:
+      - Accept-Encoding,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - 10c4753b-5999-4fa5-aff1-103818bb9abc
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=2Qsn49CjQZJyxtm8HR9gKQOiAAEBAFvd1ATKSl6pxS85Z-EqNFVBpYvcUtNCPmAU
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://fr.wikipedia.org/w/api.php?prop=revisions&titles=Discussion%3AAndrei+Broder&rvdir=older&rvprop=ids%7Ctimestamp%7Cflags%7Ccomment%7Cuser&rvlimit=50&continue=&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"batchcomplete":"","query":{"pages":{"9330495":{"pageid":9330495,"ns":1,"title":"Discussion:Andrei
+        Broder","revisions":[{"revid":133928212,"parentid":119737667,"minor":"","user":"Guillaume70","timestamp":"2017-01-23T22:49:52Z","comment":"\u00e9val"},{"revid":119737667,"parentid":117462170,"user":"Metamorforme42","timestamp":"2015-10-22T23:45:46Z","comment":"[[MediaWiki:Gadget-Evaluation.js|\u00c9valuation]]:  Multiprojet
+        (BD) Cryptologie|?)"},{"revid":117462170,"parentid":0,"user":"DSisyphBot","timestamp":"2015-08-04T21:28:34Z","comment":"Bot
+        [[WP:RBOT]], ajoute \u00e9valuation pour le [[Projet:Cryptologie]], avancement
+        et importance inconnus"}]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
+    headers:
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-length:
+      - '713'
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:26:42 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-7ffsv
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;",co_id;desc="3469283844"
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      vary:
+      - Accept-Encoding,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - e8abfdc8-870c-407e-893a-28e126a04170
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=2Qsn49CjQZJyxtm8HR9gKQOiAAEBAFvd1ATKSl6pxS85Z-EqNFVBpYvcUtNCPmAU
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://fr.wikipedia.org/w/api.php?prop=revisions&titles=Discussion%3AAndrei+Broder&rvdir=older&rvprop=content&rvlimit=50&continue=&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"batchcomplete":"","query":{"pages":{"9330495":{"pageid":9330495,"ns":1,"title":"Discussion:Andrei
+        Broder","revisions":[{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{Wikiprojet\n|Cryptologie|faible\n|avancement=BD\n}}"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{Wikiprojet\n|Cryptologie|?\n|avancement=BD\n}}"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{Wikiprojet\n|Cryptologie|?\n|avancement=?\n}}"}]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
+    headers:
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-length:
+      - '523'
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:26:42 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-ct4bt
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;",co_id;desc="1610454802"
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      vary:
+      - Accept-Encoding,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - db423899-29ea-4a40-b81d-df896c166d98
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=2Qsn49CjQZJyxtm8HR9gKQOiAAEBAFvd1ATKSl6pxS85Z-EqNFVBpYvcUtNCPmAU
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://fr.wikipedia.org/w/api.php?prop=revisions&titles=Andrei+Broder&rvdir=older&rvprop=ids%7Ctimestamp%7Cflags%7Ccomment%7Cuser&rvlimit=50&continue=&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"batchcomplete":"","query":{"pages":{"8019489":{"pageid":8019489,"ns":0,"title":"Andrei
+        Broder","revisions":[{"revid":227273697,"parentid":218407245,"user":"Leparc","timestamp":"2025-07-14T12:34:20Z","comment":"{{homonyme|Broder}}"},{"revid":218407245,"parentid":218346497,"user":"Kirtap","timestamp":"2024-09-06T17:34:49Z","comment":"/*
+        Liens externes */ non pertinente, une cat\u00e9gorie diaspora juive ne sert
+        pas \u00e0 classer des personnes selon leurs religion"},{"revid":218346497,"parentid":211005029,"minor":"","user":"Shawn
+        \u00e0 Montr\u00e9al","timestamp":"2024-09-04T15:05:51Z","comment":"+ [[Cat\u00e9gorie:Diaspora
+        juive roumaine]]"},{"revid":211005029,"parentid":141047290,"minor":"","user":"(:Julien:)","timestamp":"2023-12-30T09:28:30Z","comment":"/*
+        Liens externes */"},{"revid":141047290,"parentid":135484754,"minor":"","user":"Bob08","timestamp":"2017-09-28T20:39:53Z","comment":"+autorit\u00e9"},{"revid":135484754,"parentid":135481953,"user":"Jacques
+        Ballieu","timestamp":"2017-03-16T20:49:25Z","comment":"typographie"},{"revid":135481953,"parentid":126951039,"user":"Tractopelle-jaune","timestamp":"2017-03-16T19:14:23Z","comment":"Ajout
+        palette de navigation [[Mod\u00e8le:Palette Laur\u00e9ats du prix Kanellakis|{{Palette
+        Laur\u00e9ats du prix Kanellakis}}]]"},{"revid":126951039,"parentid":119047760,"minor":"","user":"Drongou","timestamp":"2016-06-10T22:09:09Z","comment":"Infobox
+        sup param\u00e8tre inconnu"},{"revid":119047760,"parentid":119015493,"user":"Jacques
+        Ballieu","timestamp":"2015-09-28T20:01:27Z","comment":"wikification ; infobox"},{"revid":119015493,"parentid":119009608,"minor":"","user":"Metamorforme42","timestamp":"2015-09-27T17:36:12Z","comment":"/*
+        Introduction */ \u00e9l\u00e9ments d\u00e9sormais fournis par wikidata"},{"revid":119009608,"parentid":119009573,"user":"Jacques
+        Ballieu","timestamp":"2015-09-27T13:52:23Z","comment":"infobox"},{"revid":119009573,"parentid":119009513,"user":"Jacques
+        Ballieu","timestamp":"2015-09-27T13:50:08Z","comment":"infobox"},{"revid":119009513,"parentid":113391449,"user":"Jacques
+        Ballieu","timestamp":"2015-09-27T13:47:37Z","comment":"infobox"},{"revid":113391449,"parentid":113391437,"minor":"","user":"Roll-Morton","timestamp":"2015-03-30T15:51:34Z","comment":"Ajout
+        rapide de {{portail}} : + informatique th\u00e9orique ; avec [[Projet:JavaScript/Notices/BandeauxPortails|BandeauxPortails]]"},{"revid":113391437,"parentid":113391384,"minor":"","user":"Roll-Morton","timestamp":"2015-03-30T15:51:09Z","comment":"/*
+        Travaux */"},{"revid":113391384,"parentid":113391233,"user":"Roll-Morton","timestamp":"2015-03-30T15:49:24Z","comment":"/*
+        Carri\u00e8re */ +PhD"},{"revid":113391233,"parentid":113391162,"user":"Roll-Morton","timestamp":"2015-03-30T15:44:42Z","comment":"correction
+        de traduction bancale et r\u00e9organisation"},{"revid":113391162,"parentid":113391078,"user":"Roll-Morton","timestamp":"2015-03-30T15:42:33Z","comment":"+
+        section N&R + premi\u00e8re ref"},{"revid":113391078,"parentid":110447774,"user":"Roll-Morton","timestamp":"2015-03-30T15:40:08Z","comment":""},{"revid":110447774,"parentid":104368212,"minor":"","user":"DSisyphBot","timestamp":"2015-01-01T10:45:21Z","comment":"Bot,
+        ajoute [[Cat\u00e9gorie:\u00c9tudiant du Technion]], import\u00e9 de l''article
+        [[en:Andrei Broder]]"},{"revid":104368212,"parentid":104364283,"user":"Jacques
+        Ballieu","timestamp":"2014-06-04T10:35:06Z","comment":"cat\u00e9gorisation"},{"revid":104364283,"parentid":104364219,"user":"Jacques
+        Ballieu","timestamp":"2014-06-04T07:47:30Z","comment":"correction de lien"},{"revid":104364219,"parentid":104364206,"minor":"","user":"Jacques
+        Ballieu","timestamp":"2014-06-04T07:44:31Z","comment":"[[Projet:JavaScript/Notices/HotCatsMulti|HotCatsMulti]]
+        : ;  + {{DEFAULTSORT:Broder, Andrei}}"},{"revid":104364206,"parentid":104364189,"user":"Jacques
+        Ballieu","timestamp":"2014-06-04T07:44:01Z","comment":"retouche de la modification
+        pr\u00e9c\u00e9dente"},{"revid":104364189,"parentid":104364116,"user":"Jacques
+        Ballieu","timestamp":"2014-06-04T07:43:23Z","comment":"cr\u00e9ation"},{"revid":104364116,"parentid":0,"user":"Jacques
+        Ballieu","timestamp":"2014-06-04T07:39:18Z","comment":"Nouvelle page : ''''''Andrei
+        Zary Broder'''''' (en h\u00e9breu : \u05d0\u05e0\u05d3\u05e8\u05d9 \u05d6\u05e8\u05d9
+        \u05d1\u05e8\u05d5\u05d3\u05e8), n\u00e9 \u00e0 [[Bucarest]] en [[Roumanie]]
+        en 1953, est un scientifique [[\u00c9m\u00e9ritat|\u00e9m\u00e9rite]] chez
+        [[Google]].  =..."}]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
+    headers:
+      age:
+      - '2'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-length:
+      - '4513'
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:26:42 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-lz6bp
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;",co_id;desc="1097650042"
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - 4990688c-b4fa-4ef3-b190-1df98e7655cb
+    status:
+      code: 200
+      message: OK
+version: 1
