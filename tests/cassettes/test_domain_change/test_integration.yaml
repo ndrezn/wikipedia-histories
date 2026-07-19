@@ -1,0 +1,2168 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://tr.wikipedia.org/w/api.php?meta=siteinfo%7Cuserinfo%7Cuserinfo&siprop=general%7Cnamespaces&uiprop=groups%7Crights%7Cblockinfo%7Chasmsg&continue=&action=query&format=json
+  response:
+    body:
+      string: '{"batchcomplete":"","query":{"general":{"mainpage":"Anasayfa","base":"https://tr.wikipedia.org/wiki/Anasayfa","sitename":"Vikipedi","logo":"//tr.wikipedia.org/static/images/project-logos/trwiki.png","generator":"MediaWiki
+        1.47.0-wmf.11","phpversion":"8.3.32","phpsapi":"fpm-fcgi","dbtype":"mysql","dbversion":"10.11.16-MariaDB-log","langconversion":"","linkconversion":"","titleconversion":"","linkprefixcharset":"","linkprefix":"","linktrail":"/^([a-z\u00c7\u011e\u00e7\u011f\u0130\u0131\u00d6\u00f6\u015e\u015f\u00dc\u00fc\u00c2\u00e2\u00ce\u00ee\u00db\u00fb]+)(.*)$/sDu","legaltitlechars":"
+        %!\"$&''()*,\\-.\\/0-9:;=?@A-Z\\\\^_`a-z~\\x80-\\xFF+","invalidusernamechars":"@:>=","git-hash":"35ce3778f6617f21451012abc66e4bc84e742f03","git-branch":"wmf/1.47.0-wmf.11","case":"first-letter","lang":"tr","fallback":[{"code":"en"}],"fallback8bitEncoding":"windows-1252","writeapi":"","maxarticlesize":2097152,"timezone":"UTC","timeoffset":0,"articlepath":"/wiki/$1","scriptpath":"/w","script":"/w/index.php","variantarticlepath":false,"server":"//tr.wikipedia.org","servername":"tr.wikipedia.org","wikiid":"trwiki","time":"2026-07-19T02:06:28Z","misermode":"","uploadsenabled":"","maxuploadsize":5368709120,"minuploadchunksize":1024,"galleryoptions":{"imagesPerRow":0,"imageWidth":120,"imageHeight":120,"captionLength":"","showBytes":"","mode":"traditional","showDimensions":""},"thumblimits":[180,250,400],"imagelimits":[{"width":320,"height":240},{"width":640,"height":480},{"width":800,"height":600},{"width":1024,"height":768},{"width":1280,"height":1024},{"width":2560,"height":2048}],"favicon":"https://tr.wikipedia.org/static/favicon/wikipedia.ico","centralidlookupprovider":"CentralAuth","allcentralidlookupproviders":["CentralAuth","local"],"interwikimagic":"","magiclinks":{"ISBN":"","PMID":"","RFC":""},"categorycollation":"uca-tr","nofollowlinks":"","nofollownsexceptions":[],"nofollowdomainexceptions":["mediawiki.org","wikibooks.org","wikimedia.com","wikimedia.org","wikinews.org","wikipedia.org","wikiquote.org","wikisource.org","wikiversity.org","wiktionary.org","wikivoyage.org","wikidata.org","wikifunctions.org","tools.wmflabs.org","toolforge.org","etherpad.wmflabs.org"],"wmf-config":{"wmfMasterDatacenter":"eqiad","wmfEtcdLastModifiedIndex":3855669},"max-page-id":4716782,"linter":{"high":["deletable-table-tag","duplicate-ids","html5-misnesting","misc-tidy-replacement-issues","multiline-html-table-in-list","multiple-unclosed-formatting-tags","pwrap-bug-workaround","self-closed-tag","template-arg-in-extension-tag","tidy-font-bug","tidy-whitespace-bug","unclosed-quotes-in-heading"],"medium":["bogus-image-options","fostered","misnested-tag","multi-colon-escape","wikilink-in-extlink"],"low":["empty-heading","missing-end-tag","missing-end-tag-in-heading","night-mode-unaware-background-color","obsolete-tag","pre-expansion","stripped-tag"]},"mobileserver":"https://tr.wikipedia.org","pageviewservice-supported-metrics":{"pageviews":{"pageviews":""},"siteviews":{"pageviews":"","uniques":""},"mostviewed":{"pageviews":""}},"readinglists-config":{"maxListsPerUser":100,"maxEntriesPerList":5000,"deletedRetentionDays":30}},"namespaces":{"-2":{"id":-2,"case":"first-letter","canonical":"Media","*":"Ortam"},"-1":{"id":-1,"case":"first-letter","canonical":"Special","*":"\u00d6zel"},"0":{"id":0,"case":"first-letter","content":"","*":""},"1":{"id":1,"case":"first-letter","subpages":"","canonical":"Talk","*":"Tart\u0131\u015fma"},"2":{"id":2,"case":"first-letter","subpages":"","canonical":"User","*":"Kullan\u0131c\u0131"},"3":{"id":3,"case":"first-letter","subpages":"","canonical":"User
+        talk","*":"Kullan\u0131c\u0131 mesaj"},"4":{"id":4,"case":"first-letter","subpages":"","canonical":"Project","*":"Vikipedi"},"5":{"id":5,"case":"first-letter","subpages":"","canonical":"Project
+        talk","*":"Vikipedi tart\u0131\u015fma"},"6":{"id":6,"case":"first-letter","canonical":"File","*":"Dosya"},"7":{"id":7,"case":"first-letter","subpages":"","canonical":"File
+        talk","*":"Dosya tart\u0131\u015fma"},"8":{"id":8,"case":"first-letter","subpages":"","canonical":"MediaWiki","namespaceprotection":"editinterface","*":"MediaWiki"},"9":{"id":9,"case":"first-letter","subpages":"","canonical":"MediaWiki
+        talk","*":"MediaWiki tart\u0131\u015fma"},"10":{"id":10,"case":"first-letter","subpages":"","canonical":"Template","*":"\u015eablon"},"11":{"id":11,"case":"first-letter","subpages":"","canonical":"Template
+        talk","*":"\u015eablon tart\u0131\u015fma"},"12":{"id":12,"case":"first-letter","subpages":"","canonical":"Help","*":"Yard\u0131m"},"13":{"id":13,"case":"first-letter","subpages":"","canonical":"Help
+        talk","*":"Yard\u0131m tart\u0131\u015fma"},"14":{"id":14,"case":"first-letter","canonical":"Category","*":"Kategori"},"15":{"id":15,"case":"first-letter","subpages":"","canonical":"Category
+        talk","*":"Kategori tart\u0131\u015fma"},"100":{"id":100,"case":"first-letter","subpages":"","canonical":"Portal","*":"Portal"},"101":{"id":101,"case":"first-letter","subpages":"","canonical":"Portal
+        tart\u0131\u015fma","*":"Portal tart\u0131\u015fma"},"102":{"id":102,"case":"first-letter","subpages":"","canonical":"Vikiproje","*":"Vikiproje"},"103":{"id":103,"case":"first-letter","subpages":"","canonical":"Vikiproje
+        tart\u0131\u015fma","*":"Vikiproje tart\u0131\u015fma"},"710":{"id":710,"case":"first-letter","canonical":"TimedText","*":"TimedText"},"711":{"id":711,"case":"first-letter","canonical":"TimedText
+        talk","*":"TimedText talk"},"828":{"id":828,"case":"first-letter","subpages":"","canonical":"Module","*":"Mod\u00fcl"},"829":{"id":829,"case":"first-letter","subpages":"","canonical":"Module
+        talk","*":"Mod\u00fcl tart\u0131\u015fma"},"1728":{"id":1728,"case":"first-letter","subpages":"","canonical":"Event","*":"Event"},"1729":{"id":1729,"case":"first-letter","subpages":"","canonical":"Event
+        talk","*":"Event talk"}},"userinfo":{"id":0,"name":"107.167.253.208","anon":"","groups":["*"],"rights":["createaccount","autocreateaccount","read","edit","createpage","createtalk","viewmyprivateinfo","editmyprivateinfo","editmyoptions","urlshortener-create-url","centralauth-merge","abusefilter-view","abusefilter-log","echo-read-notifications"]}}}'
+    headers:
+      accept-ranges:
+      - bytes
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:06:28 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-gtclq
+      server-timing:
+      - cache;desc="pass", host;desc="cp1112",co_id;desc="1251454838"
+      set-cookie:
+      - WMF-Last-Access=19-Jul-2026;Path=/;HttpOnly;secure;Expires=Thu, 20 Aug 2026
+        00:00:00 GMT
+      - WMF-Last-Access-Global=19-Jul-2026;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        20 Aug 2026 00:00:00 GMT
+      - GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600
+      - WMF-Uniq=ezFp7HNjKhPOHNEf3NU9LgOiAAAAAFvdsqkrYl_cXuezvbSgjTHHqOjYJ2De5qD9;Domain=.wikipedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Mon,
+        19 Jul 2027 00:00:00 GMT
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - fff4c359-889c-468c-ab64-6de8abb54b95
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=ezFp7HNjKhPOHNEf3NU9LgOiAAAAAFvdsqkrYl_cXuezvbSgjTHHqOjYJ2De5qD9
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://tr.wikipedia.org/w/api.php?prop=info&titles=Crazy+Mohan&inprop=protection&continue=&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"batchcomplete":"","query":{"pages":{"2408440":{"pageid":2408440,"ns":0,"title":"Crazy
+        Mohan","contentmodel":"wikitext","pagelanguage":"tr","pagelanguagehtmlcode":"tr","pagelanguagedir":"ltr","touched":"2026-07-13T20:55:26Z","lastrevid":37112156,"length":11141,"protection":[],"restrictiontypes":["edit","move"]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
+    headers:
+      accept-ranges:
+      - bytes
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-encoding:
+      - gzip
+      content-length:
+      - '262'
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:06:28 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-9qwwn
+      server-timing:
+      - cache;desc="pass", host;desc="cp1112",co_id;desc="1079660763"
+      set-cookie:
+      - WMF-Uniq=ezFp7HNjKhPOHNEf3NU9LgOiAAEBAFvd4i4Mfy_Bz7zEYjo9d8iub-5JZbbmkpc8;Domain=.wikipedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Mon,
+        19 Jul 2027 00:00:00 GMT
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      vary:
+      - Accept-Encoding,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - 1050ff79-ede2-476f-863c-f4ea5d9e3c54
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=ezFp7HNjKhPOHNEf3NU9LgOiAAEBAFvd4i4Mfy_Bz7zEYjo9d8iub-5JZbbmkpc8
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://tr.wikipedia.org/w/api.php?prop=info&titles=Talk%3ACrazy+Mohan&inprop=protection&continue=&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"batchcomplete":"","query":{"normalized":[{"from":"Talk:Crazy Mohan","to":"Tart\u0131\u015fma:Crazy
+        Mohan"}],"pages":{"2558951":{"pageid":2558951,"ns":1,"title":"Tart\u0131\u015fma:Crazy
+        Mohan","contentmodel":"wikitext","pagelanguage":"tr","pagelanguagehtmlcode":"tr","pagelanguagedir":"ltr","touched":"2026-07-01T04:41:29Z","lastrevid":30825362,"length":205,"protection":[],"restrictiontypes":["edit","move"]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
+    headers:
+      accept-ranges:
+      - bytes
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-encoding:
+      - gzip
+      content-length:
+      - '301'
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:06:28 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-jsv5c
+      server-timing:
+      - cache;desc="pass", host;desc="cp1112",co_id;desc="1863909842"
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      vary:
+      - Accept-Encoding,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - 0cd0e448-a819-40fb-a2f9-938734aa5190
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=ezFp7HNjKhPOHNEf3NU9LgOiAAEBAFvd4i4Mfy_Bz7zEYjo9d8iub-5JZbbmkpc8
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://tr.wikipedia.org/w/api.php?prop=revisions&titles=Tart%C4%B1%C5%9Fma%3ACrazy+Mohan&rvdir=older&rvprop=ids%7Ctimestamp%7Cflags%7Ccomment%7Cuser&rvlimit=50&continue=&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"batchcomplete":"","query":{"pages":{"2558951":{"pageid":2558951,"ns":1,"title":"Tart\u0131\u015fma:Crazy
+        Mohan","revisions":[{"revid":30825362,"parentid":23269971,"minor":"","user":"Botolog","timestamp":"2023-12-22T15:32:18Z","comment":"/*
+        top */VPBanner \u2192 Tart\u0131\u015fma"},{"revid":23269971,"parentid":23096971,"user":"YBot","timestamp":"2020-09-16T15:17:49Z","comment":"[[Vikiproje:Biyografi|Biyografi
+        vikiprojesine]] eklendi"},{"revid":23096971,"parentid":21596226,"user":"YBot","timestamp":"2020-08-25T15:27:17Z","comment":"[[Vikiproje:Hindistan|Hindistan
+        vikiprojesine]] eklendi"},{"revid":21596226,"parentid":0,"user":"YBot","timestamp":"2020-02-29T19:47:28Z","comment":"[[Vikiproje:Sinema|Sinema
+        vikiprojesine]] eklendi"}]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
+    headers:
+      accept-ranges:
+      - bytes
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:06:29 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-hz9bq
+      server-timing:
+      - cache;desc="pass", host;desc="cp1112",co_id;desc="2141433589"
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - e1875337-dbd6-4641-9568-7b0e2e0aeb6f
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=ezFp7HNjKhPOHNEf3NU9LgOiAAEBAFvd4i4Mfy_Bz7zEYjo9d8iub-5JZbbmkpc8
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://tr.wikipedia.org/w/api.php?prop=revisions&titles=Tart%C4%B1%C5%9Fma%3ACrazy+Mohan&rvdir=older&rvprop=content&rvlimit=50&continue=&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"batchcomplete":"","query":{"pages":{"2558951":{"pageid":2558951,"ns":1,"title":"Tart\u0131\u015fma:Crazy
+        Mohan","revisions":[{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{Tart\u0131\u015fma|Proje=\n{{Vikiproje
+        | Proje = Sinema | S\u0131n\u0131f = C | \u00d6nem = Az }}\n{{Vikiproje |
+        Proje = Hindistan | S\u0131n\u0131f = C | \u00d6nem = Az }}\n{{Vikiproje |
+        Proje = Biyografi | S\u0131n\u0131f = C | \u00d6nem = Az }}\n}}"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{VPBanner|\n{{Vikiproje
+        | Proje = Sinema | S\u0131n\u0131f = C | \u00d6nem = Az }}\n{{Vikiproje |
+        Proje = Hindistan | S\u0131n\u0131f = C | \u00d6nem = Az }}\n{{Vikiproje |
+        Proje = Biyografi | S\u0131n\u0131f = C | \u00d6nem = Az }}\n}}"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{Vikiproje
+        | Proje = Sinema | S\u0131n\u0131f = C | \u00d6nem = Az }}\n{{Vikiproje |
+        Proje = Hindistan | S\u0131n\u0131f = C | \u00d6nem = Az }}"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{Vikiproje
+        | Proje = Sinema | S\u0131n\u0131f = C | \u00d6nem = Az }}"}]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
+    headers:
+      accept-ranges:
+      - bytes
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-encoding:
+      - gzip
+      content-length:
+      - '313'
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:06:29 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-xgd59
+      server-timing:
+      - cache;desc="pass", host;desc="cp1112",co_id;desc="243563274"
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      vary:
+      - Accept-Encoding,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - ce821e14-f7a0-4942-b9bf-cb71bbb9c068
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=ezFp7HNjKhPOHNEf3NU9LgOiAAEBAFvd4i4Mfy_Bz7zEYjo9d8iub-5JZbbmkpc8
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://tr.wikipedia.org/w/api.php?prop=revisions&titles=Crazy+Mohan&rvdir=older&rvprop=ids%7Ctimestamp%7Cflags%7Ccomment%7Cuser&rvlimit=50&continue=&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"batchcomplete":"","query":{"pages":{"2408440":{"pageid":2408440,"ns":0,"title":"Crazy
+        Mohan","revisions":[{"revid":37112156,"parentid":37096524,"minor":"","user":"SpdyBot","timestamp":"2026-05-02T11:02:02Z","comment":"Bot:
+        kaynak ve \u015fablon dz. ([[Kullan\u0131c\u0131 mesaj:Sp1dey|hata bildir]])"},{"revid":37096524,"parentid":36649879,"user":"Nanahuatl","timestamp":"2026-05-01T20:41:47Z","comment":"[[Kategori:20.
+        y\u00fczy\u0131lda Hint erkek oyuncular]] i\u00e7eri\u011fi [[Kategori:20.
+        y\u00fczy\u0131l Hint erkek oyuncular\u0131]] i\u00e7ine ta\u015f\u0131nd\u0131
+        ([[VP:KATA|Katalitik]])"},{"revid":36649879,"parentid":36359155,"minor":"","user":"LostMyMind","timestamp":"2026-01-15T18:11:14Z","comment":"[[Kategori:Bilgi
+        kutusu bulunmayan ki\u015filer]] eklendi ([[VP:HOTCAT|HotCat]])"},{"revid":36359155,"parentid":35527749,"user":"\u0130mmoBot","timestamp":"2025-11-07T22:05:11Z","comment":"[[Kategori:20.
+        y\u00fczy\u0131lda Hint erkek oyuncular]] kategorisi eklendi"},{"revid":35527749,"parentid":33772592,"user":"Viki\u00e7izer","timestamp":"2025-06-18T17:21:21Z","comment":"[[Kategori:2019
+        y\u0131l\u0131nda \u00f6lenler]] i\u00e7eri\u011fi [[Kategori:2019''da \u00f6lenler]]
+        i\u00e7ine ta\u015f\u0131nd\u0131 ([[VP:KATA|Katalitik]])"},{"revid":33772592,"parentid":30273133,"user":"Bukettvell","timestamp":"2024-09-09T15:45:15Z","comment":"/*
+        growthexperiments-addlink-summary-summary:2|0|0 */"},{"revid":30273133,"parentid":27309870,"minor":"","user":"ToprakBot","timestamp":"2023-09-20T16:14:50Z","comment":".,
+        G\u00f6rsellerde \u00f6l\u00e7ekleme fakt\u00f6r\u00fcne ge\u00e7iliyor, bkz
+        [[\u00d6zel:Kal\u0131c\u0131Ba\u011f/30217099#G\u00f6rsellerde_piksel_yerine_\u00f6l\u00e7ekleme_fakt\u00f6r\u00fc_kullan\u0131lmas\u0131|tart\u0131\u015fma]]"},{"revid":27309870,"parentid":27308279,"minor":"","user":"Khutuck
+        Bot","timestamp":"2022-03-15T04:18:54Z","comment":"Bot v3: Kaynak ve i\u00e7erik
+        d\u00fczenleme ([[Kullan\u0131c\u0131 mesaj:Khutuck|hata bildir]])"},{"revid":27308279,"parentid":24189038,"user":"InternetArchiveBot","timestamp":"2022-03-15T01:31:50Z","comment":"4
+        kaynak kurtar\u0131ld\u0131 ve 0 kaynak \u00f6l\u00fc olarak i\u015faretlendi.)
+        #IABot (v2.0.8.6"},{"revid":24189038,"parentid":23968720,"minor":"","user":"Khutuck
+        Bot","timestamp":"2020-12-03T06:51:03Z","comment":"Bot v3: Kaynak ve i\u00e7erik
+        d\u00fczenleme ([[Kullan\u0131c\u0131 mesaj:Khutuck|hata bildir]])"},{"revid":23968720,"parentid":23843765,"minor":"","user":"Viki\u00e7izer","timestamp":"2020-11-05T13:54:22Z","comment":"d\u00fczeltme"},{"revid":23843765,"parentid":23719285,"user":"InternetArchiveBot","timestamp":"2020-10-19T03:32:13Z","comment":"11
+        kaynak kurtar\u0131ld\u0131 ve 0 kaynak \u00f6l\u00fc olarak i\u015faretlendi.)
+        #IABot (v2.0.7"},{"revid":23719285,"parentid":22400045,"user":"InternetArchiveBot","timestamp":"2020-10-11T10:18:08Z","comment":"7
+        kaynak kurtar\u0131ld\u0131 ve 0 kaynak \u00f6l\u00fc olarak i\u015faretlendi.)
+        #IABot (v2.0.7"},{"revid":22400045,"parentid":22284341,"user":"Teacher0691","timestamp":"2020-05-09T20:43:48Z","comment":"d\u00fczeltme,
+        de\u011fi\u015ftirildi: [[10 Haziran| \u2192 10 Haziran,  2019]] \u2192  2019,
+        de\u011fi\u015ftirildi: Haziran10 Haziran \u2192 Haziran  [[Vikipedi:AWB|AWB]]
+        ile"},{"revid":22284341,"parentid":22246952,"minor":"","user":"Khutuck Bot","timestamp":"2020-05-01T22:47:16Z","comment":"Tarih
+        ba\u011flant\u0131s\u0131 d\u00fczenleme"},{"revid":22246952,"parentid":21728204,"user":"Viki\u00e7izer","timestamp":"2020-04-29T22:13:01Z","comment":"/*
+        top */d\u00fczeltme  [[Vikipedi:AWB|AWB]] ile"},{"revid":21728204,"parentid":21379013,"user":"InternetArchiveBot","timestamp":"2020-03-20T03:40:19Z","comment":"Rescuing
+        5 sources and tagging 0 as dead.) #IABot (v2.0"},{"revid":21379013,"parentid":21093378,"user":"Viki\u00e7izer","timestamp":"2020-01-26T18:00:46Z","comment":"d\u00fczeltme  [[Vikipedi:AWB|AWB]]
+        ile"},{"revid":21093378,"parentid":21088484,"user":"Teacher0691","timestamp":"2019-10-28T21:34:11Z","comment":"d\u00fczeltme  [[Vikipedi:AWB|AWB]]
+        ile"},{"revid":21088484,"parentid":20997088,"user":"Teacher0691","timestamp":"2019-10-26T21:21:31Z","comment":"d\u00fczeltme,
+        yaz\u0131\u015f \u015fekli: hikaye \u2192  hik\u00e2ye  [[Vikipedi:AWB|AWB]]
+        ile"},{"revid":20997088,"parentid":20947036,"minor":"","user":"Khutuck Bot","timestamp":"2019-09-27T02:50:10Z","comment":"Kaynaklar
+        ve referanslarda d\u00fczenleme"},{"revid":20947036,"parentid":20868287,"user":"Kibele","timestamp":"2019-09-04T17:08:58Z","comment":""},{"revid":20868287,"parentid":20803307,"user":"Viki\u00e7izer","timestamp":"2019-08-10T09:39:15Z","comment":"d\u00fczeltme  [[Vikipedi:AWB|AWB]]
+        ile"},{"revid":20803307,"parentid":20712690,"user":"YBot","timestamp":"2019-07-15T15:23:13Z","comment":"Ar\u015fiv
+        ba\u011flant\u0131s\u0131 eklendi"},{"revid":20712690,"parentid":20695428,"minor":"","user":"BSRF","timestamp":"2019-06-21T10:16:37Z","comment":"yaz\u0131m
+        yanl\u0131\u015f\u0131"},{"revid":20695428,"parentid":20694931,"minor":"","user":"By
+        erdo can","timestamp":"2019-06-12T17:10:55Z","comment":"d\u00fczenleme  [[Vikipedi:AWB|AWB]]
+        ile"},{"revid":20694931,"parentid":20694930,"user":"Kostantinopolisli Kostantinopulos","timestamp":"2019-06-11T21:19:52Z","comment":"/*
+        Kariyeri */"},{"revid":20694930,"parentid":20694929,"user":"Kostantinopolisli
+        Kostantinopulos","timestamp":"2019-06-11T21:19:22Z","comment":""},{"revid":20694929,"parentid":20694928,"user":"Kostantinopolisli
+        Kostantinopulos","timestamp":"2019-06-11T21:18:33Z","comment":"/* \u00c7al\u0131\u015fmalar\u0131
+        */"},{"revid":20694928,"parentid":20694927,"user":"Kostantinopolisli Kostantinopulos","timestamp":"2019-06-11T21:17:57Z","comment":"/*
+        Tiyatro */"},{"revid":20694927,"parentid":20694925,"user":"Kostantinopolisli
+        Kostantinopulos","timestamp":"2019-06-11T21:17:13Z","comment":"/* Tiyatro
+        */"},{"revid":20694925,"parentid":20694920,"user":"Kostantinopolisli Kostantinopulos","timestamp":"2019-06-11T21:15:27Z","comment":""},{"revid":20694920,"parentid":20694918,"user":"Kostantinopolisli
+        Kostantinopulos","timestamp":"2019-06-11T21:13:05Z","comment":"/* D\u0131\u015f
+        ba\u011flant\u0131lar */"},{"revid":20694918,"parentid":0,"user":"Kostantinopolisli
+        Kostantinopulos","timestamp":"2019-06-11T21:12:10Z","comment":"\"{{yeni \u00f6l\u00fcm}}[[File:Crazy
+        Mohan.png|thumb|170px|right|''''''Crazy Mohan'''''']] ''''''Mohan Rangachari''''''
+        (bilinen sahne ad\u0131yla: ''''''Crazy Mohan'''''' ; d. [[16 Ekim]]...\"
+        i\u00e7eri\u011fiyle yeni sayfa olu\u015fturdu"}]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
+    headers:
+      accept-ranges:
+      - bytes
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:06:29 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-pgpj4
+      server-timing:
+      - cache;desc="pass", host;desc="cp1112",co_id;desc="892290536"
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - 6ec3c493-b0bd-4e19-9916-8c5476d49422
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://en.wikipedia.org/w/api.php?meta=siteinfo%7Cuserinfo%7Cuserinfo&siprop=general%7Cnamespaces&uiprop=groups%7Crights%7Cblockinfo%7Chasmsg&continue=&action=query&format=json
+  response:
+    body:
+      string: '{"batchcomplete":"","query":{"general":{"mainpage":"Main Page","base":"https://en.wikipedia.org/wiki/Main_Page","sitename":"Wikipedia","logo":"//en.wikipedia.org/static/images/project-logos/enwiki-25.png","generator":"MediaWiki
+        1.47.0-wmf.11","phpversion":"8.3.32","phpsapi":"fpm-fcgi","dbtype":"mysql","dbversion":"10.11.16-MariaDB-log","langconversion":"","linkconversion":"","titleconversion":"","linkprefixcharset":"","linkprefix":"","linktrail":"/^([a-z]+)(.*)$/sD","legaltitlechars":"
+        %!\"$&''()*,\\-.\\/0-9:;=?@A-Z\\\\^_`a-z~\\x80-\\xFF+","invalidusernamechars":"@:>=","git-hash":"35ce3778f6617f21451012abc66e4bc84e742f03","git-branch":"wmf/1.47.0-wmf.11","case":"first-letter","lang":"en","fallback":[],"fallback8bitEncoding":"windows-1252","writeapi":"","maxarticlesize":2097152,"timezone":"UTC","timeoffset":0,"articlepath":"/wiki/$1","scriptpath":"/w","script":"/w/index.php","variantarticlepath":false,"server":"//en.wikipedia.org","servername":"en.wikipedia.org","wikiid":"enwiki","time":"2026-07-19T02:06:29Z","misermode":"","uploadsenabled":"","maxuploadsize":5368709120,"minuploadchunksize":1024,"galleryoptions":{"imagesPerRow":0,"imageWidth":120,"imageHeight":120,"captionLength":"","showBytes":"","mode":"traditional","showDimensions":""},"thumblimits":[180,250,400],"imagelimits":[{"width":320,"height":240},{"width":640,"height":480},{"width":800,"height":600},{"width":1024,"height":768},{"width":1280,"height":1024},{"width":2560,"height":2048}],"favicon":"https://en.wikipedia.org/static/favicon/wikipedia.ico","centralidlookupprovider":"CentralAuth","allcentralidlookupproviders":["CentralAuth","local"],"interwikimagic":"","magiclinks":[],"categorycollation":"uca-default-u-kn","nofollowlinks":"","nofollownsexceptions":[],"nofollowdomainexceptions":["mediawiki.org","wikibooks.org","wikimedia.com","wikimedia.org","wikinews.org","wikipedia.org","wikiquote.org","wikisource.org","wikiversity.org","wiktionary.org","wikivoyage.org","wikidata.org","wikifunctions.org","tools.wmflabs.org","toolforge.org","etherpad.wmflabs.org"],"wmf-config":{"wmfMasterDatacenter":"eqiad","wmfEtcdLastModifiedIndex":3855669},"citeresponsivereferences":"","max-page-id":83727155,"linter":{"high":["deletable-table-tag","duplicate-ids","html5-misnesting","misc-tidy-replacement-issues","multiline-html-table-in-list","multiple-unclosed-formatting-tags","pwrap-bug-workaround","self-closed-tag","template-arg-in-extension-tag","tidy-font-bug","tidy-whitespace-bug","unclosed-quotes-in-heading"],"medium":["bogus-image-options","fostered","misnested-tag","multi-colon-escape","wikilink-in-extlink"],"low":["empty-heading","missing-end-tag","missing-end-tag-in-heading","night-mode-unaware-background-color","obsolete-tag","pre-expansion","stripped-tag"]},"mobileserver":"https://en.wikipedia.org","pageviewservice-supported-metrics":{"pageviews":{"pageviews":""},"siteviews":{"pageviews":"","uniques":""},"mostviewed":{"pageviews":""}},"readinglists-config":{"maxListsPerUser":100,"maxEntriesPerList":5000,"deletedRetentionDays":30}},"namespaces":{"-2":{"id":-2,"case":"first-letter","canonical":"Media","*":"Media"},"-1":{"id":-1,"case":"first-letter","canonical":"Special","*":"Special"},"0":{"id":0,"case":"first-letter","content":"","*":""},"1":{"id":1,"case":"first-letter","subpages":"","canonical":"Talk","*":"Talk"},"2":{"id":2,"case":"first-letter","subpages":"","canonical":"User","*":"User"},"3":{"id":3,"case":"first-letter","subpages":"","canonical":"User
+        talk","*":"User talk"},"4":{"id":4,"case":"first-letter","subpages":"","canonical":"Project","*":"Wikipedia"},"5":{"id":5,"case":"first-letter","subpages":"","canonical":"Project
+        talk","*":"Wikipedia talk"},"6":{"id":6,"case":"first-letter","canonical":"File","*":"File"},"7":{"id":7,"case":"first-letter","subpages":"","canonical":"File
+        talk","*":"File talk"},"8":{"id":8,"case":"first-letter","canonical":"MediaWiki","namespaceprotection":"editinterface","*":"MediaWiki"},"9":{"id":9,"case":"first-letter","subpages":"","canonical":"MediaWiki
+        talk","*":"MediaWiki talk"},"10":{"id":10,"case":"first-letter","subpages":"","canonical":"Template","*":"Template"},"11":{"id":11,"case":"first-letter","subpages":"","canonical":"Template
+        talk","*":"Template talk"},"12":{"id":12,"case":"first-letter","subpages":"","canonical":"Help","*":"Help"},"13":{"id":13,"case":"first-letter","subpages":"","canonical":"Help
+        talk","*":"Help talk"},"14":{"id":14,"case":"first-letter","subpages":"","canonical":"Category","*":"Category"},"15":{"id":15,"case":"first-letter","subpages":"","canonical":"Category
+        talk","*":"Category talk"},"100":{"id":100,"case":"first-letter","subpages":"","canonical":"Portal","*":"Portal"},"101":{"id":101,"case":"first-letter","subpages":"","canonical":"Portal
+        talk","*":"Portal talk"},"118":{"id":118,"case":"first-letter","subpages":"","canonical":"Draft","*":"Draft"},"119":{"id":119,"case":"first-letter","subpages":"","canonical":"Draft
+        talk","*":"Draft talk"},"126":{"id":126,"case":"first-letter","canonical":"MOS","*":"MOS"},"127":{"id":127,"case":"first-letter","canonical":"MOS
+        talk","*":"MOS talk"},"710":{"id":710,"case":"first-letter","canonical":"TimedText","*":"TimedText"},"711":{"id":711,"case":"first-letter","canonical":"TimedText
+        talk","*":"TimedText talk"},"828":{"id":828,"case":"first-letter","subpages":"","canonical":"Module","*":"Module"},"829":{"id":829,"case":"first-letter","subpages":"","canonical":"Module
+        talk","*":"Module talk"},"1728":{"id":1728,"case":"first-letter","subpages":"","canonical":"Event","*":"Event"},"1729":{"id":1729,"case":"first-letter","subpages":"","canonical":"Event
+        talk","*":"Event talk"}},"userinfo":{"id":0,"name":"107.167.253.208","anon":"","groups":["*"],"rights":["createaccount","autocreateaccount","read","edit","createtalk","viewmyprivateinfo","editmyprivateinfo","editmyoptions","abusefilter-log-detail","urlshortener-create-url","centralauth-merge","abusefilter-view","abusefilter-log","echo-read-notifications"]}}}'
+    headers:
+      accept-ranges:
+      - bytes
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:06:29 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-c22ct
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="1865443084"
+      set-cookie:
+      - WMF-Last-Access=19-Jul-2026;Path=/;HttpOnly;secure;Expires=Thu, 20 Aug 2026
+        00:00:00 GMT
+      - WMF-Last-Access-Global=19-Jul-2026;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        20 Aug 2026 00:00:00 GMT
+      - GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600
+      - WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAAAAFvdDsaz25faGZMaEkEpwasca-q-XRIsu2Qy;Domain=.wikipedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Mon,
+        19 Jul 2027 00:00:00 GMT
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - 60be68d4-bdfe-4051-bd8f-8523a8141e06
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAAAAFvdDsaz25faGZMaEkEpwasca-q-XRIsu2Qy
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://en.wikipedia.org/w/api.php?prop=info&titles=Crazy+Mohan&inprop=protection&continue=&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"batchcomplete":"","query":{"pages":{"11269250":{"pageid":11269250,"ns":0,"title":"Crazy
+        Mohan","contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2026-07-17T02:54:52Z","lastrevid":1364133327,"length":25366,"protection":[],"restrictiontypes":["edit","move"]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
+    headers:
+      accept-ranges:
+      - bytes
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-encoding:
+      - gzip
+      content-length:
+      - '264'
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:06:29 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-qnmns
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="1581280707"
+      set-cookie:
+      - WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAEBAFvdouzjtjZOFu1VYxmrS6w5JlmoOpNVaTHU;Domain=.wikipedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Mon,
+        19 Jul 2027 00:00:00 GMT
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      vary:
+      - Accept-Encoding,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - b369e0fa-9781-4b8b-b243-4edf5f80773c
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAEBAFvdouzjtjZOFu1VYxmrS6w5JlmoOpNVaTHU
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://en.wikipedia.org/w/api.php?prop=info&titles=Talk%3ACrazy+Mohan&inprop=protection&continue=&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"batchcomplete":"","query":{"pages":{"15244607":{"pageid":15244607,"ns":1,"title":"Talk:Crazy
+        Mohan","contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2026-07-17T14:52:36Z","lastrevid":1323490471,"length":1289,"protection":[],"restrictiontypes":["edit","move"]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
+    headers:
+      accept-ranges:
+      - bytes
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-encoding:
+      - gzip
+      content-length:
+      - '270'
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:06:29 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-jkbjg
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="3327299825"
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      vary:
+      - Accept-Encoding,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - 40640279-e512-418c-b96d-1498700cf4da
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAEBAFvdouzjtjZOFu1VYxmrS6w5JlmoOpNVaTHU
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://en.wikipedia.org/w/api.php?prop=revisions&titles=Talk%3ACrazy+Mohan&rvdir=older&rvprop=ids%7Ctimestamp%7Cflags%7Ccomment%7Cuser&rvlimit=50&continue=&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"batchcomplete":"","query":{"pages":{"15244607":{"pageid":15244607,"ns":1,"title":"Talk:Crazy
+        Mohan","revisions":[{"revid":1323490471,"parentid":1267182960,"minor":"","user":"Engrigg22","timestamp":"2025-11-22T02:21:41Z","comment":""},{"revid":1267182960,"parentid":1204042193,"minor":"","user":"Cewbot","timestamp":"2025-01-04T00:15:48Z","comment":"[[User:Cewbot/log/20200122/configuration|Maintain
+        {{WPBS}}]]: 2 WikiProject templates. (Fix [[:Category:Pages using WikiProject
+        banner shell with unknown parameters]])"},{"revid":1204042193,"parentid":955015354,"minor":"","user":"Cewbot","timestamp":"2024-02-06T08:38:11Z","comment":"[[User:Cewbot/log/20200122/configuration|Maintain
+        {{WPBS}} and vital articles]]: 2 WikiProject templates. Create {{WPBS}}. Keep
+        majority rating \"C\" in {{WPBS}}. Remove 2 same ratings as {{WPBS}} in {{WikiProject
+        Biography}}, {{WikiProject India}}."},{"revid":955015354,"parentid":954965914,"user":"Shanze1","timestamp":"2020-05-05T14:08:10Z","comment":"Assessment
+        (C): Biography, India ([[WP:RATER#2.5.1|Rater]])"},{"revid":954965914,"parentid":901225047,"user":"Vensatry","timestamp":"2020-05-05T07:01:50Z","comment":"Reassess
+        as ''Start''"},{"revid":901225047,"parentid":795441301,"user":"Inter&anthro","timestamp":"2019-06-10T13:36:54Z","comment":"subject
+        has died"},{"revid":795441301,"parentid":599322205,"user":"InternetArchiveBot","timestamp":"2017-08-14T07:22:45Z","comment":"Notification
+        of altered sources needing review #IABot (v1.5beta)"},{"revid":599322205,"parentid":528662022,"minor":"","user":"Fortdj33","timestamp":"2014-03-12T18:35:16Z","comment":"Removed
+        from wikiproject per [[WP:FILM]] using [[Project:AWB|AWB]]"},{"revid":528662022,"parentid":513139684,"minor":"","user":"Fortdj33","timestamp":"2012-12-18T17:32:45Z","comment":"Updated
+        classification using [[Project:AWB|AWB]]"},{"revid":513139684,"parentid":493921606,"minor":"","user":"Yobot","timestamp":"2012-09-17T11:48:52Z","comment":"WPBIO
+        banner fixes + cleanup (Task: 17) using [[Project:AWB|AWB]] (8413)"},{"revid":493921606,"parentid":400105275,"minor":"","user":"Ssriram
+        mt","timestamp":"2012-05-23T01:53:01Z","comment":"Adding Importance using
+        [[Project:AWB|AWB]]"},{"revid":400105275,"parentid":298635345,"minor":"","user":"Yobot","timestamp":"2010-12-02T11:19:47Z","comment":"Remove
+        needs-infobox since article now has it., replaced: WPBiography \u2192 WikiProject
+        Biography, WP India \u2192 WikiProject India using [[Project:AWB|AWB]] (7442)"},{"revid":298635345,"parentid":260636343,"user":"ListasBot","timestamp":"2009-06-25T21:41:53Z","comment":"Applied
+        fixes to WPBiography template.  [[User talk:ListasBot|Did I get it wrong?]]"},{"revid":260636343,"parentid":216614254,"user":"TinucherianBot","timestamp":"2008-12-29T07:48:31Z","comment":"[[WP:INDIA]]
+        Tagging ! ( [[WP:BOTFAQ|FAQ]] )"},{"revid":216614254,"parentid":199514220,"user":"TinucherianBot","timestamp":"2008-06-02T12:53:53Z","comment":"[[WP:INDIA]]
+        Tagging !  ([[User:TinucherianBot/Autotagg|False Positive?]]) : using([[User:Kingbotk/P|Plugin++]])
+        Added {{[[Template:WP India|WP India]]}}."},{"revid":199514220,"parentid":184642649,"user":"Bedford","timestamp":"2008-03-20T03:29:02Z","comment":"Bio
+        Assess"},{"revid":184642649,"parentid":0,"user":"Kingbotk","timestamp":"2008-01-16T02:57:22Z","comment":"Bot
+        ([[User:Kingbotk#FAQ|FAQ]]) ([[User:Kingbotk/P|Kingbotk Plugin]]) Tag [[Category:Living
+        people]]. Added {{[[Template:WPBiography|WPBiography]]}}, living=yes."}]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
+    headers:
+      accept-ranges:
+      - bytes
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-encoding:
+      - gzip
+      content-length:
+      - '1413'
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:06:30 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-68jjr
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="3903008260"
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      vary:
+      - Accept-Encoding,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - 6c73372d-d193-46aa-9ff3-758a23968bda
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAEBAFvdouzjtjZOFu1VYxmrS6w5JlmoOpNVaTHU
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://en.wikipedia.org/w/api.php?prop=revisions&titles=Talk%3ACrazy+Mohan&rvdir=older&rvprop=content&rvlimit=50&continue=&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"batchcomplete":"","query":{"pages":{"15244607":{"pageid":15244607,"ns":1,"title":"Talk:Crazy
+        Mohan","revisions":[{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{WikiProject
+        banner shell|class=C|listas=Mohan, Crazy|blp=no|\n{{WikiProject Biography|filmbio-work-group=yes|needs-photo=}}\n{{WikiProject
+        India|importance=Low|tamilnadu=yes|tamilnadu-importance=low}}\n}}\n\n== External
+        links modified ==\n\nHello fellow Wikipedians,\n\nI have just modified one
+        external link on [[Crazy Mohan]]. Please take a moment to review [https://en.wikipedia.org/w/index.php?diff=prev&oldid=795441300
+        my edit]. If you have any questions, or need the bot to ignore the links,
+        or the page altogether, please visit [[User:Cyberpower678/FaQs#InternetArchiveBot|this
+        simple FaQ]] for additional information. I made the following changes:\n*Added
+        archive https://web.archive.org/web/20100204035905/http://thehindujobs.com/thehindu/fr/2008/07/11/stories/2008071151120100.htm
+        to http://www.thehindujobs.com/thehindu/fr/2008/07/11/stories/2008071151120100.htm\n\nWhen
+        you have finished reviewing my changes, you may follow the instructions on
+        the template below to fix any issues with the URLs.\n\n{{sourcecheck|checked=false|needhelp=}}\n\nCheers.\u2014[[User:InternetArchiveBot|''''''<span
+        style=\"color:darkgrey;font-family:monospace\">InternetArchiveBot</span>'''''']]
+        <span style=\"color:green;font-family:Rockwell\">([[User talk:InternetArchiveBot|Report
+        bug]])</span> 07:22, 14 August 2017 (UTC)"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{WikiProject
+        banner shell|class=C|listas=Mohan, Crazy|blp=no|\n{{WikiProject Biography|filmbio-work-group=yes|needs-photo=yes}}\n{{WikiProject
+        India|importance=Low|tamilnadu=yes|tamilnadu-importance=low}}\n}}\n\n== External
+        links modified ==\n\nHello fellow Wikipedians,\n\nI have just modified one
+        external link on [[Crazy Mohan]]. Please take a moment to review [https://en.wikipedia.org/w/index.php?diff=prev&oldid=795441300
+        my edit]. If you have any questions, or need the bot to ignore the links,
+        or the page altogether, please visit [[User:Cyberpower678/FaQs#InternetArchiveBot|this
+        simple FaQ]] for additional information. I made the following changes:\n*Added
+        archive https://web.archive.org/web/20100204035905/http://thehindujobs.com/thehindu/fr/2008/07/11/stories/2008071151120100.htm
+        to http://www.thehindujobs.com/thehindu/fr/2008/07/11/stories/2008071151120100.htm\n\nWhen
+        you have finished reviewing my changes, you may follow the instructions on
+        the template below to fix any issues with the URLs.\n\n{{sourcecheck|checked=false|needhelp=}}\n\nCheers.\u2014[[User:InternetArchiveBot|''''''<span
+        style=\"color:darkgrey;font-family:monospace\">InternetArchiveBot</span>'''''']]
+        <span style=\"color:green;font-family:Rockwell\">([[User talk:InternetArchiveBot|Report
+        bug]])</span> 07:22, 14 August 2017 (UTC)"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{WikiProject
+        banner shell|class=C|living=no|listas=Mohan, Crazy|\n{{WikiProject Biography|filmbio-work-group=yes|needs-photo=yes}}\n{{WikiProject
+        India|importance=Low|tamilnadu=yes|tamilnadu-importance=low}}\n}}\n\n== External
+        links modified ==\n\nHello fellow Wikipedians,\n\nI have just modified one
+        external link on [[Crazy Mohan]]. Please take a moment to review [https://en.wikipedia.org/w/index.php?diff=prev&oldid=795441300
+        my edit]. If you have any questions, or need the bot to ignore the links,
+        or the page altogether, please visit [[User:Cyberpower678/FaQs#InternetArchiveBot|this
+        simple FaQ]] for additional information. I made the following changes:\n*Added
+        archive https://web.archive.org/web/20100204035905/http://thehindujobs.com/thehindu/fr/2008/07/11/stories/2008071151120100.htm
+        to http://www.thehindujobs.com/thehindu/fr/2008/07/11/stories/2008071151120100.htm\n\nWhen
+        you have finished reviewing my changes, you may follow the instructions on
+        the template below to fix any issues with the URLs.\n\n{{sourcecheck|checked=false|needhelp=}}\n\nCheers.\u2014[[User:InternetArchiveBot|''''''<span
+        style=\"color:darkgrey;font-family:monospace\">InternetArchiveBot</span>'''''']]
+        <span style=\"color:green;font-family:Rockwell\">([[User talk:InternetArchiveBot|Report
+        bug]])</span> 07:22, 14 August 2017 (UTC)"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{WikiProject
+        Biography\n|class=C\n|living=no\n|filmbio-work-group=yes\n|listas=Mohan, Crazy\n|needs-photo=yes\n}}\n{{WikiProject
+        India\n|class=C\n|importance=Low\n|tamilnadu=yes\n|tamilnadu-importance=low\n}}\n\n==
+        External links modified ==\n\nHello fellow Wikipedians,\n\nI have just modified
+        one external link on [[Crazy Mohan]]. Please take a moment to review [https://en.wikipedia.org/w/index.php?diff=prev&oldid=795441300
+        my edit]. If you have any questions, or need the bot to ignore the links,
+        or the page altogether, please visit [[User:Cyberpower678/FaQs#InternetArchiveBot|this
+        simple FaQ]] for additional information. I made the following changes:\n*Added
+        archive https://web.archive.org/web/20100204035905/http://thehindujobs.com/thehindu/fr/2008/07/11/stories/2008071151120100.htm
+        to http://www.thehindujobs.com/thehindu/fr/2008/07/11/stories/2008071151120100.htm\n\nWhen
+        you have finished reviewing my changes, you may follow the instructions on
+        the template below to fix any issues with the URLs.\n\n{{sourcecheck|checked=false|needhelp=}}\n\nCheers.\u2014[[User:InternetArchiveBot|''''''<span
+        style=\"color:darkgrey;font-family:monospace\">InternetArchiveBot</span>'''''']]
+        <span style=\"color:green;font-family:Rockwell\">([[User talk:InternetArchiveBot|Report
+        bug]])</span> 07:22, 14 August 2017 (UTC)"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{WikiProject
+        Biography\n|living=no\n|class=Start\n|filmbio-work-group=yes\n|listas=Mohan,
+        Crazy\n|needs-photo=yes\n}}\n{{WikiProject India|class=Start\n|importance=low\n|tamilnadu=yes\n|tamilnadu-importance=low\n}}\n\n==
+        External links modified ==\n\nHello fellow Wikipedians,\n\nI have just modified
+        one external link on [[Crazy Mohan]]. Please take a moment to review [https://en.wikipedia.org/w/index.php?diff=prev&oldid=795441300
+        my edit]. If you have any questions, or need the bot to ignore the links,
+        or the page altogether, please visit [[User:Cyberpower678/FaQs#InternetArchiveBot|this
+        simple FaQ]] for additional information. I made the following changes:\n*Added
+        archive https://web.archive.org/web/20100204035905/http://thehindujobs.com/thehindu/fr/2008/07/11/stories/2008071151120100.htm
+        to http://www.thehindujobs.com/thehindu/fr/2008/07/11/stories/2008071151120100.htm\n\nWhen
+        you have finished reviewing my changes, you may follow the instructions on
+        the template below to fix any issues with the URLs.\n\n{{sourcecheck|checked=false|needhelp=}}\n\nCheers.\u2014[[User:InternetArchiveBot|''''''<span
+        style=\"color:darkgrey;font-family:monospace\">InternetArchiveBot</span>'''''']]
+        <span style=\"color:green;font-family:Rockwell\">([[User talk:InternetArchiveBot|Report
+        bug]])</span> 07:22, 14 August 2017 (UTC)"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{WikiProject
+        Biography\n|living=no\n|class=Stub\n|filmbio-work-group=yes\n|listas=Mohan,
+        Crazy\n|needs-photo=yes\n}}\n{{WikiProject India|class=Stub\n|importance=low\n|tamilnadu=yes\n|tamilnadu-importance=low\n}}\n\n==
+        External links modified ==\n\nHello fellow Wikipedians,\n\nI have just modified
+        one external link on [[Crazy Mohan]]. Please take a moment to review [https://en.wikipedia.org/w/index.php?diff=prev&oldid=795441300
+        my edit]. If you have any questions, or need the bot to ignore the links,
+        or the page altogether, please visit [[User:Cyberpower678/FaQs#InternetArchiveBot|this
+        simple FaQ]] for additional information. I made the following changes:\n*Added
+        archive https://web.archive.org/web/20100204035905/http://thehindujobs.com/thehindu/fr/2008/07/11/stories/2008071151120100.htm
+        to http://www.thehindujobs.com/thehindu/fr/2008/07/11/stories/2008071151120100.htm\n\nWhen
+        you have finished reviewing my changes, you may follow the instructions on
+        the template below to fix any issues with the URLs.\n\n{{sourcecheck|checked=false|needhelp=}}\n\nCheers.\u2014[[User:InternetArchiveBot|''''''<span
+        style=\"color:darkgrey;font-family:monospace\">InternetArchiveBot</span>'''''']]
+        <span style=\"color:green;font-family:Rockwell\">([[User talk:InternetArchiveBot|Report
+        bug]])</span> 07:22, 14 August 2017 (UTC)"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{WikiProject
+        Biography\n|living=yes\n|class=Stub\n|filmbio-work-group=yes\n|listas=Mohan,
+        Crazy\n|needs-photo=yes\n}}\n{{WikiProject India|class=Stub\n|importance=low\n|tamilnadu=yes\n|tamilnadu-importance=low\n}}\n\n==
+        External links modified ==\n\nHello fellow Wikipedians,\n\nI have just modified
+        one external link on [[Crazy Mohan]]. Please take a moment to review [https://en.wikipedia.org/w/index.php?diff=prev&oldid=795441300
+        my edit]. If you have any questions, or need the bot to ignore the links,
+        or the page altogether, please visit [[User:Cyberpower678/FaQs#InternetArchiveBot|this
+        simple FaQ]] for additional information. I made the following changes:\n*Added
+        archive https://web.archive.org/web/20100204035905/http://thehindujobs.com/thehindu/fr/2008/07/11/stories/2008071151120100.htm
+        to http://www.thehindujobs.com/thehindu/fr/2008/07/11/stories/2008071151120100.htm\n\nWhen
+        you have finished reviewing my changes, you may follow the instructions on
+        the template below to fix any issues with the URLs.\n\n{{sourcecheck|checked=false|needhelp=}}\n\nCheers.\u2014[[User:InternetArchiveBot|''''''<span
+        style=\"color:darkgrey;font-family:monospace\">InternetArchiveBot</span>'''''']]
+        <span style=\"color:green;font-family:Rockwell\">([[User talk:InternetArchiveBot|Report
+        bug]])</span> 07:22, 14 August 2017 (UTC)"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{WikiProject
+        Biography\n|living=yes\n|class=Stub\n|filmbio-work-group=yes\n|listas=Mohan,
+        Crazy\n|needs-photo=yes\n}}\n{{WikiProject India|class=Stub\n|importance=low\n|tamilnadu=yes\n|tamilnadu-importance=low\n}}"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{WikiProject
+        Biography\n|living=yes\n|class=Stub\n|filmbio-work-group=yes\n|listas=Mohan,
+        Crazy\n|needs-photo=yes\n}}\n{{WikiProject India|class=Stub\n|importance=low\n|tamilnadu=yes\n|tamilnadu-importance=low\n|cinema=yes\n|cinema-importance=mid\n}}"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{WikiProject
+        Biography\n|living=yes\n|class=Stub\n|a&e-work-group=yes\n|listas=Mohan, Crazy\n|needs-photo=yes\n}}\n{{WikiProject
+        India|class=Stub\n|importance=low\n|tamilnadu=yes\n|tamilnadu-importance=low\n|cinema=yes\n|cinema-importance=mid\n}}"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{WikiProject
+        Biography\n|living=yes\n|class=Stub\n|priority=\n|a&e-work-group=yes\n|listas=Mohan,
+        Crazy\n|needs-photo=yes\n}}\n{{WP India\n|class=Stub\n|importance=low\n|tamilnadu=yes\n|tamilnadu-importance=low\n|cinema=yes\n|cinema-importance=mid\n}}"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{WikiProject
+        Biography\n|living=yes\n|class=Stub\n|priority=\n|a&e-work-group=yes\n|listas=Mohan,
+        Crazy\n|needs-photo=yes\n}}\n{{WikiProject India\n|class=Stub\n|importance=\n}}"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{WP
+        India\n|class=Stub\n|importance=\n}}\n{{WPBiography\n|living=yes\n|class=Stub\n|priority=\n|needs-infobox=yes\n|a&e-work-group=yes\n|listas=Mohan,
+        Crazy\n|needs-photo=yes\n}}"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{WP
+        India\n|class=Stub\n|importance=\n}}\n{{WPBiography\n|living=yes\n|class=Stub\n|needs-infobox
+        = yes\n|needs-photo = yes\n|a&e-work-group = yes \n|listas = Mohan, Crazy\n}}"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{WP
+        India\n|class=\n|importance=\n}}\n{{WPBiography\n|living=yes\n|class=Stub\n|needs-infobox
+        = yes\n|needs-photo = yes\n|a&e-work-group = yes \n|listas = Mohan, Crazy\n}}"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{WPBiography\n|living=yes\n|class=Stub\n|needs-infobox
+        = yes\n|needs-photo = yes\n|a&e-work-group = yes \n|listas = Mohan, Crazy\n}}"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{WPBiography\n|living=yes\n|class=\n|priority=\n}}"}]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
+    headers:
+      accept-ranges:
+      - bytes
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:06:30 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-6qk8t
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="3283976731"
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - 0c708235-3fd4-4f84-b4ef-4a1c09e4909b
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAEBAFvdouzjtjZOFu1VYxmrS6w5JlmoOpNVaTHU
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://en.wikipedia.org/w/api.php?prop=revisions&titles=Crazy+Mohan&rvdir=older&rvprop=ids%7Ctimestamp%7Cflags%7Ccomment%7Cuser&rvlimit=50&continue=&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"continue":{"rvcontinue":"20240427162159|1221058900","continue":"||userinfo"},"query":{"pages":{"11269250":{"pageid":11269250,"ns":0,"title":"Crazy
+        Mohan","revisions":[{"revid":1364133327,"parentid":1364010230,"user":"DareshMohan","timestamp":"2026-07-14T18:29:25Z","comment":"/*
+        As an actor */ ce"},{"revid":1364010230,"parentid":1364010140,"user":"DareshMohan","timestamp":"2026-07-13T23:11:24Z","comment":"/*
+        As a writer */ ce"},{"revid":1364010140,"parentid":1364009872,"user":"DareshMohan","timestamp":"2026-07-13T23:10:19Z","comment":"/*
+        As a writer */ typo"},{"revid":1364009872,"parentid":1361044640,"user":"DareshMohan","timestamp":"2026-07-13T23:07:00Z","comment":"/*
+        As a writer */ ce"},{"revid":1361044640,"parentid":1361036006,"user":"Sivainnovates","timestamp":"2026-06-25T07:51:29Z","comment":"/*
+        Television */"},{"revid":1361036006,"parentid":1360993002,"user":"DareshMohan","timestamp":"2026-06-25T06:09:29Z","comment":"ce"},{"revid":1360993002,"parentid":1360972670,"minor":"","user":"Bruce1ee","timestamp":"2026-06-24T23:31:48Z","comment":"fixed
+        [[Special:LintErrors|lint errors]] \u2013 stripped tags"},{"revid":1360972670,"parentid":1360972034,"user":"DareshMohan","timestamp":"2026-06-24T20:48:00Z","comment":"/*
+        As a writer */ ce"},{"revid":1360972034,"parentid":1360962992,"user":"DareshMohan","timestamp":"2026-06-24T20:42:45Z","comment":"/*
+        As a writer */ ce"},{"revid":1360962992,"parentid":1360962966,"user":"DareshMohan","timestamp":"2026-06-24T19:37:59Z","comment":"/*
+        As a writer */ ce"},{"revid":1360962966,"parentid":1360962669,"user":"DareshMohan","timestamp":"2026-06-24T19:37:42Z","comment":"/*
+        As a writer */ ce"},{"revid":1360962669,"parentid":1360958960,"user":"DareshMohan","timestamp":"2026-06-24T19:35:21Z","comment":"/*
+        As an actor */ role?"},{"revid":1360958960,"parentid":1360958735,"user":"DareshMohan","timestamp":"2026-06-24T19:04:31Z","comment":"/*
+        Awards */ ce"},{"revid":1360958735,"parentid":1360958678,"user":"DareshMohan","timestamp":"2026-06-24T19:02:05Z","comment":"ce"},{"revid":1360958678,"parentid":1360958550,"user":"DareshMohan","timestamp":"2026-06-24T19:01:30Z","comment":"/*
+        Works */ ce"},{"revid":1360958550,"parentid":1360957156,"user":"DareshMohan","timestamp":"2026-06-24T19:00:12Z","comment":"/*
+        Film */ ce"},{"revid":1360957156,"parentid":1360956888,"user":"DareshMohan","timestamp":"2026-06-24T18:47:27Z","comment":"/*
+        Works */ ce"},{"revid":1360956888,"parentid":1360953733,"user":"DareshMohan","timestamp":"2026-06-24T18:44:50Z","comment":"/*
+        Serials */ ce"},{"revid":1360953733,"parentid":1360944057,"user":"DareshMohan","timestamp":"2026-06-24T18:18:08Z","comment":"Filled
+        in 1 bare reference(s) with reFill 2"},{"revid":1360944057,"parentid":1360942888,"user":"DareshMohan","timestamp":"2026-06-24T16:57:06Z","comment":""},{"revid":1360942888,"parentid":1360940369,"user":"DareshMohan","timestamp":"2026-06-24T16:45:45Z","comment":""},{"revid":1360940369,"parentid":1360940287,"user":"DareshMohan","timestamp":"2026-06-24T16:24:19Z","comment":""},{"revid":1360940287,"parentid":1360939528,"user":"DareshMohan","timestamp":"2026-06-24T16:23:37Z","comment":""},{"revid":1360939528,"parentid":1360939282,"user":"DareshMohan","timestamp":"2026-06-24T16:17:00Z","comment":"Undid
+        revision [[Special:Diff/1360939282|1360939282]] by [[Special:Contributions/DareshMohan|DareshMohan]]
+        ([[User talk:DareshMohan|talk]])"},{"revid":1360939282,"parentid":1360844483,"user":"DareshMohan","timestamp":"2026-06-24T16:14:52Z","comment":"/*
+        Film */ Unsourced"},{"revid":1360844483,"parentid":1360733723,"user":"DareshMohan","timestamp":"2026-06-23T23:55:45Z","comment":"/*
+        Film */ unsourced"},{"revid":1360733723,"parentid":1359713509,"user":"Kailash29792","timestamp":"2026-06-23T07:25:10Z","comment":"unsourced"},{"revid":1359713509,"parentid":1346589788,"user":"DareshMohan","timestamp":"2026-06-16T19:56:26Z","comment":"/*
+        Film */ ce"},{"revid":1346589788,"parentid":1346589519,"user":"DareshMohan","timestamp":"2026-04-01T18:38:18Z","comment":"/*
+        Film */ ce"},{"revid":1346589519,"parentid":1346589457,"user":"DareshMohan","timestamp":"2026-04-01T18:36:31Z","comment":"/*
+        Serials */ ce"},{"revid":1346589457,"parentid":1346589396,"user":"DareshMohan","timestamp":"2026-04-01T18:36:09Z","comment":"/*
+        Film */ ce"},{"revid":1346589396,"parentid":1322295280,"user":"DareshMohan","timestamp":"2026-04-01T18:35:40Z","comment":"/*
+        Film */ ce"},{"revid":1322295280,"parentid":1322295176,"user":"~2025-33786-11","temp":"","timestamp":"2025-11-15T12:45:15Z","comment":"/*
+        Death */Fixed typo"},{"revid":1322295176,"parentid":1321160284,"user":"~2025-33786-11","temp":"","timestamp":"2025-11-15T12:44:23Z","comment":"/*
+        Death */Fixed typo"},{"revid":1321160284,"parentid":1321104906,"user":"~2025-32279-52","temp":"","timestamp":"2025-11-09T01:22:23Z","comment":"/*
+        Death */ Up"},{"revid":1321104906,"parentid":1313977168,"user":"~2025-32213-93","temp":"","timestamp":"2025-11-08T18:44:59Z","comment":"Up"},{"revid":1313977168,"parentid":1307689229,"user":"Kailash29792","timestamp":"2025-09-29T02:42:56Z","comment":"added
+        [[Category:Actors in Tamil theatre]] using [[WP:HC|HotCat]]"},{"revid":1307689229,"parentid":1306626328,"user":"Smasongarrison","timestamp":"2025-08-25T04:22:30Z","comment":"diffusing
+        by century, replaced: \u2019 \u2192 '', [[WP:AWB/T|typo(s) fixed]]: ,  \u2192
+        ,"},{"revid":1306626328,"parentid":1288084755,"user":"2A02:8108:308B:8A00:157B:1028:C47E:E1DF","anon":"","timestamp":"2025-08-18T20:31:17Z","comment":"Added
+        2 more dramas in Theatre section"},{"revid":1288084755,"parentid":1288084734,"user":"Adakiko","timestamp":"2025-04-30T09:52:53Z","comment":"Reverted
+        1 edit by [[Special:Contributions/Degueghndalism|Degueghndalism]] ([[User
+        talk:Degueghndalism|talk]]): Vand"},{"revid":1288084734,"parentid":1288084593,"user":"Degueghndalism","timestamp":"2025-04-30T09:52:44Z","comment":""},{"revid":1288084593,"parentid":1276165046,"minor":"","user":"Goldsztajn","timestamp":"2025-04-30T09:51:05Z","comment":"Removing
+        link(s) [[Wikipedia:Articles for deletion/Kauvery Hospital (2nd nomination)]]
+        closed as delete ([[WP:XFDC#4.0.16|XFDcloser]])"},{"revid":1276165046,"parentid":1275802238,"user":"DareshMohan","timestamp":"2025-02-17T07:16:56Z","comment":"/*
+        Works */ ''''"},{"revid":1275802238,"parentid":1241764839,"user":"GreenC bot","timestamp":"2025-02-15T04:34:43Z","comment":"Reformat
+        1 archive link. [[User:GreenC/WaybackMedic_2.5|Wayback Medic 2.5]] per [[WP:USURPURL]]
+        and [[WP:JUDI#Bot_run_results|JUDI batch #22ab]]"},{"revid":1241764839,"parentid":1238944877,"user":"67.163.62.25","anon":"","timestamp":"2024-08-23T01:04:14Z","comment":"/*
+        Theatre */"},{"revid":1238944877,"parentid":1238944721,"user":"78.100.239.140","anon":"","timestamp":"2024-08-06T14:22:56Z","comment":""},{"revid":1238944721,"parentid":1226519557,"user":"78.100.239.140","anon":"","timestamp":"2024-08-06T14:22:05Z","comment":"/*
+        Philanthropy */"},{"revid":1226519557,"parentid":1221072136,"user":"106.222.222.92","anon":"","timestamp":"2024-05-31T04:21:08Z","comment":""},{"revid":1221072136,"parentid":1221059808,"user":"DareshMohan","timestamp":"2024-04-27T18:05:49Z","comment":""},{"revid":1221059808,"parentid":1221058900,"user":"DareshMohan","timestamp":"2024-04-27T16:29:18Z","comment":"/*
+        Film */"}]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
+    headers:
+      accept-ranges:
+      - bytes
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:06:30 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-h2x7d
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="3894473487"
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - 6f3e570f-a84c-4c67-afa5-8be825a30ce8
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAEBAFvdouzjtjZOFu1VYxmrS6w5JlmoOpNVaTHU
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://en.wikipedia.org/w/api.php?prop=revisions&titles=Crazy+Mohan&rvdir=older&rvprop=ids%7Ctimestamp%7Cflags%7Ccomment%7Cuser&rvlimit=50&rvcontinue=20240427162159%7C1221058900&continue=%7C%7Cuserinfo&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"continue":{"rvcontinue":"20200608105148|961420512","continue":"||userinfo"},"query":{"pages":{"11269250":{"pageid":11269250,"ns":0,"title":"Crazy
+        Mohan","revisions":[{"revid":1221058900,"parentid":1208450367,"user":"DareshMohan","timestamp":"2024-04-27T16:21:59Z","comment":"/*
+        Film */"},{"revid":1208450367,"parentid":1208324402,"user":"GreenC bot","timestamp":"2024-02-17T15:35:20Z","comment":"Move
+        1 url. [[User:GreenC/WaybackMedic_2.5|Wayback Medic 2.5]] per [[WP:URLREQ#newindianexpress.com]]"},{"revid":1208324402,"parentid":1169005832,"user":"Citation
+        bot","timestamp":"2024-02-17T02:42:43Z","comment":"Altered template type.
+        Added date. | [[:en:WP:UCB|Use this bot]]. [[:en:WP:DBUG|Report bugs]]. |
+        Suggested by Abductive | [[Category:Tamil screenwriters]] | #UCB_Category
+        42/220"},{"revid":1169005832,"parentid":1168544592,"user":"2001:E68:5409:A664:68B9:5F44:5B1A:C24A","anon":"","timestamp":"2023-08-06T12:44:14Z","comment":"/*
+        Death */"},{"revid":1168544592,"parentid":1153754126,"user":"Kailash29792","timestamp":"2023-08-03T12:11:38Z","comment":"Rescuing
+        1 sources and tagging 0 as dead.) #IABot (v2.0.9.5"},{"revid":1153754126,"parentid":1112952896,"user":"GreenC
+        bot","timestamp":"2023-05-08T04:12:31Z","comment":"Reformat 1 archive link.
+        [[User:GreenC/WaybackMedic_2.5|Wayback Medic 2.5]]"},{"revid":1112952896,"parentid":1110063152,"minor":"","user":"Red
+        Director","timestamp":"2022-09-28T23:56:12Z","comment":"Changing [[Wikipedia:Short
+        description|short description]] from \"Indian actor\" to \"Indian actor (1952\u20132019)\""},{"revid":1110063152,"parentid":1110034378,"minor":"","user":"Deltaspace42","timestamp":"2022-09-13T10:48:05Z","comment":"Reverted
+        1 edit by [[Special:Contributions/223.181.169.3|223.181.169.3]] ([[User talk:223.181.169.3|talk]])
+        to last revision by 14.98.244.193"},{"revid":1110034378,"parentid":1109704869,"user":"223.181.169.3","anon":"","timestamp":"2022-09-13T06:02:52Z","comment":"/*
+        Philanthropy */"},{"revid":1109704869,"parentid":1107122365,"user":"14.98.244.193","anon":"","timestamp":"2022-09-11T12:12:45Z","comment":"/*
+        Career */"},{"revid":1107122365,"parentid":1100201973,"user":"Manick22","timestamp":"2022-08-28T08:10:12Z","comment":"/*
+        Works */"},{"revid":1100201973,"parentid":1076062404,"minor":"","user":"Rodw","timestamp":"2022-07-24T18:14:06Z","comment":"Disambiguating
+        links to [[Poikkal Kudhirai]] (link changed to [[Poikkal Kudhirai (1983 film)]];
+        link changed to [[Poikkal Kudhirai (1983 film)]]) using [[User:Qwertyytrewqqwerty/DisamAssist|DisamAssist]]."},{"revid":1076062404,"parentid":1076060002,"minor":"","user":"AnomieBOT","timestamp":"2022-03-09T05:31:07Z","comment":"Dating
+        maintenance tags: {{Cn}}"},{"revid":1076060002,"parentid":1067880892,"minor":"","user":"LibStar","timestamp":"2022-03-09T05:10:25Z","comment":"/*
+        Career */"},{"revid":1067880892,"parentid":1067880711,"user":"103.91.84.93","anon":"","timestamp":"2022-01-25T16:39:33Z","comment":"/*
+        Awards */"},{"revid":1067880711,"parentid":1067880576,"user":"103.91.84.93","anon":"","timestamp":"2022-01-25T16:38:21Z","comment":"/*
+        Awards */"},{"revid":1067880576,"parentid":1065003026,"user":"103.91.84.93","anon":"","timestamp":"2022-01-25T16:37:29Z","comment":"/*
+        Awards */"},{"revid":1065003026,"parentid":1058914499,"minor":"","user":"Pranesh
+        Ravikumar","timestamp":"2022-01-11T08:44:00Z","comment":"Removed missing wikipedia
+        link"},{"revid":1058914499,"parentid":1056714879,"user":"Citation bot","timestamp":"2021-12-06T10:02:13Z","comment":"Alter:
+        template type. Add: date, authors 1-1. | [[WP:UCB|Use this bot]]. [[WP:DBUG|Report
+        bugs]]. | Suggested by Abductive | [[Category:Indian male screenwriters]]
+        | #UCB_Category 483/547"},{"revid":1056714879,"parentid":1054583550,"user":"Aaajit22700","timestamp":"2021-11-23T03:59:19Z","comment":"Added
+        backlink"},{"revid":1054583550,"parentid":1050488256,"user":"Citation bot","timestamp":"2021-11-10T22:38:22Z","comment":"Alter:
+        template type, title. Add: date. | [[WP:UCB|Use this bot]]. [[WP:DBUG|Report
+        bugs]]. | Suggested by Abductive | [[Category:Tamil screenwriters]] | #UCB_Category
+        117/195"},{"revid":1050488256,"parentid":1050486140,"user":"Editrite!","timestamp":"2021-10-18T04:11:32Z","comment":"/*
+        Career */"},{"revid":1050486140,"parentid":1050161396,"user":"Editrite!","timestamp":"2021-10-18T03:52:16Z","comment":""},{"revid":1050161396,"parentid":1048627032,"minor":"","user":"WikiCleanerBot","timestamp":"2021-10-16T05:06:20Z","comment":"v2.04b
+        - [[User:WikiCleanerBot#T20|Bot T20 CW#61]] - Fix errors for [[WP:WCW|CW project]]
+        (Reference before punctuation - Empty list item)"},{"revid":1048627032,"parentid":1033884424,"user":"157.131.246.81","anon":"","timestamp":"2021-10-07T02:45:59Z","comment":"Date
+        and cause of death is quite unnecessary in the main section."},{"revid":1033884424,"parentid":1032673886,"user":"122.164.94.153","anon":"","timestamp":"2021-07-16T12:47:41Z","comment":"/*
+        Career */"},{"revid":1032673886,"parentid":1031579774,"user":"2A01:CB00:19:5C00:C9C:7A8C:A62B:7EDC","anon":"","timestamp":"2021-07-08T23:01:11Z","comment":"/*
+        Career */"},{"revid":1031579774,"parentid":1031283851,"minor":"","user":"VKG1985","timestamp":"2021-07-02T11:49:56Z","comment":"/*
+        Works */ Added web series section"},{"revid":1031283851,"parentid":1031222961,"user":"84.253.225.184","anon":"","timestamp":"2021-06-30T19:34:49Z","comment":""},{"revid":1031222961,"parentid":1022718781,"user":"175.157.205.131","anon":"","timestamp":"2021-06-30T12:30:01Z","comment":""},{"revid":1022718781,"parentid":1018630723,"user":"70.135.148.144","anon":"","timestamp":"2021-05-12T02:44:17Z","comment":"/*
+        Philanthropy */  change to past tense"},{"revid":1018630723,"parentid":1009860274,"user":"GreenC
+        bot","timestamp":"2021-04-19T02:30:53Z","comment":"Rescued 4 archive links;
+        reformat 6 links. [[User:GreenC/WaybackMedic_2.5|Wayback Medic 2.5]]"},{"revid":1009860274,"parentid":1009858807,"minor":"","user":"Alangar
+        Manickam","timestamp":"2021-03-02T17:25:23Z","comment":""},{"revid":1009858807,"parentid":1009858749,"minor":"","user":"Alangar
+        Manickam","timestamp":"2021-03-02T17:16:22Z","comment":"/* State awards */"},{"revid":1009858749,"parentid":1003321143,"minor":"","user":"Alangar
+        Manickam","timestamp":"2021-03-02T17:15:58Z","comment":"/* State awards */"},{"revid":1003321143,"parentid":999046370,"user":"Kailash29792","timestamp":"2021-01-28T12:37:36Z","comment":""},{"revid":999046370,"parentid":992204458,"user":"45.251.35.83","anon":"","timestamp":"2021-01-08T06:33:48Z","comment":"/*
+        Philanthropy */"},{"revid":992204458,"parentid":992204447,"minor":"","user":"ClueBot
+        NG","timestamp":"2020-12-04T01:41:04Z","comment":"Reverting possible vandalism
+        by [[Special:Contribs/122.11.174.74|122.11.174.74]] to version by 209.121.41.8.
+        [[WP:CBFP|Report False Positive?]] Thanks, [[WP:CBNG|ClueBot NG]]. (3838479)
+        (Bot)"},{"revid":992204447,"parentid":991447115,"user":"122.11.174.74","anon":"","timestamp":"2020-12-04T01:41:01Z","comment":"/*
+        References */"},{"revid":991447115,"parentid":982966851,"user":"209.121.41.8","anon":"","timestamp":"2020-11-30T02:53:25Z","comment":""},{"revid":982966851,"parentid":981712185,"user":"Rabbithat43","timestamp":"2020-10-11T13:11:06Z","comment":"Rescuing
+        5 sources and tagging 0 as dead.) #IABot (v2.0.7"},{"revid":981712185,"parentid":979459012,"minor":"","user":"Buidhe","timestamp":"2020-10-04T00:27:53Z","comment":"Disambiguating
+        links to [[Magalir Mattum]] (link changed to [[Magalir Mattum (1994 film)]])
+        using [[User:Qwertyytrewqqwerty/DisamAssist|DisamAssist]]."},{"revid":979459012,"parentid":973406386,"user":"189.6.245.74","anon":"","timestamp":"2020-09-20T22:13:53Z","comment":"/*
+        Films */"},{"revid":973406386,"parentid":971872275,"user":"TamilMirchi","timestamp":"2020-08-17T01:29:06Z","comment":""},{"revid":971872275,"parentid":971831726,"user":"Sunny719","timestamp":"2020-08-08T19:33:22Z","comment":"Rescuing
+        15 sources and tagging 0 as dead.) #IABot (v2.0.2"},{"revid":971831726,"parentid":969769884,"user":"115.66.238.8","anon":"","timestamp":"2020-08-08T14:10:15Z","comment":"/*
+        Serials */"},{"revid":969769884,"parentid":968663306,"user":"Veinnill","timestamp":"2020-07-27T09:53:32Z","comment":"/*
+        Works */"},{"revid":968663306,"parentid":966946887,"user":"158.109.31.4","anon":"","timestamp":"2020-07-20T19:04:27Z","comment":"/*
+        Theatre */"},{"revid":966946887,"parentid":961420614,"user":"115.97.84.62","anon":"","timestamp":"2020-07-10T05:52:53Z","comment":"/*
+        Films */"},{"revid":961420614,"parentid":961420512,"user":"221.124.18.219","anon":"","timestamp":"2020-06-08T10:52:45Z","comment":"/*
+        Philanthropy */"}]}}}}'
+    headers:
+      accept-ranges:
+      - bytes
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:06:30 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-mxcmp
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="1302144157"
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,X-Subdomain,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - 303c76d7-c263-4485-a222-3e1d708a07c3
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAEBAFvdouzjtjZOFu1VYxmrS6w5JlmoOpNVaTHU
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://en.wikipedia.org/w/api.php?prop=revisions&titles=Crazy+Mohan&rvdir=older&rvprop=ids%7Ctimestamp%7Cflags%7Ccomment%7Cuser&rvlimit=50&rvcontinue=20200608105148%7C961420512&continue=%7C%7Cuserinfo&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"continue":{"rvcontinue":"20190610092835|901200132","continue":"||userinfo"},"query":{"pages":{"11269250":{"pageid":11269250,"ns":0,"title":"Crazy
+        Mohan","revisions":[{"revid":961420512,"parentid":960348903,"user":"221.124.18.219","anon":"","timestamp":"2020-06-08T10:51:48Z","comment":"/*
+        Philanthropy */"},{"revid":960348903,"parentid":955369149,"user":"Abishe","timestamp":"2020-06-02T13:12:20Z","comment":"Importing
+        Wikidata [[Wikipedia:Short description|short description]]: \"Indian actor\"
+        ([[Wikipedia:Shortdesc helper|Shortdesc helper]])"},{"revid":955369149,"parentid":953693003,"user":"Vensatry","timestamp":"2020-05-07T12:23:15Z","comment":"/*
+        External links */ link spam"},{"revid":953693003,"parentid":947309876,"minor":"","user":"Kailash29792","timestamp":"2020-04-28T15:39:12Z","comment":"Reference
+        edited with [[Wikipedia:ProveIt|ProveIt]]"},{"revid":947309876,"parentid":947004972,"user":"98.230.196.188","anon":"","timestamp":"2020-03-25T15:19:19Z","comment":""},{"revid":947004972,"parentid":945749558,"user":"Dawnseeker2000","timestamp":"2020-03-23T18:29:39Z","comment":"[[MOS:DATEUNIFY]],
+        refine ref details"},{"revid":945749558,"parentid":938119411,"user":"TamilMirchi","timestamp":"2020-03-15T22:17:39Z","comment":"/*
+        Films */Double"},{"revid":938119411,"parentid":937274474,"minor":"","user":"SerChevalerie","timestamp":"2020-01-29T06:34:52Z","comment":"Reverted
+        edits by [[Special:Contribs/PunjabCinema07|PunjabCinema07]] ([[User talk:PunjabCinema07|talk]])
+        to last version by 103.99.218.9"},{"revid":937274474,"parentid":926592335,"user":"PunjabCinema07","timestamp":"2020-01-24T00:00:24Z","comment":"Rescuing
+        15 sources and tagging 0 as dead.) #IABot (v2.0"},{"revid":926592335,"parentid":922087952,"user":"103.99.218.9","anon":"","timestamp":"2019-11-17T12:14:06Z","comment":"''Venba''
+        mentioned here is Venpa that has been described in the linked Wiki article."},{"revid":922087952,"parentid":916135361,"user":"2A01:CB00:19:5C00:409F:BBBD:57B:DA2D","anon":"","timestamp":"2019-10-19T21:50:20Z","comment":"/*
+        Films */"},{"revid":916135361,"parentid":905653089,"minor":"","user":"Monkbot","timestamp":"2019-09-17T06:41:00Z","comment":"/*
+        Theatre */[[User:Monkbot/task 16: remove replace deprecated dead-url params|Task
+        16]]: replaced (1\u00d7) / removed (0\u00d7) deprecated |dead-url= and |deadurl=
+        with |url-status=;"},{"revid":905653089,"parentid":905118923,"minor":"","user":"Necrothesp","timestamp":"2019-07-10T13:25:25Z","comment":""},{"revid":905118923,"parentid":903810655,"user":"2401:4900:277F:845D:68DE:DEFF:FE90:2A46","anon":"","timestamp":"2019-07-06T23:53:23Z","comment":"/*
+        Serials */"},{"revid":903810655,"parentid":903810443,"user":"4.14.93.38","anon":"","timestamp":"2019-06-28T03:47:20Z","comment":"/*
+        Serials */"},{"revid":903810443,"parentid":903252695,"user":"4.14.93.38","anon":"","timestamp":"2019-06-28T03:45:21Z","comment":"/*
+        Serials */"},{"revid":903252695,"parentid":902725061,"minor":"","user":"Cydebot","timestamp":"2019-06-24T15:18:22Z","comment":"Robot
+        - Removing category Deaths from myocardial infarction per [[WP:CFD|CFD]] at
+        [[Wikipedia:Categories for discussion/Log/2015 June 21]]."},{"revid":902725061,"parentid":901919032,"user":"104.7.66.82","anon":"","timestamp":"2019-06-20T20:10:32Z","comment":"/*
+        Death */"},{"revid":901919032,"parentid":901518600,"minor":"","user":"Jcaruss","timestamp":"2019-06-15T06:05:05Z","comment":""},{"revid":901518600,"parentid":901491831,"user":"Continental
+        Rift","timestamp":"2019-06-12T12:38:06Z","comment":"/* Career */ photograph
+        with president Kalam"},{"revid":901491831,"parentid":901472662,"user":"121.244.91.2","anon":"","timestamp":"2019-06-12T07:19:05Z","comment":"/*
+        Career */Fixed typo"},{"revid":901472662,"parentid":901411304,"minor":"","user":"Moorlord15","timestamp":"2019-06-12T03:27:31Z","comment":"/*
+        Career */"},{"revid":901411304,"parentid":901411161,"user":"Sxg169","timestamp":"2019-06-11T17:53:45Z","comment":"/*
+        Death */ language corrections."},{"revid":901411161,"parentid":901401547,"user":"Sxg169","timestamp":"2019-06-11T17:52:50Z","comment":"/*
+        Career */ updates due to his death."},{"revid":901401547,"parentid":901348691,"user":"100.0.38.167","anon":"","timestamp":"2019-06-11T16:44:00Z","comment":"It
+        was not a Inter collegiate competition. It was only Intra class competition
+        with the Guindy students. He received only best writer award and not best
+        actor award and it was NOT given by Kamal Hassan as earlier version stated"},{"revid":901348691,"parentid":901346747,"user":"2409:4072:620D:FD49:A1EE:828E:2818:15CA","anon":"","timestamp":"2019-06-11T09:25:26Z","comment":"/*
+        Films */"},{"revid":901346747,"parentid":901342001,"user":"Kailash29792","timestamp":"2019-06-11T09:10:28Z","comment":""},{"revid":901342001,"parentid":901334719,"user":"Srivin","timestamp":"2019-06-11T08:26:44Z","comment":"/*
+        Works */"},{"revid":901334719,"parentid":901322608,"user":"Sunuraju","timestamp":"2019-06-11T07:02:23Z","comment":"/*
+        Career */"},{"revid":901322608,"parentid":901266345,"user":"2401:4900:2302:91CA:BEFD:6BBD:1CC4:E4B2","anon":"","timestamp":"2019-06-11T04:26:48Z","comment":"/*
+        International awards */ rewrite"},{"revid":901266345,"parentid":901262270,"minor":"","user":"Snickers2686","timestamp":"2019-06-10T19:00:35Z","comment":""},{"revid":901262270,"parentid":901259852,"user":"90.246.246.171","anon":"","timestamp":"2019-06-10T18:27:46Z","comment":"/*
+        Death */Removed junk text"},{"revid":901259852,"parentid":901221325,"user":"199.40.204.245","anon":"","timestamp":"2019-06-10T18:11:08Z","comment":"/*
+        Death */"},{"revid":901221325,"parentid":901216859,"user":"Computermusic1999","timestamp":"2019-06-10T13:04:00Z","comment":""},{"revid":901216859,"parentid":901212013,"user":"157.50.235.31","anon":"","timestamp":"2019-06-10T12:19:01Z","comment":""},{"revid":901212013,"parentid":901211949,"user":"92.97.105.250","anon":"","timestamp":"2019-06-10T11:28:46Z","comment":"/*
+        Death */"},{"revid":901211949,"parentid":901209722,"user":"92.97.105.250","anon":"","timestamp":"2019-06-10T11:28:06Z","comment":"/*
+        Death */"},{"revid":901209722,"parentid":901208353,"user":"Gianluigi02","timestamp":"2019-06-10T11:06:15Z","comment":""},{"revid":901208353,"parentid":901207924,"user":"Pharaoh
+        of the Wizards","timestamp":"2019-06-10T10:54:51Z","comment":"Update (edited
+        with [[User:ProveIt_GT|ProveIt]])"},{"revid":901207924,"parentid":901207605,"user":"47.42.1.12","anon":"","timestamp":"2019-06-10T10:50:17Z","comment":"/*
+        Career */ Fixed grammar"},{"revid":901207605,"parentid":901204951,"user":"Gianluigi02","timestamp":"2019-06-10T10:46:59Z","comment":""},{"revid":901204951,"parentid":901204884,"user":"Idithangi","timestamp":"2019-06-10T10:20:32Z","comment":"removed
+        [[Category:1949 births]]; added [[Category:1952 births]] using [[WP:HC|HotCat]]"},{"revid":901204884,"parentid":901202489,"user":"Idithangi","timestamp":"2019-06-10T10:19:56Z","comment":"removed
+        [[Category:Living people]]; added [[Category:2019 deaths]] using [[WP:HC|HotCat]]"},{"revid":901202489,"parentid":901202483,"minor":"","user":"ClueBot
+        NG","timestamp":"2019-06-10T09:56:07Z","comment":"Reverting possible vandalism
+        by [[Special:Contribs/103.63.148.5|103.63.148.5]] to version by Kailash29792.
+        [[WP:CBFP|Report False Positive?]] Thanks, [[WP:CBNG|ClueBot NG]]. (3631475)
+        (Bot)"},{"revid":901202483,"parentid":901202017,"user":"103.63.148.5","anon":"","timestamp":"2019-06-10T09:56:04Z","comment":"/*
+        Death */"},{"revid":901202017,"parentid":901201551,"user":"Kailash29792","timestamp":"2019-06-10T09:51:08Z","comment":"/*
+        Theatre */ Reference edited with [[Wikipedia:ProveIt|ProveIt]]"},{"revid":901201551,"parentid":901201268,"user":"Kailash29792","timestamp":"2019-06-10T09:45:46Z","comment":"Reference
+        edited with [[Wikipedia:ProveIt|ProveIt]]"},{"revid":901201268,"parentid":901200999,"user":"Kailash29792","timestamp":"2019-06-10T09:42:33Z","comment":"this
+        is a shocker"},{"revid":901200999,"parentid":901200691,"user":"117.249.169.74","anon":"","timestamp":"2019-06-10T09:39:00Z","comment":""},{"revid":901200691,"parentid":901200132,"user":"Artegia","timestamp":"2019-06-10T09:35:27Z","comment":"death
+        date and age"}]}}}}'
+    headers:
+      accept-ranges:
+      - bytes
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:06:30 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-7ffsv
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="1377576630"
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,X-Subdomain,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - 4cc9a077-1d8c-41ed-810a-41570b78e43a
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAEBAFvdouzjtjZOFu1VYxmrS6w5JlmoOpNVaTHU
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://en.wikipedia.org/w/api.php?prop=revisions&titles=Crazy+Mohan&rvdir=older&rvprop=ids%7Ctimestamp%7Cflags%7Ccomment%7Cuser&rvlimit=50&rvcontinue=20190610092835%7C901200132&continue=%7C%7Cuserinfo&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"continue":{"rvcontinue":"20190103094536|876606203","continue":"||userinfo"},"query":{"pages":{"11269250":{"pageid":11269250,"ns":0,"title":"Crazy
+        Mohan","revisions":[{"revid":901200132,"parentid":901200008,"user":"115.164.84.232","anon":"","timestamp":"2019-06-10T09:28:35Z","comment":""},{"revid":901200008,"parentid":901199945,"user":"165.225.104.102","anon":"","timestamp":"2019-06-10T09:27:19Z","comment":""},{"revid":901199945,"parentid":901199938,"user":"125.17.3.10","anon":"","timestamp":"2019-06-10T09:26:28Z","comment":"/*
+        Career */"},{"revid":901199938,"parentid":901199906,"user":"Ravichandar84","timestamp":"2019-06-10T09:26:23Z","comment":""},{"revid":901199906,"parentid":901199767,"user":"125.17.3.10","anon":"","timestamp":"2019-06-10T09:26:00Z","comment":"/*
+        Career */"},{"revid":901199767,"parentid":901199508,"user":"Ravichandar84","timestamp":"2019-06-10T09:24:21Z","comment":""},{"revid":901199508,"parentid":901199317,"user":"Quill
+        Twister","timestamp":"2019-06-10T09:21:37Z","comment":""},{"revid":901199317,"parentid":901199203,"user":"Quill
+        Twister","timestamp":"2019-06-10T09:19:47Z","comment":""},{"revid":901199203,"parentid":901198549,"user":"Quill
+        Twister","timestamp":"2019-06-10T09:18:56Z","comment":""},{"revid":901198549,"parentid":901198360,"user":"PJeganathan","timestamp":"2019-06-10T09:11:34Z","comment":"capitalization
+        of june"},{"revid":901198360,"parentid":901198072,"user":"PJeganathan","timestamp":"2019-06-10T09:09:46Z","comment":"added
+        reference for death.."},{"revid":901198072,"parentid":901197526,"minor":"","user":"Dharjath","timestamp":"2019-06-10T09:06:36Z","comment":"Death
+        report"},{"revid":901197526,"parentid":901197450,"user":"122.178.85.166","anon":"","timestamp":"2019-06-10T09:01:00Z","comment":""},{"revid":901197450,"parentid":901197363,"user":"122.178.85.166","anon":"","timestamp":"2019-06-10T09:00:11Z","comment":""},{"revid":901197363,"parentid":901197255,"user":"165.225.104.86","anon":"","timestamp":"2019-06-10T08:59:17Z","comment":""},{"revid":901197255,"parentid":901197193,"user":"122.164.245.59","anon":"","timestamp":"2019-06-10T08:58:04Z","comment":""},{"revid":901197193,"parentid":901197181,"minor":"","user":"A.tharakesh","timestamp":"2019-06-10T08:57:22Z","comment":"Date
+        of death"},{"revid":901197181,"parentid":901197110,"user":"210.18.133.145","anon":"","timestamp":"2019-06-10T08:57:17Z","comment":"Added
+        death"},{"revid":901197110,"parentid":901197095,"user":"2405:204:72CC:6903:0:0:294B:AC","anon":"","timestamp":"2019-06-10T08:56:36Z","comment":"Died"},{"revid":901197095,"parentid":901196965,"user":"165.225.114.211","anon":"","timestamp":"2019-06-10T08:56:28Z","comment":"/*
+        Films */"},{"revid":901196965,"parentid":901196688,"user":"2405:204:72CC:6903:0:0:294B:AC","anon":"","timestamp":"2019-06-10T08:55:17Z","comment":""},{"revid":901196688,"parentid":901196504,"user":"106.198.35.158","anon":"","timestamp":"2019-06-10T08:52:32Z","comment":""},{"revid":901196504,"parentid":901195987,"user":"49.207.184.53","anon":"","timestamp":"2019-06-10T08:50:45Z","comment":""},{"revid":901195987,"parentid":901194738,"user":"223.181.205.146","anon":"","timestamp":"2019-06-10T08:45:26Z","comment":""},{"revid":901194738,"parentid":901194190,"user":"203.99.197.169","anon":"","timestamp":"2019-06-10T08:33:06Z","comment":""},{"revid":901194190,"parentid":901194009,"user":"27.62.9.100","anon":"","timestamp":"2019-06-10T08:26:50Z","comment":""},{"revid":901194009,"parentid":901193993,"user":"103.19.199.94","anon":"","timestamp":"2019-06-10T08:24:50Z","comment":""},{"revid":901193993,"parentid":901193738,"user":"83.110.144.182","anon":"","timestamp":"2019-06-10T08:24:39Z","comment":"/*
+        Career */"},{"revid":901193738,"parentid":901193522,"user":"83.110.144.182","anon":"","timestamp":"2019-06-10T08:22:06Z","comment":"/*
+        Career */"},{"revid":901193522,"parentid":901192341,"user":"183.82.16.3","anon":"","timestamp":"2019-06-10T08:19:59Z","comment":""},{"revid":901192341,"parentid":901192112,"user":"176.47.62.192","anon":"","timestamp":"2019-06-10T08:12:33Z","comment":""},{"revid":901192112,"parentid":901191935,"user":"220.240.201.32","anon":"","timestamp":"2019-06-10T08:11:12Z","comment":"Fake
+        news was published"},{"revid":901191935,"parentid":901191896,"user":"117.248.23.161","anon":"","timestamp":"2019-06-10T08:09:20Z","comment":"/*
+        Death */"},{"revid":901191896,"parentid":901191677,"user":"2405:204:710C:86F7:588F:5F1F:F016:31E7","anon":"","timestamp":"2019-06-10T08:08:54Z","comment":"Death
+        info"},{"revid":901191677,"parentid":901191513,"user":"2405:204:548D:43F6:0:0:2495:F0A0","anon":"","timestamp":"2019-06-10T08:06:02Z","comment":""},{"revid":901191513,"parentid":901191448,"user":"49.37.201.13","anon":"","timestamp":"2019-06-10T08:04:01Z","comment":"/*
+        Death */"},{"revid":901191448,"parentid":901191415,"user":"49.37.201.13","anon":"","timestamp":"2019-06-10T08:03:15Z","comment":"/*
+        Death */"},{"revid":901191415,"parentid":901191347,"user":"49.37.201.13","anon":"","timestamp":"2019-06-10T08:02:47Z","comment":""},{"revid":901191347,"parentid":901191207,"user":"Idithangi","timestamp":"2019-06-10T08:01:54Z","comment":"Reverting
+        to older version as news of death is yet to be confirmed"},{"revid":901191207,"parentid":901191008,"user":"49.37.201.13","anon":"","timestamp":"2019-06-10T08:00:13Z","comment":""},{"revid":901191008,"parentid":901190158,"user":"Idithangi","timestamp":"2019-06-10T07:57:13Z","comment":"RIP"},{"revid":901190158,"parentid":898022528,"user":"42.111.144.43","anon":"","timestamp":"2019-06-10T07:47:24Z","comment":""},{"revid":898022528,"parentid":898022479,"user":"86.238.3.133","anon":"","timestamp":"2019-05-20T21:34:48Z","comment":"/*
+        Serials */"},{"revid":898022479,"parentid":896067341,"user":"86.238.3.133","anon":"","timestamp":"2019-05-20T21:34:27Z","comment":"/*
+        Serials */"},{"revid":896067341,"parentid":895753673,"user":"Pastacho","timestamp":"2019-05-08T05:07:54Z","comment":"/*
+        Career */ adding reference to Better India article"},{"revid":895753673,"parentid":895632878,"user":"Keerthanaviswes","timestamp":"2019-05-06T09:13:10Z","comment":"/*
+        Serials */ Added links"},{"revid":895632878,"parentid":895632834,"user":"DragoMynaa","timestamp":"2019-05-05T16:04:41Z","comment":"Undid
+        revision 895632834 by [[Special:Contributions/DragoMynaa|DragoMynaa]] ([[User
+        talk:DragoMynaa|talk]])"},{"revid":895632834,"parentid":884934211,"user":"DragoMynaa","timestamp":"2019-05-05T16:04:20Z","comment":"/*
+        Films */ fixed list"},{"revid":884934211,"parentid":879045910,"user":"73.194.55.153","anon":"","timestamp":"2019-02-24T23:14:39Z","comment":"/*
+        Films */"},{"revid":879045910,"parentid":876606203,"user":"207.180.167.75","anon":"","timestamp":"2019-01-18T17:09:29Z","comment":""}]}}}}'
+    headers:
+      accept-ranges:
+      - bytes
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:06:31 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-k8tft
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="1006988845"
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,X-Subdomain,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - 8c59be07-0afc-400c-9693-c5123deff556
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAEBAFvdouzjtjZOFu1VYxmrS6w5JlmoOpNVaTHU
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://en.wikipedia.org/w/api.php?prop=revisions&titles=Crazy+Mohan&rvdir=older&rvprop=ids%7Ctimestamp%7Cflags%7Ccomment%7Cuser&rvlimit=50&rvcontinue=20190103094536%7C876606203&continue=%7C%7Cuserinfo&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"continue":{"rvcontinue":"20171107140204|809161565","continue":"||userinfo"},"query":{"pages":{"11269250":{"pageid":11269250,"ns":0,"title":"Crazy
+        Mohan","revisions":[{"revid":876606203,"parentid":863949062,"minor":"","user":"Idithangi","timestamp":"2019-01-03T09:45:36Z","comment":"Filled
+        in 3 bare reference(s) with [[:en:WP:REFILL|reFill]] ()"},{"revid":863949062,"parentid":863664928,"user":"2402:3A80:CEB:B612:BCC0:98FE:738A:F8D6","anon":"","timestamp":"2018-10-14T03:41:26Z","comment":"/*
+        Theatre */"},{"revid":863664928,"parentid":859450372,"minor":"","user":"Ser
+        Amantio di Nicolao","timestamp":"2018-10-12T05:47:23Z","comment":"/* External
+        links */recategorize"},{"revid":859450372,"parentid":853638368,"minor":"","user":"Jellysandwich0","timestamp":"2018-09-14T03:52:10Z","comment":""},{"revid":853638368,"parentid":852493519,"user":"Ser
+        Amantio di Nicolao","timestamp":"2018-08-06T02:40:26Z","comment":"add authority
+        control, test using [[Project:AWB|AWB]]"},{"revid":852493519,"parentid":852493025,"minor":"","user":"Materialscientist","timestamp":"2018-07-29T10:38:11Z","comment":"Reverted
+        1 edit by [[Special:Contributions/2001:8003:5209:4500:3586:B751:C601:86B|2001:8003:5209:4500:3586:B751:C601:86B]]
+        identified as test/vandalism using [[WP:STiki|STiki]]"},{"revid":852493025,"parentid":851112996,"user":"2001:8003:5209:4500:3586:B751:C601:86B","anon":"","timestamp":"2018-07-29T10:32:03Z","comment":"Hi
+        crazy"},{"revid":851112996,"parentid":850061267,"user":"2409:4070:219E:59CE:3ADE:DAAB:9EAB:DCD6","anon":"","timestamp":"2018-07-20T04:54:39Z","comment":"/*
+        Theatre */\"Theatre\" is more apt word than \"Stage Dramas\""},{"revid":850061267,"parentid":850061222,"user":"217.164.35.84","anon":"","timestamp":"2018-07-13T10:00:53Z","comment":"/*
+        Films */"},{"revid":850061222,"parentid":846510809,"user":"217.164.35.84","anon":"","timestamp":"2018-07-13T10:00:30Z","comment":"/*
+        Films */"},{"revid":846510809,"parentid":843576011,"user":"116.15.168.94","anon":"","timestamp":"2018-06-19T06:20:02Z","comment":""},{"revid":843576011,"parentid":840333048,"minor":"","user":"Chris
+        the speller","timestamp":"2018-05-30T01:51:08Z","comment":"replaced: Awards
+        \u2192 awards, Mechanical Engineer \u2192 mechanical engineer, [[WP:AWB/T|typo(s)
+        fixed]]: alongwith \u2192 along with, atleast \u2192 at least using [[Project:AWB|AWB]]"},{"revid":840333048,"parentid":840322164,"user":"Kailash29792","timestamp":"2018-05-09T06:07:43Z","comment":""},{"revid":840322164,"parentid":826322037,"user":"Eeshwar1","timestamp":"2018-05-09T03:58:52Z","comment":"/*
+        Career */"},{"revid":826322037,"parentid":826215848,"minor":"","user":"Mark
+        the train","timestamp":"2018-02-18T13:24:28Z","comment":"Disambiguated: [[Indian]]
+        \u2192 [[Indian (1996 film)]]"},{"revid":826215848,"parentid":826215757,"user":"2405:204:2220:3330:65C:30B9:F1C6:77C3","anon":"","timestamp":"2018-02-17T21:59:54Z","comment":""},{"revid":826215757,"parentid":826215636,"user":"2405:204:2220:3330:65C:30B9:F1C6:77C3","anon":"","timestamp":"2018-02-17T21:59:18Z","comment":""},{"revid":826215636,"parentid":826215507,"user":"2405:204:2220:3330:65C:30B9:F1C6:77C3","anon":"","timestamp":"2018-02-17T21:58:39Z","comment":""},{"revid":826215507,"parentid":824524384,"user":"2405:204:2220:3330:65C:30B9:F1C6:77C3","anon":"","timestamp":"2018-02-17T21:57:47Z","comment":""},{"revid":824524384,"parentid":824524320,"user":"180.179.142.148","anon":"","timestamp":"2018-02-07T21:30:45Z","comment":"/*
+        Career */"},{"revid":824524320,"parentid":823723537,"user":"180.179.142.148","anon":"","timestamp":"2018-02-07T21:30:18Z","comment":"/*
+        Career */"},{"revid":823723537,"parentid":823319205,"user":"106.203.86.10","anon":"","timestamp":"2018-02-03T00:28:17Z","comment":""},{"revid":823319205,"parentid":818788885,"minor":"","user":"FrescoBot","timestamp":"2018-01-31T15:11:03Z","comment":"Bot:
+        [[User:FrescoBot/Links|link syntax]] and minor changes"},{"revid":818788885,"parentid":816826503,"user":"Ser
+        Amantio di Nicolao","timestamp":"2018-01-05T16:02:19Z","comment":"/* External
+        links */add category using [[Project:AWB|AWB]]"},{"revid":816826503,"parentid":816274058,"user":"Ammodramus","timestamp":"2017-12-23T23:47:25Z","comment":"/*
+        Career */ \"Everyday\" --> \"every day\": used adverbially"},{"revid":816274058,"parentid":815803408,"minor":"","user":"G\u00fcnniX","timestamp":"2017-12-20T09:38:25Z","comment":"Heading
+        all CAPS using [[Project:AWB|AWB]]"},{"revid":815803408,"parentid":814759989,"user":"Nat965","timestamp":"2017-12-17T06:59:45Z","comment":"Removed
+        colon in headline. Headline not in al caps."},{"revid":814759989,"parentid":814759265,"user":"Sharbath","timestamp":"2017-12-10T19:41:06Z","comment":"inserted
+        pic with Kalam Sir"},{"revid":814759265,"parentid":814368379,"user":"Sharbath","timestamp":"2017-12-10T19:35:35Z","comment":""},{"revid":814368379,"parentid":814233627,"minor":"","user":"R''n''B","timestamp":"2017-12-08T11:15:49Z","comment":"Unlinked:
+        [[External]]"},{"revid":814233627,"parentid":814224619,"minor":"","user":"Sharbath","timestamp":"2017-12-07T16:16:54Z","comment":"/*
+        Philanthropy */"},{"revid":814224619,"parentid":814224119,"user":"Sharbath","timestamp":"2017-12-07T15:17:32Z","comment":"Kalaimamani"},{"revid":814224119,"parentid":814223919,"user":"Sharbath","timestamp":"2017-12-07T15:14:06Z","comment":"/*
+        INTERNATIONAL AWARDS: */"},{"revid":814223919,"parentid":814223722,"user":"Sharbath","timestamp":"2017-12-07T15:12:48Z","comment":"LINK
+        INSERTED"},{"revid":814223722,"parentid":814223507,"user":"Sharbath","timestamp":"2017-12-07T15:11:19Z","comment":"professional
+        excellence award link added"},{"revid":814223507,"parentid":814223180,"user":"Sharbath","timestamp":"2017-12-07T15:09:37Z","comment":"/*
+        INTERNATIONAL AWARDS: */"},{"revid":814223180,"parentid":814222957,"minor":"","user":"Sharbath","timestamp":"2017-12-07T15:07:10Z","comment":""},{"revid":814222957,"parentid":814220207,"user":"Sharbath","timestamp":"2017-12-07T15:05:24Z","comment":"/*
+        References */"},{"revid":814220207,"parentid":814219706,"user":"Sharbath","timestamp":"2017-12-07T14:45:26Z","comment":"The
+        proceeds from the sales of his  book- \u2018Crazy about Ramana\u2019  are
+        re-directed towards educating Indian cultural and values to poor children
+        studying in Government schools"},{"revid":814219706,"parentid":814219387,"user":"Sharbath","timestamp":"2017-12-07T14:42:08Z","comment":"Philanthropy"},{"revid":814219387,"parentid":814219292,"user":"Sharbath","timestamp":"2017-12-07T14:39:48Z","comment":"/*
+        INTERNATIONAL AWARDS: */"},{"revid":814219292,"parentid":814219249,"user":"Sharbath","timestamp":"2017-12-07T14:38:55Z","comment":"PROFESSIONAL
+        EXCELLENCE AWARD\u00a0by The Governor of Maryland, USA\u00a0"},{"revid":814219249,"parentid":814219064,"user":"Sharbath","timestamp":"2017-12-07T14:38:32Z","comment":"/*
+        INTERNATIONAL AWARDS: */"},{"revid":814219064,"parentid":814218998,"user":"Sharbath","timestamp":"2017-12-07T14:37:20Z","comment":"/*
+        STATE AWARDS: */"},{"revid":814218998,"parentid":814218780,"user":"Sharbath","timestamp":"2017-12-07T14:36:47Z","comment":"/*
+        Awards */"},{"revid":814218780,"parentid":814018981,"user":"Sharbath","timestamp":"2017-12-07T14:34:54Z","comment":"The
+        Tamil Nadu state government awarded him with ''Kalaimamani'' title for excellence
+        in the field of arts and literature."},{"revid":814018981,"parentid":814018931,"user":"Sharbath","timestamp":"2017-12-06T13:11:11Z","comment":""},{"revid":814018931,"parentid":814018573,"user":"Sharbath","timestamp":"2017-12-06T13:10:43Z","comment":"Mohan
+        pens a Venba everyday. He has penned over 40,000 Venbas till date."},{"revid":814018573,"parentid":814018207,"user":"Sharbath","timestamp":"2017-12-06T13:07:41Z","comment":"Mohan
+        is also a distinguished artist who has sketched/painted nearly 60 aesthetic
+        paintings, including portraits of spiritual leaders and eminent personalities,
+        Raja Ravi Verma\u2019s portraitures and portraits of Gods and Prophets.\u00a0"},{"revid":814018207,"parentid":809161565,"minor":"","user":"Sharbath","timestamp":"2017-12-06T13:04:41Z","comment":"4500
+        stage shows to 6500 stage shows"}]}}}}'
+    headers:
+      accept-ranges:
+      - bytes
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:06:31 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-62czd
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="4176420561"
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,X-Subdomain,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - 4263997d-bc91-49e3-9528-6308fb08e1e0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAEBAFvdouzjtjZOFu1VYxmrS6w5JlmoOpNVaTHU
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://en.wikipedia.org/w/api.php?prop=revisions&titles=Crazy+Mohan&rvdir=older&rvprop=ids%7Ctimestamp%7Cflags%7Ccomment%7Cuser&rvlimit=50&rvcontinue=20171107140204%7C809161565&continue=%7C%7Cuserinfo&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"continue":{"rvcontinue":"20150108135309|641576599","continue":"||userinfo"},"query":{"pages":{"11269250":{"pageid":11269250,"ns":0,"title":"Crazy
+        Mohan","revisions":[{"revid":809161565,"parentid":808735564,"user":"2001:E68:542F:6636:7DB8:1C3B:D64:8303","anon":"","timestamp":"2017-11-07T14:02:04Z","comment":"/*
+        Serials */"},{"revid":808735564,"parentid":808011628,"minor":"","user":"Roland
+        zh","timestamp":"2017-11-04T20:43:10Z","comment":"removed [[Category:Writers
+        from Tamil Nadu]]; added [[Category:Screenwriters from Tamil Nadu]] using
+        [[WP:HC|HotCat]]"},{"revid":808011628,"parentid":808011583,"user":"2001:E68:542F:6636:9C65:EE2E:E499:46C4","anon":"","timestamp":"2017-10-31T10:16:05Z","comment":"/*
+        Serials */"},{"revid":808011583,"parentid":808011541,"user":"2001:E68:542F:6636:9C65:EE2E:E499:46C4","anon":"","timestamp":"2017-10-31T10:15:40Z","comment":"/*
+        Serials */"},{"revid":808011541,"parentid":808011494,"user":"2001:E68:542F:6636:9C65:EE2E:E499:46C4","anon":"","timestamp":"2017-10-31T10:15:15Z","comment":"/*
+        References */"},{"revid":808011494,"parentid":808011355,"user":"2001:E68:542F:6636:9C65:EE2E:E499:46C4","anon":"","timestamp":"2017-10-31T10:14:46Z","comment":"/*
+        Stage dramas */"},{"revid":808011355,"parentid":806250528,"user":"2001:E68:542F:6636:9C65:EE2E:E499:46C4","anon":"","timestamp":"2017-10-31T10:13:28Z","comment":"/*
+        References */"},{"revid":806250528,"parentid":795441300,"user":"Kailash29792","timestamp":"2017-10-20T18:59:51Z","comment":"/*
+        Career */Should be a better source than IndiaGlitz"},{"revid":795441300,"parentid":767716759,"user":"InternetArchiveBot","timestamp":"2017-08-14T07:22:44Z","comment":"Rescuing
+        1 sources and tagging 0 as dead. #IABot (v1.5beta)"},{"revid":767716759,"parentid":767716582,"minor":"","user":"Serols","timestamp":"2017-02-27T15:11:50Z","comment":"Reverted
+        edits by [[Special:Contributions/2405:205:8008:D85A:E467:8B78:53DE:B12F|2405:205:8008:D85A:E467:8B78:53DE:B12F]]
+        ([[User talk:2405:205:8008:D85A:E467:8B78:53DE:B12F|talk]]) ([[WP:HG|HG]])
+        (3.1.21)"},{"revid":767716582,"parentid":741851471,"user":"2405:205:8008:D85A:E467:8B78:53DE:B12F","anon":"","timestamp":"2017-02-27T15:10:28Z","comment":""},{"revid":741851471,"parentid":741851433,"user":"59.97.5.173","anon":"","timestamp":"2016-09-30T01:50:29Z","comment":""},{"revid":741851433,"parentid":741733562,"user":"59.97.5.173","anon":"","timestamp":"2016-09-30T01:50:10Z","comment":""},{"revid":741733562,"parentid":740714428,"user":"Kailash29792","timestamp":"2016-09-29T09:33:42Z","comment":""},{"revid":740714428,"parentid":740581444,"minor":"","user":"Roland
+        zh","timestamp":"2016-09-22T20:27:17Z","comment":"-[[Category:20th-century
+        dramatists and playwrights]]; \u00b1[[Category:20th-century Indian writers]]\u2192[[Category:20th-century
+        Indian dramatists and playwrights]] using [[WP:HC|HotCat]]"},{"revid":740581444,"parentid":740581416,"user":"Roland
+        zh","timestamp":"2016-09-22T00:01:33Z","comment":"added [[Category:Male actors
+        in Tamil cinema]] using [[WP:HC|HotCat]]"},{"revid":740581416,"parentid":737332708,"minor":"","user":"Roland
+        zh","timestamp":"2016-09-22T00:01:22Z","comment":"+ 7 categories; \u00b1[[Category:Tamil
+        actors]]\u2192[[Category:Tamil male actors]] using [[WP:HC|HotCat]]"},{"revid":737332708,"parentid":736808397,"minor":"","user":"Gorthian","timestamp":"2016-09-02T03:03:17Z","comment":"Disambiguated:
+        [[Arunachalam]] \u2192 [[Arunachalam (film)]] (2)"},{"revid":736808397,"parentid":732962880,"user":"71.212.158.44","anon":"","timestamp":"2016-08-29T23:59:31Z","comment":"/*
+        Films */"},{"revid":732962880,"parentid":727679721,"user":"Dewritech","timestamp":"2016-08-04T12:41:58Z","comment":"clean
+        up, [[WP:AWB/T|typo(s) fixed]]: full time \u2192 full-time using [[Project:AWB|AWB]]"},{"revid":727679721,"parentid":723367866,"user":"Barbequeue","timestamp":"2016-06-30T15:27:32Z","comment":""},{"revid":723367866,"parentid":716670736,"user":"61.0.124.118","anon":"","timestamp":"2016-06-02T16:56:31Z","comment":""},{"revid":716670736,"parentid":716670578,"user":"115.111.50.242","anon":"","timestamp":"2016-04-23T02:52:48Z","comment":"/*
+        Films */"},{"revid":716670578,"parentid":714376813,"user":"115.111.50.242","anon":"","timestamp":"2016-04-23T02:50:58Z","comment":"/*
+        Films */"},{"revid":714376813,"parentid":714105331,"user":"Coderzombie","timestamp":"2016-04-09T11:05:19Z","comment":"/*
+        Films */"},{"revid":714105331,"parentid":712547013,"user":"Terminator92","timestamp":"2016-04-07T17:23:09Z","comment":"/*
+        Films */"},{"revid":712547013,"parentid":711171090,"user":"69.5.150.173","anon":"","timestamp":"2016-03-29T19:01:57Z","comment":"Edited
+        the Year of Birth - Reference is a recent Youtube video in which he says in
+        Tamil, he''s born in 1952"},{"revid":711171090,"parentid":707879278,"user":"KasparBot","timestamp":"2016-03-21T08:11:47Z","comment":"migrating
+        [[Wikipedia:Persondata|Persondata]] to Wikidata, [[toollabs:kasparbot/persondata/|please
+        help]], see [[toollabs:kasparbot/persondata/challenge.php/article/Crazy Mohan|challenges
+        for this article]]"},{"revid":707879278,"parentid":707163699,"user":"Srivin","timestamp":"2016-03-02T09:24:58Z","comment":"/*
+        External links */"},{"revid":707163699,"parentid":703258358,"user":"Srivin","timestamp":"2016-02-27T05:15:56Z","comment":"/*
+        Films */"},{"revid":703258358,"parentid":703258250,"user":"Aprav","timestamp":"2016-02-04T12:51:56Z","comment":""},{"revid":703258250,"parentid":701191873,"user":"Aprav","timestamp":"2016-02-04T12:51:02Z","comment":"Removed
+        aspersions cast (without any attribution) on Crazy Mohan''s claims."},{"revid":701191873,"parentid":701180627,"minor":"","user":"Niceguyedc","timestamp":"2016-01-23T01:54:40Z","comment":"v1.38
+        - Repaired 1 link to disambiguation page - [[WP:DPL|(You can help)]] - [[Relax]]"},{"revid":701180627,"parentid":701180403,"user":"69.156.92.209","anon":"","timestamp":"2016-01-23T00:13:47Z","comment":"/*
+        Films */"},{"revid":701180403,"parentid":701077858,"user":"69.156.92.209","anon":"","timestamp":"2016-01-23T00:11:53Z","comment":"/*
+        Films */"},{"revid":701077858,"parentid":701077706,"user":"2601:190:402:1305:BD72:D457:E5DB:4D92","anon":"","timestamp":"2016-01-22T10:53:16Z","comment":""},{"revid":701077706,"parentid":690568623,"user":"2601:190:402:1305:BD72:D457:E5DB:4D92","anon":"","timestamp":"2016-01-22T10:51:29Z","comment":""},{"revid":690568623,"parentid":690567923,"user":"122.164.19.116","anon":"","timestamp":"2015-11-14T06:28:44Z","comment":""},{"revid":690567923,"parentid":689223869,"user":"122.164.19.116","anon":"","timestamp":"2015-11-14T06:21:10Z","comment":""},{"revid":689223869,"parentid":686954550,"user":"Kailash29792","timestamp":"2015-11-05T18:53:48Z","comment":"/*
+        top */"},{"revid":686954550,"parentid":686954420,"user":"117.213.10.184","anon":"","timestamp":"2015-10-22T12:09:39Z","comment":"/*
+        Films */"},{"revid":686954420,"parentid":686954348,"user":"117.213.10.184","anon":"","timestamp":"2015-10-22T12:08:20Z","comment":"/*
+        Films */"},{"revid":686954348,"parentid":682096576,"user":"117.213.10.184","anon":"","timestamp":"2015-10-22T12:07:33Z","comment":"/*
+        Films */"},{"revid":682096576,"parentid":682096425,"user":"121.6.222.75","anon":"","timestamp":"2015-09-21T14:35:32Z","comment":"/*
+        Films */"},{"revid":682096425,"parentid":677939902,"user":"121.6.222.75","anon":"","timestamp":"2015-09-21T14:34:21Z","comment":"/*
+        Films */"},{"revid":677939902,"parentid":671083265,"user":"Srivin","timestamp":"2015-08-26T13:08:25Z","comment":""},{"revid":671083265,"parentid":670788851,"user":"Kailash29792","timestamp":"2015-07-12T08:46:46Z","comment":"/*
+        top */"},{"revid":670788851,"parentid":669596157,"user":"Kuzhali.india","timestamp":"2015-07-10T06:20:22Z","comment":"/*
+        External links */Crazy Mohan photos other links"},{"revid":669596157,"parentid":641576698,"user":"Srivin","timestamp":"2015-07-02T06:49:24Z","comment":""},{"revid":641576698,"parentid":641576599,"user":"Vaidyasr","timestamp":"2015-01-08T13:54:14Z","comment":""}]}}}}'
+    headers:
+      accept-ranges:
+      - bytes
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:06:31 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-8bncd
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="458883286"
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,X-Subdomain,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - ec2d1ade-af9a-4247-af59-003f1e0ee29c
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAEBAFvdouzjtjZOFu1VYxmrS6w5JlmoOpNVaTHU
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://en.wikipedia.org/w/api.php?prop=revisions&titles=Crazy+Mohan&rvdir=older&rvprop=ids%7Ctimestamp%7Cflags%7Ccomment%7Cuser&rvlimit=50&rvcontinue=20150108135309%7C641576599&continue=%7C%7Cuserinfo&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"continue":{"rvcontinue":"20121013163518|517594038","continue":"||userinfo"},"query":{"pages":{"11269250":{"pageid":11269250,"ns":0,"title":"Crazy
+        Mohan","revisions":[{"revid":641576599,"parentid":641576560,"user":"Vaidyasr","timestamp":"2015-01-08T13:53:09Z","comment":"/*
+        References */"},{"revid":641576560,"parentid":635759521,"user":"Vaidyasr","timestamp":"2015-01-08T13:52:44Z","comment":""},{"revid":635759521,"parentid":635274236,"user":"14.141.91.20","anon":"","timestamp":"2014-11-28T11:07:00Z","comment":"/*
+        Works */"},{"revid":635274236,"parentid":634952944,"minor":"","user":"Eaqq","timestamp":"2014-11-24T19:06:12Z","comment":"/*
+        External links */ spelling"},{"revid":634952944,"parentid":634951152,"user":"Onel5969","timestamp":"2014-11-22T11:57:13Z","comment":"Reverted
+        1 [[WP:AGF|good faith]] edit by [[Special:Contributions/180.215.62.105|180.215.62.105]]
+        using [[WP:STiki|STiki]]"},{"revid":634951152,"parentid":629859294,"user":"180.215.62.105","anon":"","timestamp":"2014-11-22T11:30:13Z","comment":""},{"revid":629859294,"parentid":629858972,"user":"Veera
+        Dheera Sooran","timestamp":"2014-10-16T15:05:19Z","comment":"Filled in 35
+        reference(s) with [[User:Zhaofeng Li/Reflinks]]"},{"revid":629858972,"parentid":629714714,"user":"Veera
+        Dheera Sooran","timestamp":"2014-10-16T15:02:08Z","comment":"Adding/improving
+        reference(s)"},{"revid":629714714,"parentid":617972771,"user":"JustAGal","timestamp":"2014-10-15T14:17:08Z","comment":"Disambiguated:
+        [[Sathi Leelavathi]] \u2192 [[Sathi Leelavathi (1995 film)]]"},{"revid":617972771,"parentid":617751493,"user":"Srivin","timestamp":"2014-07-22T11:35:01Z","comment":"/*
+        As an actor */"},{"revid":617751493,"parentid":617483912,"user":"Hebrides","timestamp":"2014-07-20T20:37:03Z","comment":"fill
+        out reference, punctuation using [[Project:AWB|AWB]]"},{"revid":617483912,"parentid":616819009,"user":"Vaidyasr","timestamp":"2014-07-18T18:26:12Z","comment":"/*
+        As an actor */"},{"revid":616819009,"parentid":613801154,"user":"Ragsindian","timestamp":"2014-07-13T19:15:50Z","comment":""},{"revid":613801154,"parentid":613699580,"minor":"","user":"OccultZone","timestamp":"2014-06-21T11:41:07Z","comment":"[[:en:WP:CLEANER|WPCleaner]]
+        v1.33b - Fixed using [[WP:WCW]] (Link equal to linktext)"},{"revid":613699580,"parentid":613699504,"user":"134.242.92.2","anon":"","timestamp":"2014-06-20T15:30:59Z","comment":"/*
+        Filmography */"},{"revid":613699504,"parentid":613699382,"user":"134.242.92.2","anon":"","timestamp":"2014-06-20T15:30:14Z","comment":"/*
+        Filmography */"},{"revid":613699382,"parentid":613699289,"user":"134.242.92.2","anon":"","timestamp":"2014-06-20T15:29:09Z","comment":"/*
+        Filmography */"},{"revid":613699289,"parentid":613699248,"user":"134.242.92.2","anon":"","timestamp":"2014-06-20T15:28:05Z","comment":"/*
+        Filmography */"},{"revid":613699248,"parentid":605809994,"user":"134.242.92.2","anon":"","timestamp":"2014-06-20T15:27:36Z","comment":"/*
+        Filmography */"},{"revid":605809994,"parentid":600437538,"user":"Rajeshbieee","timestamp":"2014-04-25T21:45:44Z","comment":""},{"revid":600437538,"parentid":594893708,"user":"125.16.128.122","anon":"","timestamp":"2014-03-20T11:44:12Z","comment":"added
+        more specific info"},{"revid":594893708,"parentid":594437632,"user":"99.238.40.191","anon":"","timestamp":"2014-02-10T22:45:36Z","comment":"/*
+        As a script and dialogue writer */"},{"revid":594437632,"parentid":587407482,"user":"Waacstats","timestamp":"2014-02-07T23:11:59Z","comment":"/*
+        External links */Add persondata short description using [[Project:AWB|AWB]]"},{"revid":587407482,"parentid":587407405,"user":"14.96.126.68","anon":"","timestamp":"2013-12-23T18:35:15Z","comment":"/*
+        As an actor */"},{"revid":587407405,"parentid":583356524,"user":"14.96.126.68","anon":"","timestamp":"2013-12-23T18:34:32Z","comment":"/*
+        As an actor */"},{"revid":583356524,"parentid":574224597,"user":"122.183.234.2","anon":"","timestamp":"2013-11-26T08:01:13Z","comment":""},{"revid":574224597,"parentid":573116529,"user":"Evano1van","timestamp":"2013-09-23T19:22:42Z","comment":"added
+        [[Category:Recipients of the Kalaimamani Award]] using [[WP:HC|HotCat]]"},{"revid":573116529,"parentid":573116495,"user":"121.242.63.60","anon":"","timestamp":"2013-09-16T06:13:07Z","comment":"/*
+        As an actor */"},{"revid":573116495,"parentid":572446072,"user":"121.242.63.60","anon":"","timestamp":"2013-09-16T06:12:32Z","comment":"/*
+        As an actor */"},{"revid":572446072,"parentid":572164619,"user":"Haikavin","timestamp":"2013-09-11T04:50:34Z","comment":"/*
+        Filmography */"},{"revid":572164619,"parentid":568192091,"minor":"","user":"Jagan1986","timestamp":"2013-09-09T08:55:10Z","comment":"Have
+        included a new film for which he is penning dialogues."},{"revid":568192091,"parentid":568191838,"user":"117.208.211.166","anon":"","timestamp":"2013-08-12T10:24:32Z","comment":""},{"revid":568191838,"parentid":561098245,"user":"117.208.211.166","anon":"","timestamp":"2013-08-12T10:21:11Z","comment":"sirithidu
+        seasame"},{"revid":561098245,"parentid":561098215,"user":"Terminator92","timestamp":"2013-06-22T18:52:14Z","comment":"/*
+        As a script and dialogue writer */"},{"revid":561098215,"parentid":560048429,"user":"Terminator92","timestamp":"2013-06-22T18:51:56Z","comment":"/*
+        As a script and dialogue writer */"},{"revid":560048429,"parentid":560048204,"user":"80.143.224.193","anon":"","timestamp":"2013-06-15T17:54:01Z","comment":"/*
+        As a script and dialogue writer */"},{"revid":560048204,"parentid":557462173,"user":"80.143.224.193","anon":"","timestamp":"2013-06-15T17:52:08Z","comment":"/*
+        As a script and dialogue writer */"},{"revid":557462173,"parentid":550041436,"user":"Ravichandar84","timestamp":"2013-05-30T04:36:09Z","comment":"removed
+        [[Category:Tamil actors]]; added [[Category:Tamil comedians]] using [[WP:HC|HotCat]]"},{"revid":550041436,"parentid":549108441,"user":"117.192.166.22","anon":"","timestamp":"2013-04-12T18:47:50Z","comment":"/*
+        As a script and dialogue writer */"},{"revid":549108441,"parentid":548010043,"user":"173.84.27.107","anon":"","timestamp":"2013-04-07T05:44:43Z","comment":"Undid
+        revision 548010043 by [[Special:Contributions/202.47.127.83|202.47.127.83]]
+        ([[User talk:202.47.127.83|talk]])"},{"revid":548010043,"parentid":543440008,"user":"202.47.127.83","anon":"","timestamp":"2013-03-31T17:39:57Z","comment":""},{"revid":543440008,"parentid":543439863,"user":"DRAGON
+        BOOSTER","timestamp":"2013-03-11T15:41:26Z","comment":"/* External links */
+        imdb temp."},{"revid":543439863,"parentid":543439646,"user":"DRAGON BOOSTER","timestamp":"2013-03-11T15:40:30Z","comment":"/*
+        External links */ Removing link per [[WP:ELNO]]"},{"revid":543439646,"parentid":535291163,"user":"DRAGON
+        BOOSTER","timestamp":"2013-03-11T15:39:03Z","comment":"removed indic scripts
+        per [[Wikipedia_talk:Noticeboard_for_India-related_topics/Archive_48#Native_languages_in_lead|major
+        geographic features and locations|rfc]]"},{"revid":535291163,"parentid":535291034,"user":"125.22.43.24","anon":"","timestamp":"2013-01-28T04:55:04Z","comment":""},{"revid":535291034,"parentid":535290876,"user":"125.22.43.24","anon":"","timestamp":"2013-01-28T04:53:37Z","comment":""},{"revid":535290876,"parentid":535290824,"user":"125.22.43.24","anon":"","timestamp":"2013-01-28T04:52:03Z","comment":""},{"revid":535290824,"parentid":520733060,"user":"125.22.43.24","anon":"","timestamp":"2013-01-28T04:51:29Z","comment":""},{"revid":520733060,"parentid":520729319,"minor":"","user":"Ashley
+        thomas80","timestamp":"2012-10-31T11:40:14Z","comment":"unexplained removal
+        of BLP tag ([[WP:HG|HG]])"},{"revid":520729319,"parentid":517594038,"user":"97.119.207.251","anon":"","timestamp":"2012-10-31T10:55:55Z","comment":""}]}}}}'
+    headers:
+      accept-ranges:
+      - bytes
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:06:31 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-62czd
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="1006813710"
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,X-Subdomain,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - ae478583-a91e-4c0b-a83c-94f104509065
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAEBAFvdouzjtjZOFu1VYxmrS6w5JlmoOpNVaTHU
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://en.wikipedia.org/w/api.php?prop=revisions&titles=Crazy+Mohan&rvdir=older&rvprop=ids%7Ctimestamp%7Cflags%7Ccomment%7Cuser&rvlimit=50&rvcontinue=20121013163518%7C517594038&continue=%7C%7Cuserinfo&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"continue":{"rvcontinue":"20101227173119|404489959","continue":"||userinfo"},"query":{"pages":{"11269250":{"pageid":11269250,"ns":0,"title":"Crazy
+        Mohan","revisions":[{"revid":517594038,"parentid":510242388,"user":"99.233.161.223","anon":"","timestamp":"2012-10-13T16:35:18Z","comment":"/*
+        External links */"},{"revid":510242388,"parentid":508656250,"user":"117.193.158.126","anon":"","timestamp":"2012-09-01T07:43:08Z","comment":"/*
+        As a script and dialogue writer */"},{"revid":508656250,"parentid":508259488,"minor":"","user":"Spidey800","timestamp":"2012-08-22T18:36:27Z","comment":""},{"revid":508259488,"parentid":505570673,"minor":"","user":"Real
+        article","timestamp":"2012-08-20T09:07:13Z","comment":"/* As an actor */"},{"revid":505570673,"parentid":504864993,"user":"59.99.178.206","anon":"","timestamp":"2012-08-03T12:35:32Z","comment":"/*
+        Stage dramas */ *  ''''Ayya Amma Ammamma"},{"revid":504864993,"parentid":504237360,"user":"Spk100","timestamp":"2012-07-30T02:26:40Z","comment":"/*
+        External links */  removed 404 external link"},{"revid":504237360,"parentid":504237281,"user":"198.203.224.222","anon":"","timestamp":"2012-07-26T08:09:54Z","comment":"/*
+        As an actor */"},{"revid":504237281,"parentid":499607546,"user":"198.203.224.222","anon":"","timestamp":"2012-07-26T08:08:54Z","comment":"/*
+        As an actor */"},{"revid":499607546,"parentid":497213227,"user":"143.117.68.207","anon":"","timestamp":"2012-06-27T14:15:29Z","comment":"/*
+        As a script and dialogue writer */"},{"revid":497213227,"parentid":497116225,"minor":"","user":"CommonsDelinker","timestamp":"2012-06-12T12:18:37Z","comment":"Removing
+        \"Crazy_Mohan_in_Coffee_with_Anu.jpg\", it has been deleted from Commons by
+        [[commons:User:Yann|Yann]] because: [[commons:COM:L|Copyright violation]]."},{"revid":497116225,"parentid":497105199,"user":"Prannakum","timestamp":"2012-06-11T20:29:00Z","comment":""},{"revid":497105199,"parentid":496571781,"user":"Prannakum","timestamp":"2012-06-11T19:16:22Z","comment":"Added
+        a picture of Crazy Mohan"},{"revid":496571781,"parentid":493419709,"user":"Waacstats","timestamp":"2012-06-08T09:41:23Z","comment":"/*
+        External links */Add persondata short description using [[Project:AWB|AWB]]"},{"revid":493419709,"parentid":493004041,"user":"ImageRemovalBot","timestamp":"2012-05-20T00:25:32Z","comment":"Removing
+        links to deleted file [[:File:Crazy mohan.jpg]]"},{"revid":493004041,"parentid":492388429,"user":"Nkarthik
+        mnnit","timestamp":"2012-05-17T10:34:45Z","comment":""},{"revid":492388429,"parentid":491640034,"minor":"","user":"LittleWink","timestamp":"2012-05-13T17:29:23Z","comment":"[[:en:WP:CLEANER|WPCleaner]]
+        v1.13 - Repaired 1 link to disambiguation page - [[WP:DPL|(You can help)]]
+        - [[Sathi Leelavathi]]"},{"revid":491640034,"parentid":491636492,"user":"Jeevanantham
+        Karunanithi","timestamp":"2012-05-09T17:52:03Z","comment":"/* As a script
+        and dialogue writer */"},{"revid":491636492,"parentid":486034613,"user":"Jeevanantham
+        Karunanithi","timestamp":"2012-05-09T17:30:06Z","comment":"/* As an actor
+        */"},{"revid":486034613,"parentid":481360772,"user":"124.125.202.159","anon":"","timestamp":"2012-04-07T06:07:29Z","comment":"/*
+        Stage dramas */"},{"revid":481360772,"parentid":479081008,"user":"Editor 2050","timestamp":"2012-03-11T18:08:58Z","comment":"/*
+        As a script and dialogue writer */"},{"revid":479081008,"parentid":478393763,"minor":"","user":"Jagan1986","timestamp":"2012-02-27T07:12:27Z","comment":"i
+        have Updated his drama list"},{"revid":478393763,"parentid":477197112,"user":"Jeevanantham
+        Karunanithi","timestamp":"2012-02-23T08:36:38Z","comment":"/* As an actor
+        */"},{"revid":477197112,"parentid":477196851,"user":"124.125.203.48","anon":"","timestamp":"2012-02-16T15:30:54Z","comment":"/*
+        Stage dramas */"},{"revid":477196851,"parentid":467447775,"user":"124.125.203.48","anon":"","timestamp":"2012-02-16T15:29:10Z","comment":"/*
+        Stage dramas */"},{"revid":467447775,"parentid":467364099,"minor":"","user":"Vensatry","timestamp":"2011-12-24T04:50:41Z","comment":"/*
+        External links */clean up, removed: {{Tamilcinema}} using [[Project:AWB|AWB]]"},{"revid":467364099,"parentid":464337188,"user":"64.125.205.33","anon":"","timestamp":"2011-12-23T17:09:00Z","comment":"Minor
+        spelling correction"},{"revid":464337188,"parentid":464334727,"user":"Anirudh1989","timestamp":"2011-12-06T04:43:18Z","comment":"/*
+        As a script and dialogue writer */"},{"revid":464334727,"parentid":464334566,"user":"Anirudh1989","timestamp":"2011-12-06T04:20:46Z","comment":"/*
+        As a script and dialogue writer */"},{"revid":464334566,"parentid":464334415,"user":"Anirudh1989","timestamp":"2011-12-06T04:19:41Z","comment":"/*
+        As a script and dialogue writer */"},{"revid":464334415,"parentid":464334349,"user":"Anirudh1989","timestamp":"2011-12-06T04:18:36Z","comment":"/*
+        As a script and dialogue writer */"},{"revid":464334349,"parentid":460878970,"user":"Anirudh1989","timestamp":"2011-12-06T04:18:09Z","comment":"/*
+        As a script and dialogue writer */"},{"revid":460878970,"parentid":458636631,"minor":"","user":"Tassedethe","timestamp":"2011-11-16T01:48:51Z","comment":"[[:en:WP:CLEANER|WPCleaner]]
+        (v1.09) Repaired link to disambiguation page - [[WP:DPL|(You can help)]] -
+        [[Apoorva Sagodharargal]]"},{"revid":458636631,"parentid":456489231,"user":"117.193.202.38","anon":"","timestamp":"2011-11-02T13:58:22Z","comment":""},{"revid":456489231,"parentid":453191752,"user":"Bajjibala","timestamp":"2011-10-20T09:28:39Z","comment":"/*
+        As a script and dialogue writer */"},{"revid":453191752,"parentid":445778846,"user":"117.193.7.46","anon":"","timestamp":"2011-09-30T10:31:11Z","comment":"/*
+        Stage dramas */"},{"revid":445778846,"parentid":441760208,"minor":"","user":"JaGa","timestamp":"2011-08-20T05:53:59Z","comment":"Disambiguate
+        [[Jerry]] to [[Jerry (film)]] using [[:en:Wikipedia:Tools/Navigation_popups|popups]]"},{"revid":441760208,"parentid":436980615,"user":"169.234.12.142","anon":"","timestamp":"2011-07-27T20:05:00Z","comment":"/*
+        As an actor */"},{"revid":436980615,"parentid":436980611,"minor":"","user":"ClueBot
+        NG","timestamp":"2011-06-30T03:44:06Z","comment":"Reverting possible vandalism
+        by [[Special:Contributions/122.174.59.43|122.174.59.43]] to version by Kailash29792.
+        False positive? [[User:ClueBot NG/FalsePositives|Report it]]. Thanks, [[User:ClueBot
+        NG|ClueBot NG]]. (487279) (Bot)"},{"revid":436980611,"parentid":435579902,"user":"122.174.59.43","anon":"","timestamp":"2011-06-30T03:44:04Z","comment":"/*
+        As an actor */"},{"revid":435579902,"parentid":432732044,"user":"Kailash29792","timestamp":"2011-06-22T04:10:31Z","comment":"/*
+        As an actor */"},{"revid":432732044,"parentid":432149677,"minor":"","user":"Cydebot","timestamp":"2011-06-05T19:58:01Z","comment":"Robot
+        - Speedily moving category College of Engineering, Guindy Alumni to [[:Category:College
+        of Engineering, Guindy alumni]] per [[WP:CFDS|CFDS]]."},{"revid":432149677,"parentid":432149095,"minor":"","user":"SmackBot","timestamp":"2011-06-02T10:03:33Z","comment":"Dated
+        {{Citation needed}}. (Build p612)"},{"revid":432149095,"parentid":432149066,"user":"Muhandes","timestamp":"2011-06-02T09:57:29Z","comment":"Added
+        {{[[Template:refimproveBLP|refimproveBLP]]}} tag to article ([[WP:TW|TW]])"},{"revid":432149066,"parentid":431965427,"minor":"","user":"Muhandes","timestamp":"2011-06-02T09:57:11Z","comment":"source?"},{"revid":431965427,"parentid":430659698,"user":"R.srinivaas","timestamp":"2011-06-01T08:20:30Z","comment":""},{"revid":430659698,"parentid":428116925,"user":"117.230.53.26","anon":"","timestamp":"2011-05-24T10:55:17Z","comment":""},{"revid":428116925,"parentid":419263991,"minor":"","user":"Yobot","timestamp":"2011-05-08T18:31:35Z","comment":"Standardise
+        infobox person parameters per discussion + [[WP:GENFIXES|general fixes]],
+        replaced: | birthdate \u2192 | birth_date using [[Project:AWB|AWB]] (7694)"},{"revid":419263991,"parentid":404663155,"minor":"","user":"Woohookitty","timestamp":"2011-03-17T08:14:46Z","comment":"[[:en:WP:CLEANER|WPCleaner]]
+        0.99 - Repairing link to disambiguation page - [[WP:DPL|(You can help)]] -
+        [[Indian (film)]]"},{"revid":404663155,"parentid":404663081,"user":"Nashzone
+        Review","timestamp":"2010-12-28T17:07:35Z","comment":"/* As an actor */"},{"revid":404663081,"parentid":404489959,"user":"Nashzone
+        Review","timestamp":"2010-12-28T17:07:07Z","comment":"/* As an actor */"}]}}}}'
+    headers:
+      accept-ranges:
+      - bytes
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:06:31 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-nqdbd
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="2035509597"
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,X-Subdomain,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - 1d87278c-9f0d-430d-9f62-f472af12ebe7
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAEBAFvdouzjtjZOFu1VYxmrS6w5JlmoOpNVaTHU
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://en.wikipedia.org/w/api.php?prop=revisions&titles=Crazy+Mohan&rvdir=older&rvprop=ids%7Ctimestamp%7Cflags%7Ccomment%7Cuser&rvlimit=50&rvcontinue=20101227173119%7C404489959&continue=%7C%7Cuserinfo&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"continue":{"rvcontinue":"20080717015335|226154858","continue":"||userinfo"},"query":{"pages":{"11269250":{"pageid":11269250,"ns":0,"title":"Crazy
+        Mohan","revisions":[{"revid":404489959,"parentid":404426626,"user":"AtticusX","timestamp":"2010-12-27T17:31:19Z","comment":"cleanup"},{"revid":404426626,"parentid":392365382,"user":"218.248.84.84","anon":"","timestamp":"2010-12-27T07:59:39Z","comment":"/*
+        Movies */"},{"revid":392365382,"parentid":386158826,"minor":"","user":"RjwilmsiBot","timestamp":"2010-10-23T07:31:03Z","comment":"Adding
+        Persondata using [[Project:AWB|AWB]] (7319)"},{"revid":386158826,"parentid":380889431,"user":"Ppwrong","timestamp":"2010-09-21T19:44:05Z","comment":""},{"revid":380889431,"parentid":377301839,"minor":"","user":"Woohookitty","timestamp":"2010-08-25T10:29:01Z","comment":"[[Help:Reverting|Reverted]]
+        edits by [[Special:Contributions/78.227.117.212|78.227.117.212]] ([[User talk:78.227.117.212|talk]])
+        to last version by SmackBot"},{"revid":377301839,"parentid":372094160,"user":"78.227.117.212","anon":"","timestamp":"2010-08-05T13:57:14Z","comment":"/*
+        Movies */"},{"revid":372094160,"parentid":371911739,"minor":"","user":"SmackBot","timestamp":"2010-07-06T20:40:45Z","comment":"Date
+        maintenance tags and general fixes: build 424:"},{"revid":371911739,"parentid":371712836,"user":"JNW","timestamp":"2010-07-05T21:07:47Z","comment":"restoring
+        previous version, sans promo language, adding tag"},{"revid":371712836,"parentid":371712453,"user":"Vatsanvindictive","timestamp":"2010-07-04T15:45:08Z","comment":"Official
+        wiki article for Mr. Crazy Mohan"},{"revid":371712453,"parentid":371712190,"user":"Vatsanvindictive","timestamp":"2010-07-04T15:41:58Z","comment":""},{"revid":371712190,"parentid":371711976,"user":"Vatsanvindictive","timestamp":"2010-07-04T15:39:38Z","comment":""},{"revid":371711976,"parentid":371711783,"user":"Vatsanvindictive","timestamp":"2010-07-04T15:37:42Z","comment":""},{"revid":371711783,"parentid":371446413,"user":"Vatsanvindictive","timestamp":"2010-07-04T15:36:27Z","comment":""},{"revid":371446413,"parentid":366748641,"minor":"","user":"Kartbeat2001","timestamp":"2010-07-02T21:51:06Z","comment":""},{"revid":366748641,"parentid":364837338,"user":"80.84.1.19","anon":"","timestamp":"2010-06-08T08:46:48Z","comment":"/*
+        Movies */"},{"revid":364837338,"parentid":364837305,"user":"122.174.86.164","anon":"","timestamp":"2010-05-29T12:52:43Z","comment":"/*
+        Movies */"},{"revid":364837305,"parentid":364581998,"user":"122.174.86.164","anon":"","timestamp":"2010-05-29T12:52:22Z","comment":"/*
+        Movies */"},{"revid":364581998,"parentid":360275677,"user":"192.5.109.49","anon":"","timestamp":"2010-05-28T01:04:53Z","comment":""},{"revid":360275677,"parentid":356876319,"user":"Sodabottle","timestamp":"2010-05-05T12:23:31Z","comment":"sourced
+        article and rm blp unref tag"},{"revid":356876319,"parentid":356461525,"minor":"","user":"FrescoBot","timestamp":"2010-04-18T23:15:32Z","comment":"Bot:
+        links syntax and spacing"},{"revid":356461525,"parentid":349132807,"user":"Universal
+        Hero","timestamp":"2010-04-16T21:20:33Z","comment":"/* Movies */"},{"revid":349132807,"parentid":348094731,"user":"155.69.103.59","anon":"","timestamp":"2010-03-11T02:00:06Z","comment":""},{"revid":348094731,"parentid":347329465,"user":"Arfazhabeeb","timestamp":"2010-03-06T12:38:01Z","comment":"/*
+        Movies */"},{"revid":347329465,"parentid":345084936,"minor":"","user":"R''n''B","timestamp":"2010-03-02T17:39:52Z","comment":"Fix
+        [[WP:DPL|links]] to [[WP:D|disambiguation]] page [[Indian]]"},{"revid":345084936,"parentid":343766100,"user":"Indus9876","timestamp":"2010-02-19T20:41:18Z","comment":""},{"revid":343766100,"parentid":339204318,"user":"117.199.143.125","anon":"","timestamp":"2010-02-13T17:04:40Z","comment":""},{"revid":339204318,"parentid":337317646,"minor":"","user":"DMS","timestamp":"2010-01-21T19:46:09Z","comment":"[[WP:AWB/T|Typo
+        fixing]], typos fixed: dialouges \u2192 dialogues (2) using [[Project:AWB|AWB]]"},{"revid":337317646,"parentid":328546524,"user":"Exceller78","timestamp":"2010-01-12T03:30:17Z","comment":""},{"revid":328546524,"parentid":320302135,"user":"122.164.89.174","anon":"","timestamp":"2009-11-29T08:03:53Z","comment":"/*
+        Stage Dramas */"},{"revid":320302135,"parentid":318631372,"minor":"","user":"SmackBot","timestamp":"2009-10-16T22:35:41Z","comment":"Correct
+        standard headers and general  fixes"},{"revid":318631372,"parentid":318631257,"minor":"","user":"Amolnaik3k","timestamp":"2009-10-08T09:59:42Z","comment":""},{"revid":318631257,"parentid":318631207,"minor":"","user":"Amolnaik3k","timestamp":"2009-10-08T09:58:17Z","comment":"broken
+        link corrected"},{"revid":318631207,"parentid":316478603,"minor":"","user":"Amolnaik3k","timestamp":"2009-10-08T09:57:34Z","comment":"broker
+        link corrected"},{"revid":316478603,"parentid":313503366,"user":"Martarius","timestamp":"2009-09-27T12:23:53Z","comment":"updated
+        birth year [[Wikipedia:Categorization|c]]ategory"},{"revid":313503366,"parentid":313500793,"user":"59.92.153.249","anon":"","timestamp":"2009-09-13T04:05:41Z","comment":""},{"revid":313500793,"parentid":310329493,"user":"59.92.153.249","anon":"","timestamp":"2009-09-13T03:43:44Z","comment":""},{"revid":310329493,"parentid":310131099,"user":"61.17.185.139","anon":"","timestamp":"2009-08-27T08:51:09Z","comment":"/*
+        Stage Dramas */"},{"revid":310131099,"parentid":308645703,"user":"122.164.156.47","anon":"","timestamp":"2009-08-26T09:36:54Z","comment":"/*
+        Movies */"},{"revid":308645703,"parentid":296815677,"user":"61.17.185.139","anon":"","timestamp":"2009-08-18T08:25:07Z","comment":"/*
+        Stage Dramas */"},{"revid":296815677,"parentid":296234181,"user":"66.146.190.58","anon":"","timestamp":"2009-06-16T19:42:40Z","comment":"/*
+        Movies */"},{"revid":296234181,"parentid":292572289,"user":"DefaultsortBot","timestamp":"2009-06-13T21:14:48Z","comment":"Added
+        DEFAULTSORT to page (used a WikiProject banner''s listas parameter on the
+        talk page). [[User talk:DefaultsortBot|Did I get it wrong?]]"},{"revid":292572289,"parentid":292571979,"user":"Exceller78","timestamp":"2009-05-27T01:31:37Z","comment":""},{"revid":292571979,"parentid":286079569,"user":"Exceller78","timestamp":"2009-05-27T01:29:52Z","comment":""},{"revid":286079569,"parentid":286079489,"user":"William''s
+        scraper","timestamp":"2009-04-25T18:09:39Z","comment":"blpunreferenced"},{"revid":286079489,"parentid":286079445,"minor":"","user":"William''s
+        scraper","timestamp":"2009-04-25T18:09:07Z","comment":"Quick-adding category
+        [[:Category:Year of birth missing (living people)|Year of birth missing (living
+        people)]] (using [[WP:HOTCAT|HotCat]])"},{"revid":286079445,"parentid":284337108,"minor":"","user":"William''s
+        scraper","timestamp":"2009-04-25T18:08:52Z","comment":"Quick-adding category
+        [[:Category:Living people|Living people]] (using [[WP:HOTCAT|HotCat]])"},{"revid":284337108,"parentid":280483615,"user":"122.164.234.192","anon":"","timestamp":"2009-04-17T02:07:05Z","comment":"/*
+        Movies */"},{"revid":280483615,"parentid":249634545,"user":"74.15.242.19","anon":"","timestamp":"2009-03-29T19:56:59Z","comment":""},{"revid":249634545,"parentid":246511693,"user":"130.88.188.11","anon":"","timestamp":"2008-11-04T12:52:41Z","comment":"/*
+        Stage Dramas */"},{"revid":246511693,"parentid":226154858,"user":"61.14.43.10","anon":"","timestamp":"2008-10-20T15:34:30Z","comment":"/*
+        Stage Dramas */"}]}}}}'
+    headers:
+      accept-ranges:
+      - bytes
+      age:
+      - '2'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:06:31 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-m7b8j
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="1764150114"
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,X-Subdomain,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - 3c953b38-d8b5-49f9-9d85-4d11ebabe29c
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - keep-alive
+      Cookie:
+      - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAEBAFvdouzjtjZOFu1VYxmrS6w5JlmoOpNVaTHU
+      User-Agent:
+      - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
+    method: GET
+    uri: https://en.wikipedia.org/w/api.php?prop=revisions&titles=Crazy+Mohan&rvdir=older&rvprop=ids%7Ctimestamp%7Cflags%7Ccomment%7Cuser&rvlimit=50&rvcontinue=20080717015335%7C226154858&continue=%7C%7Cuserinfo&meta=userinfo&uiprop=blockinfo%7Chasmsg&action=query&format=json
+  response:
+    body:
+      string: '{"batchcomplete":"","query":{"pages":{"11269250":{"pageid":11269250,"ns":0,"title":"Crazy
+        Mohan","revisions":[{"revid":226154858,"parentid":226154365,"user":"75.185.82.112","anon":"","timestamp":"2008-07-17T01:53:35Z","comment":"/*
+        Movies */"},{"revid":226154365,"parentid":226154291,"user":"75.185.82.112","anon":"","timestamp":"2008-07-17T01:50:29Z","comment":"/*
+        Movies */"},{"revid":226154291,"parentid":225423565,"user":"75.185.82.112","anon":"","timestamp":"2008-07-17T01:49:59Z","comment":"/*
+        Movies */"},{"revid":225423565,"parentid":224838189,"user":"71.246.241.90","anon":"","timestamp":"2008-07-13T16:48:30Z","comment":"/*
+        Movies */"},{"revid":224838189,"parentid":222838700,"user":"Fratrep","timestamp":"2008-07-10T17:18:36Z","comment":"Repairing
+        link to disambiguation page - [[Wikipedia:Disambiguation pages with links|You
+        can help!]]"},{"revid":222838700,"parentid":222837965,"user":"Sana167","timestamp":"2008-07-01T10:49:02Z","comment":""},{"revid":222837965,"parentid":222837901,"user":"Sana167","timestamp":"2008-07-01T10:43:05Z","comment":""},{"revid":222837901,"parentid":222837327,"user":"Sana167","timestamp":"2008-07-01T10:42:22Z","comment":""},{"revid":222837327,"parentid":222837247,"user":"Sana167","timestamp":"2008-07-01T10:37:31Z","comment":""},{"revid":222837247,"parentid":222138207,"user":"Sana167","timestamp":"2008-07-01T10:36:59Z","comment":""},{"revid":222138207,"parentid":222137535,"minor":"","user":"Soleswaran","timestamp":"2008-06-27T19:08:01Z","comment":""},{"revid":222137535,"parentid":220946745,"user":"Soleswaran","timestamp":"2008-06-27T19:04:35Z","comment":""},{"revid":220946745,"parentid":218142838,"user":"195.189.142.42","anon":"","timestamp":"2008-06-22T10:17:49Z","comment":"/*
+        Popular Stage Plays */"},{"revid":218142838,"parentid":213888369,"user":"125.17.73.13","anon":"","timestamp":"2008-06-09T10:15:08Z","comment":"/*
+        Popular Tamil Movies */"},{"revid":213888369,"parentid":212765060,"user":"221.134.0.131","anon":"","timestamp":"2008-05-21T05:46:44Z","comment":"/*
+        Popular Tamil Movies--for some of the movies he has only acted but not written
+        dialogues */"},{"revid":212765060,"parentid":209644443,"user":"193.113.48.7","anon":"","timestamp":"2008-05-16T03:50:22Z","comment":"/*
+        Popular Tamil Movies */"},{"revid":209644443,"parentid":199573540,"user":"220.225.137.249","anon":"","timestamp":"2008-05-02T06:48:57Z","comment":"/*
+        Popular Stage Plays */"},{"revid":199573540,"parentid":199514075,"minor":"","user":"SmackBot","timestamp":"2008-03-20T11:41:42Z","comment":"Date
+        the maintenance tags or general  fixes"},{"revid":199514075,"parentid":196144268,"user":"Bedford","timestamp":"2008-03-20T03:28:12Z","comment":"Problems"},{"revid":196144268,"parentid":196144243,"minor":"","user":"Dycedarg","timestamp":"2008-03-05T22:32:19Z","comment":"Reverted
+        edits by [[Special:Contributions/Pantsdance69|Pantsdance69]] ([[User talk:Pantsdance69|talk]])
+        to last version by 202.88.187.152"},{"revid":196144243,"parentid":182589564,"user":"Pantsdance69","timestamp":"2008-03-05T22:32:14Z","comment":"/*
+        Popular Stage Plays */"},{"revid":182589564,"parentid":172524542,"user":"202.88.187.152","anon":"","timestamp":"2008-01-06T20:21:14Z","comment":""},{"revid":172524542,"parentid":169743479,"user":"Gs44631","timestamp":"2007-11-19T18:11:01Z","comment":""},{"revid":169743479,"parentid":165901067,"minor":"","user":"MetsBot","timestamp":"2007-11-07T01:23:59Z","comment":"clean
+        up and adding [[Category:Year of birth missing (living people)]]  using [[Project:AutoWikiBrowser|AWB]]"},{"revid":165901067,"parentid":149648070,"minor":"","user":"Aspects","timestamp":"2007-10-20T19:38:10Z","comment":"link
+        repair ([[Wikipedia:WikiProject Red Link Recovery|You can help!]])"},{"revid":149648070,"parentid":149648010,"minor":"","user":"Darkwind","timestamp":"2007-08-06T23:39:06Z","comment":"Reverted
+        1 edit by [[Special:Contributions/201.53.130.97|201.53.130.97]] identified
+        as [[WP:VAND|vandalism]] to last revision by [[User:Rjwilmsi|Rjwilmsi]]. using
+        [[WP:TWINKLE|TW]]"},{"revid":149648010,"parentid":148776502,"user":"201.53.130.97","anon":"","timestamp":"2007-08-06T23:38:51Z","comment":""},{"revid":148776502,"parentid":143692871,"minor":"","user":"Rjwilmsi","timestamp":"2007-08-02T19:11:00Z","comment":"[[WP:AWB/T|Typo
+        & format fix]] , Typos fixed: Charachter \u2192 Character,  using [[Project:AutoWikiBrowser|AWB]]"},{"revid":143692871,"parentid":142803788,"user":"60.51.252.82","anon":"","timestamp":"2007-07-10T09:36:01Z","comment":"/*
+        Popular Tamil Movies */"},{"revid":142803788,"parentid":138100729,"minor":"","user":"Spaceharper","timestamp":"2007-07-06T02:18:23Z","comment":"moved
+        [[Crazy mohan]] to [[Crazy Mohan]]: capitalisation"},{"revid":138100729,"parentid":138100507,"user":"202.46.222.111","anon":"","timestamp":"2007-06-14T10:06:52Z","comment":""},{"revid":138100507,"parentid":138100401,"user":"202.46.222.111","anon":"","timestamp":"2007-06-14T10:04:58Z","comment":""},{"revid":138100401,"parentid":132976088,"user":"202.46.222.111","anon":"","timestamp":"2007-06-14T10:03:59Z","comment":""},{"revid":132976088,"parentid":132620028,"minor":"","user":"SmackBot","timestamp":"2007-05-23T17:40:11Z","comment":"Date/fix
+        the maintenance tags or gen fixes"},{"revid":132620028,"parentid":132459856,"user":"87.74.26.235","anon":"","timestamp":"2007-05-22T06:02:47Z","comment":""},{"revid":132459856,"parentid":132001827,"user":"T@nn","timestamp":"2007-05-21T15:52:31Z","comment":"Categorizing
+        article - [[WP:UNCAT|You can help!]]"},{"revid":132001827,"parentid":131955069,"user":"Soleswaran","timestamp":"2007-05-19T13:55:59Z","comment":""},{"revid":131955069,"parentid":131954905,"user":"Soleswaran","timestamp":"2007-05-19T06:45:00Z","comment":""},{"revid":131954905,"parentid":131526123,"user":"Soleswaran","timestamp":"2007-05-19T06:43:40Z","comment":""},{"revid":131526123,"parentid":131486017,"minor":"","user":"Fisherjs","timestamp":"2007-05-17T12:43:28Z","comment":"add
+        cat - see [[WP:UNCAT]]"},{"revid":131486017,"parentid":131485942,"user":"Soleswaran","timestamp":"2007-05-17T07:03:08Z","comment":""},{"revid":131485942,"parentid":0,"user":"Soleswaran","timestamp":"2007-05-17T07:02:24Z","comment":"[[WP:AES|\u2190]]Created
+        page with ''Crazy Mohan is a popular tamil comedy actor & writer.  He started
+        his career as stage play writer with his own drama troupe ''Crazy creations''
+        which is popular for i...''"}]}}}}'
+    headers:
+      accept-ranges:
+      - bytes
+      age:
+      - '0'
+      cache-control:
+      - private, must-revalidate, max-age=0
+      content-disposition:
+      - inline; filename=api-result.json
+      content-encoding:
+      - gzip
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Sun, 19 Jul 2026 02:06:32 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw-api-ext.eqiad.main-66d79c8c8-fl4cl
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="2915286512"
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,X-Subdomain,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization,User-Agent
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - 3ea05d30-946e-4b5f-827d-01d168d94241
+    status:
+      code: 200
+      message: OK
+version: 1
