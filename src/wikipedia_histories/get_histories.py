@@ -178,7 +178,7 @@ async def get_texts(revids, lang_code="en", raw_html=False):
     return texts
 
 
-def get_history(title, include_text=True, raw_html=False, domain="en.wikipedia.org"):
+def get_history(title, include_text=True, domain="en.wikipedia.org", raw_html=False):
     """
     Collects everything and returns a list of Change objects
 
@@ -242,10 +242,9 @@ def get_history(title, include_text=True, raw_html=False, domain="en.wikipedia.o
             users[i],
             comments[i],
             rating,
-            texts[i],
+            content=None if raw_html else texts[i],
+            raw_html=texts[i] if raw_html else None,
         )
-        if raw_html:
-            change.raw_html = texts[i]  # set raw_html attribute for raw HTML content
         history.append(change)
 
     return history
