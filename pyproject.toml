@@ -33,6 +33,7 @@ testpaths = ["tests"]
 
 [tool.vcr]
 record_mode = "none"
+decode_compressed_response = true
 
 [project.urls]
 Homepage = "https://github.com/ndrezn/wikipedia-histories"

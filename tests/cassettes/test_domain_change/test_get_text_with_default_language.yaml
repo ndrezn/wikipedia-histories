@@ -81,19 +81,19 @@ interactions:
         class=\"nv-edit\"><a href=\"/wiki/Special:EditPage/Template:Compu-bio-stub\"
         title=\"Special:EditPage/Template:Compu-bio-stub\"><abbr title=\"Edit this
         template\">e</abbr></a></li></ul></div></div>\n<!-- \nNewPP limit report\nParsed
-        by mw\u2010api\u2010ext.eqiad.main\u201066d79c8c8\u201068jjr\nCached time:
-        20260718213233\nCache expiry: 2592000\nReduced expiry: false\nComplications:
-        []\nCPU time usage: 0.089 seconds\nReal time usage: 0.108 seconds\nPreprocessor
+        by mw\u2010api\u2010ext.eqiad.main\u201066d79c8c8\u2010db94m\nCached time:
+        20260719020848\nCache expiry: 2592000\nReduced expiry: false\nComplications:
+        []\nCPU time usage: 0.070 seconds\nReal time usage: 0.083 seconds\nPreprocessor
         visited node count: 26/1000000\nRevision size: 537/2097152 bytes\nPost\u2010expand
         include size: 3063/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest
         expansion depth: 4/100\nExpensive parser function count: 0/500\nUnstrip recursion
         depth: 0/20\nUnstrip post\u2010expand size: 4220/5000000 bytes\nLua time usage:
-        0.062/10.000 seconds\nLua memory usage: 832574/52428800 bytes\nNumber of Wikibase
-        entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%   88.306      1
-        Template:Compu-bio-stub\n100.00%   88.306      1 -total\n 98.02%   86.561      1
-        Template:Article_stub_box\n-->\n\n<!-- Render ID 2fbefd17-82f0-11f1-a4bf-15fca6f4d4da
+        0.050/10.000 seconds\nLua memory usage: 832574/52428800 bytes\nNumber of Wikibase
+        entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%   68.446      1
+        Template:Compu-bio-stub\n100.00%   68.446      1 -total\n 97.70%   66.872      1
+        Template:Article_stub_box\n-->\n\n<!-- Render ID c73747e5-8316-11f1-bfbb-1b863fdafedd
         -->\n\n<!-- Saved in RevisionOutputCache with key enwiki:rcache:31820970:dateformat=default
-        and timestamp 20260718213233 and revision id 31820970.\n -->\n</div>"},"langlinks":[{"lang":"de","url":"https://de.wikipedia.org/wiki/Andrei_Broder","langname":"German","autonym":"Deutsch","*":"Andrei
+        and timestamp 20260719020848 and revision id 31820970.\n -->\n</div>"},"langlinks":[{"lang":"de","url":"https://de.wikipedia.org/wiki/Andrei_Broder","langname":"German","autonym":"Deutsch","*":"Andrei
         Broder"},{"lang":"fr","url":"https://fr.wikipedia.org/wiki/Andrei_Broder","langname":"French","autonym":"fran\u00e7ais","*":"Andrei
         Broder"},{"lang":"he","url":"https://he.wikipedia.org/wiki/%D7%90%D7%A0%D7%93%D7%A8%D7%99_%D7%91%D7%A8%D7%95%D7%93%D7%A8","langname":"Hebrew","autonym":"\u05e2\u05d1\u05e8\u05d9\u05ea","*":"\u05d0\u05e0\u05d3\u05e8\u05d9
         \u05d1\u05e8\u05d5\u05d3\u05e8"},{"lang":"ig","url":"https://ig.wikipedia.org/wiki/Andrei_Broder","langname":"Igbo","autonym":"Igbo","*":"Andrei
@@ -110,6 +110,8 @@ interactions:
         stub box/styles.css"}],"images":["Desktop_computer_clipart_-_Yellow_theme.svg"],"externallinks":[],"sections":[],"tocdata":null,"parsewarnings":[],"displaytitle":"<span
         lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Andrei Broder</span></span>","iwlinks":[],"properties":[{"name":"wikibase_item","*":"Q2895803"}]}}'
     headers:
+      Accept-Ranges:
+      - bytes
       Age:
       - '0'
       Cache-Control:
@@ -121,18 +123,18 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Sat, 18 Jul 2026 21:39:52 GMT
+      - Sun, 19 Jul 2026 02:08:48 GMT
       Server:
-      - mw-api-ext.eqiad.main-66d79c8c8-vdcvr
+      - mw-api-ext.eqiad.main-66d79c8c8-db94m
       Set-Cookie:
-      - WMF-Last-Access=18-Jul-2026;Path=/;HttpOnly;secure;Expires=Wed, 19 Aug 2026
-        12:00:00 GMT
-      - WMF-Last-Access-Global=18-Jul-2026;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Wed,
-        19 Aug 2026 12:00:00 GMT
+      - WMF-Last-Access=19-Jul-2026;Path=/;HttpOnly;secure;Expires=Thu, 20 Aug 2026
+        00:00:00 GMT
+      - WMF-Last-Access-Global=19-Jul-2026;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        20 Aug 2026 00:00:00 GMT
       - GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; Path=/; secure; Domain=.wikipedia.org
       - NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600
-      - WMF-Uniq=I9cycHUyuQnY6DaEkeRRvAOhAAAAAFvdzAZ-7QJvXV3g6Fgur5iUGhyW41JTZlp6;Domain=.wikipedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Sun,
-        18 Jul 2027 00:00:00 GMT
+      - WMF-Uniq=3rjt55ROihknNGWy4uEJKQOiAAAAAFvdrE-Ef7LC134en9lSW6rnwd-W4Hv0MIJd;Domain=.wikipedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Mon,
+        19 Jul 2027 00:00:00 GMT
       Transfer-Encoding:
       - chunked
       Vary:
@@ -146,7 +148,7 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server-timing:
-      - WMF-Uniq;desc="we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="891422252"
+      - WMF-Uniq;desc="we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="2968200305"
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
       x-analytics:
@@ -162,7 +164,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - 09180afd-489c-4820-9a2c-fa958b30d148
+      - 1e456461-c69a-4e6d-a3a5-54b426f43a06
     status:
       code: 200
       message: OK

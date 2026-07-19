@@ -16,7 +16,7 @@ interactions:
     body:
       string: '{"batchcomplete":"","query":{"general":{"mainpage":"Anasayfa","base":"https://tr.wikipedia.org/wiki/Anasayfa","sitename":"Vikipedi","logo":"//tr.wikipedia.org/static/images/project-logos/trwiki.png","generator":"MediaWiki
         1.47.0-wmf.11","phpversion":"8.3.32","phpsapi":"fpm-fcgi","dbtype":"mysql","dbversion":"10.11.16-MariaDB-log","langconversion":"","linkconversion":"","titleconversion":"","linkprefixcharset":"","linkprefix":"","linktrail":"/^([a-z\u00c7\u011e\u00e7\u011f\u0130\u0131\u00d6\u00f6\u015e\u015f\u00dc\u00fc\u00c2\u00e2\u00ce\u00ee\u00db\u00fb]+)(.*)$/sDu","legaltitlechars":"
-        %!\"$&''()*,\\-.\\/0-9:;=?@A-Z\\\\^_`a-z~\\x80-\\xFF+","invalidusernamechars":"@:>=","git-hash":"35ce3778f6617f21451012abc66e4bc84e742f03","git-branch":"wmf/1.47.0-wmf.11","case":"first-letter","lang":"tr","fallback":[{"code":"en"}],"fallback8bitEncoding":"windows-1252","writeapi":"","maxarticlesize":2097152,"timezone":"UTC","timeoffset":0,"articlepath":"/wiki/$1","scriptpath":"/w","script":"/w/index.php","variantarticlepath":false,"server":"//tr.wikipedia.org","servername":"tr.wikipedia.org","wikiid":"trwiki","time":"2026-07-19T02:06:28Z","misermode":"","uploadsenabled":"","maxuploadsize":5368709120,"minuploadchunksize":1024,"galleryoptions":{"imagesPerRow":0,"imageWidth":120,"imageHeight":120,"captionLength":"","showBytes":"","mode":"traditional","showDimensions":""},"thumblimits":[180,250,400],"imagelimits":[{"width":320,"height":240},{"width":640,"height":480},{"width":800,"height":600},{"width":1024,"height":768},{"width":1280,"height":1024},{"width":2560,"height":2048}],"favicon":"https://tr.wikipedia.org/static/favicon/wikipedia.ico","centralidlookupprovider":"CentralAuth","allcentralidlookupproviders":["CentralAuth","local"],"interwikimagic":"","magiclinks":{"ISBN":"","PMID":"","RFC":""},"categorycollation":"uca-tr","nofollowlinks":"","nofollownsexceptions":[],"nofollowdomainexceptions":["mediawiki.org","wikibooks.org","wikimedia.com","wikimedia.org","wikinews.org","wikipedia.org","wikiquote.org","wikisource.org","wikiversity.org","wiktionary.org","wikivoyage.org","wikidata.org","wikifunctions.org","tools.wmflabs.org","toolforge.org","etherpad.wmflabs.org"],"wmf-config":{"wmfMasterDatacenter":"eqiad","wmfEtcdLastModifiedIndex":3855669},"max-page-id":4716782,"linter":{"high":["deletable-table-tag","duplicate-ids","html5-misnesting","misc-tidy-replacement-issues","multiline-html-table-in-list","multiple-unclosed-formatting-tags","pwrap-bug-workaround","self-closed-tag","template-arg-in-extension-tag","tidy-font-bug","tidy-whitespace-bug","unclosed-quotes-in-heading"],"medium":["bogus-image-options","fostered","misnested-tag","multi-colon-escape","wikilink-in-extlink"],"low":["empty-heading","missing-end-tag","missing-end-tag-in-heading","night-mode-unaware-background-color","obsolete-tag","pre-expansion","stripped-tag"]},"mobileserver":"https://tr.wikipedia.org","pageviewservice-supported-metrics":{"pageviews":{"pageviews":""},"siteviews":{"pageviews":"","uniques":""},"mostviewed":{"pageviews":""}},"readinglists-config":{"maxListsPerUser":100,"maxEntriesPerList":5000,"deletedRetentionDays":30}},"namespaces":{"-2":{"id":-2,"case":"first-letter","canonical":"Media","*":"Ortam"},"-1":{"id":-1,"case":"first-letter","canonical":"Special","*":"\u00d6zel"},"0":{"id":0,"case":"first-letter","content":"","*":""},"1":{"id":1,"case":"first-letter","subpages":"","canonical":"Talk","*":"Tart\u0131\u015fma"},"2":{"id":2,"case":"first-letter","subpages":"","canonical":"User","*":"Kullan\u0131c\u0131"},"3":{"id":3,"case":"first-letter","subpages":"","canonical":"User
+        %!\"$&''()*,\\-.\\/0-9:;=?@A-Z\\\\^_`a-z~\\x80-\\xFF+","invalidusernamechars":"@:>=","git-hash":"35ce3778f6617f21451012abc66e4bc84e742f03","git-branch":"wmf/1.47.0-wmf.11","case":"first-letter","lang":"tr","fallback":[{"code":"en"}],"fallback8bitEncoding":"windows-1252","writeapi":"","maxarticlesize":2097152,"timezone":"UTC","timeoffset":0,"articlepath":"/wiki/$1","scriptpath":"/w","script":"/w/index.php","variantarticlepath":false,"server":"//tr.wikipedia.org","servername":"tr.wikipedia.org","wikiid":"trwiki","time":"2026-07-19T02:08:49Z","misermode":"","uploadsenabled":"","maxuploadsize":5368709120,"minuploadchunksize":1024,"galleryoptions":{"imagesPerRow":0,"imageWidth":120,"imageHeight":120,"captionLength":"","showBytes":"","mode":"traditional","showDimensions":""},"thumblimits":[180,250,400],"imagelimits":[{"width":320,"height":240},{"width":640,"height":480},{"width":800,"height":600},{"width":1024,"height":768},{"width":1280,"height":1024},{"width":2560,"height":2048}],"favicon":"https://tr.wikipedia.org/static/favicon/wikipedia.ico","centralidlookupprovider":"CentralAuth","allcentralidlookupproviders":["CentralAuth","local"],"interwikimagic":"","magiclinks":{"ISBN":"","PMID":"","RFC":""},"categorycollation":"uca-tr","nofollowlinks":"","nofollownsexceptions":[],"nofollowdomainexceptions":["mediawiki.org","wikibooks.org","wikimedia.com","wikimedia.org","wikinews.org","wikipedia.org","wikiquote.org","wikisource.org","wikiversity.org","wiktionary.org","wikivoyage.org","wikidata.org","wikifunctions.org","tools.wmflabs.org","toolforge.org","etherpad.wmflabs.org"],"wmf-config":{"wmfMasterDatacenter":"eqiad","wmfEtcdLastModifiedIndex":3855669},"max-page-id":4716783,"linter":{"high":["deletable-table-tag","duplicate-ids","html5-misnesting","misc-tidy-replacement-issues","multiline-html-table-in-list","multiple-unclosed-formatting-tags","pwrap-bug-workaround","self-closed-tag","template-arg-in-extension-tag","tidy-font-bug","tidy-whitespace-bug","unclosed-quotes-in-heading"],"medium":["bogus-image-options","fostered","misnested-tag","multi-colon-escape","wikilink-in-extlink"],"low":["empty-heading","missing-end-tag","missing-end-tag-in-heading","night-mode-unaware-background-color","obsolete-tag","pre-expansion","stripped-tag"]},"mobileserver":"https://tr.wikipedia.org","pageviewservice-supported-metrics":{"pageviews":{"pageviews":""},"siteviews":{"pageviews":"","uniques":""},"mostviewed":{"pageviews":""}},"readinglists-config":{"maxListsPerUser":100,"maxEntriesPerList":5000,"deletedRetentionDays":30}},"namespaces":{"-2":{"id":-2,"case":"first-letter","canonical":"Media","*":"Ortam"},"-1":{"id":-1,"case":"first-letter","canonical":"Special","*":"\u00d6zel"},"0":{"id":0,"case":"first-letter","content":"","*":""},"1":{"id":1,"case":"first-letter","subpages":"","canonical":"Talk","*":"Tart\u0131\u015fma"},"2":{"id":2,"case":"first-letter","subpages":"","canonical":"User","*":"Kullan\u0131c\u0131"},"3":{"id":3,"case":"first-letter","subpages":"","canonical":"User
         talk","*":"Kullan\u0131c\u0131 mesaj"},"4":{"id":4,"case":"first-letter","subpages":"","canonical":"Project","*":"Vikipedi"},"5":{"id":5,"case":"first-letter","subpages":"","canonical":"Project
         talk","*":"Vikipedi tart\u0131\u015fma"},"6":{"id":6,"case":"first-letter","canonical":"File","*":"Dosya"},"7":{"id":7,"case":"first-letter","subpages":"","canonical":"File
         talk","*":"Dosya tart\u0131\u015fma"},"8":{"id":8,"case":"first-letter","subpages":"","canonical":"MediaWiki","namespaceprotection":"editinterface","*":"MediaWiki"},"9":{"id":9,"case":"first-letter","subpages":"","canonical":"MediaWiki
@@ -30,8 +30,6 @@ interactions:
         talk","*":"Mod\u00fcl tart\u0131\u015fma"},"1728":{"id":1728,"case":"first-letter","subpages":"","canonical":"Event","*":"Event"},"1729":{"id":1729,"case":"first-letter","subpages":"","canonical":"Event
         talk","*":"Event talk"}},"userinfo":{"id":0,"name":"107.167.253.208","anon":"","groups":["*"],"rights":["createaccount","autocreateaccount","read","edit","createpage","createtalk","viewmyprivateinfo","editmyprivateinfo","editmyoptions","urlshortener-create-url","centralauth-merge","abusefilter-view","abusefilter-log","echo-read-notifications"]}}}'
     headers:
-      accept-ranges:
-      - bytes
       age:
       - '0'
       cache-control:
@@ -45,7 +43,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Sun, 19 Jul 2026 02:06:28 GMT
+      - Sun, 19 Jul 2026 02:08:49 GMT
       nel:
       - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
         0.0}'
@@ -53,9 +51,9 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server:
-      - mw-api-ext.eqiad.main-66d79c8c8-gtclq
+      - mw-api-ext.eqiad.main-66d79c8c8-k4vsx
       server-timing:
-      - cache;desc="pass", host;desc="cp1112",co_id;desc="1251454838"
+      - cache;desc="pass", host;desc="cp1112",co_id;desc="3999261958"
       set-cookie:
       - WMF-Last-Access=19-Jul-2026;Path=/;HttpOnly;secure;Expires=Thu, 20 Aug 2026
         00:00:00 GMT
@@ -63,7 +61,7 @@ interactions:
         20 Aug 2026 00:00:00 GMT
       - GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; Path=/; secure; Domain=.wikipedia.org
       - NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600
-      - WMF-Uniq=ezFp7HNjKhPOHNEf3NU9LgOiAAAAAFvdsqkrYl_cXuezvbSgjTHHqOjYJ2De5qD9;Domain=.wikipedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Mon,
+      - WMF-Uniq=yUf011pcB8fdWUQXUzpT4gOiAAAAAFvdxAajGaBxGvJ1tmKRa13L5DJJNEKDEyKX;Domain=.wikipedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Mon,
         19 Jul 2027 00:00:00 GMT
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
@@ -84,7 +82,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - fff4c359-889c-468c-ab64-6de8abb54b95
+      - 9d2191b4-1115-4744-9087-7024a5d8dd76
     status:
       code: 200
       message: OK
@@ -99,7 +97,7 @@ interactions:
       - keep-alive
       Cookie:
       - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
-        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=ezFp7HNjKhPOHNEf3NU9LgOiAAAAAFvdsqkrYl_cXuezvbSgjTHHqOjYJ2De5qD9
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=yUf011pcB8fdWUQXUzpT4gOiAAAAAFvdxAajGaBxGvJ1tmKRa13L5DJJNEKDEyKX
       User-Agent:
       - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
     method: GET
@@ -109,8 +107,6 @@ interactions:
       string: '{"batchcomplete":"","query":{"pages":{"2408440":{"pageid":2408440,"ns":0,"title":"Crazy
         Mohan","contentmodel":"wikitext","pagelanguage":"tr","pagelanguagehtmlcode":"tr","pagelanguagedir":"ltr","touched":"2026-07-13T20:55:26Z","lastrevid":37112156,"length":11141,"protection":[],"restrictiontypes":["edit","move"]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
     headers:
-      accept-ranges:
-      - bytes
       age:
       - '0'
       cache-control:
@@ -126,7 +122,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Sun, 19 Jul 2026 02:06:28 GMT
+      - Sun, 19 Jul 2026 02:08:49 GMT
       nel:
       - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
         0.0}'
@@ -134,11 +130,11 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server:
-      - mw-api-ext.eqiad.main-66d79c8c8-9qwwn
+      - mw-api-ext.eqiad.main-66d79c8c8-nqnkm
       server-timing:
-      - cache;desc="pass", host;desc="cp1112",co_id;desc="1079660763"
+      - cache;desc="pass", host;desc="cp1112",co_id;desc="2031279883"
       set-cookie:
-      - WMF-Uniq=ezFp7HNjKhPOHNEf3NU9LgOiAAEBAFvd4i4Mfy_Bz7zEYjo9d8iub-5JZbbmkpc8;Domain=.wikipedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Mon,
+      - WMF-Uniq=yUf011pcB8fdWUQXUzpT4gOiAAEBAFvdwqbTswaxjHXNM2tXOqRD6fNhUSRUlts9;Domain=.wikipedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Mon,
         19 Jul 2027 00:00:00 GMT
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
@@ -157,7 +153,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - 1050ff79-ede2-476f-863c-f4ea5d9e3c54
+      - ac8173eb-9a8b-4c96-8c21-98abe289becf
     status:
       code: 200
       message: OK
@@ -172,7 +168,7 @@ interactions:
       - keep-alive
       Cookie:
       - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
-        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=ezFp7HNjKhPOHNEf3NU9LgOiAAEBAFvd4i4Mfy_Bz7zEYjo9d8iub-5JZbbmkpc8
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=yUf011pcB8fdWUQXUzpT4gOiAAEBAFvdwqbTswaxjHXNM2tXOqRD6fNhUSRUlts9
       User-Agent:
       - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
     method: GET
@@ -183,8 +179,6 @@ interactions:
         Mohan"}],"pages":{"2558951":{"pageid":2558951,"ns":1,"title":"Tart\u0131\u015fma:Crazy
         Mohan","contentmodel":"wikitext","pagelanguage":"tr","pagelanguagehtmlcode":"tr","pagelanguagedir":"ltr","touched":"2026-07-01T04:41:29Z","lastrevid":30825362,"length":205,"protection":[],"restrictiontypes":["edit","move"]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
     headers:
-      accept-ranges:
-      - bytes
       age:
       - '0'
       cache-control:
@@ -200,7 +194,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Sun, 19 Jul 2026 02:06:28 GMT
+      - Sun, 19 Jul 2026 02:08:49 GMT
       nel:
       - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
         0.0}'
@@ -208,9 +202,9 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server:
-      - mw-api-ext.eqiad.main-66d79c8c8-jsv5c
+      - mw-api-ext.eqiad.main-66d79c8c8-4zjzb
       server-timing:
-      - cache;desc="pass", host;desc="cp1112",co_id;desc="1863909842"
+      - cache;desc="pass", host;desc="cp1112",co_id;desc="3384056050"
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
       vary:
@@ -228,7 +222,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - 0cd0e448-a819-40fb-a2f9-938734aa5190
+      - c4d65ca6-f4b5-47e9-800b-4162836979e4
     status:
       code: 200
       message: OK
@@ -243,7 +237,7 @@ interactions:
       - keep-alive
       Cookie:
       - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
-        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=ezFp7HNjKhPOHNEf3NU9LgOiAAEBAFvd4i4Mfy_Bz7zEYjo9d8iub-5JZbbmkpc8
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=yUf011pcB8fdWUQXUzpT4gOiAAEBAFvdwqbTswaxjHXNM2tXOqRD6fNhUSRUlts9
       User-Agent:
       - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
     method: GET
@@ -257,8 +251,6 @@ interactions:
         vikiprojesine]] eklendi"},{"revid":21596226,"parentid":0,"user":"YBot","timestamp":"2020-02-29T19:47:28Z","comment":"[[Vikiproje:Sinema|Sinema
         vikiprojesine]] eklendi"}]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
     headers:
-      accept-ranges:
-      - bytes
       age:
       - '0'
       cache-control:
@@ -267,12 +259,14 @@ interactions:
       - inline; filename=api-result.json
       content-encoding:
       - gzip
+      content-length:
+      - '388'
       content-security-policy:
       - default-src 'self'; script-src 'none'; object-src 'none'
       content-type:
       - application/json; charset=utf-8
       date:
-      - Sun, 19 Jul 2026 02:06:29 GMT
+      - Sun, 19 Jul 2026 02:08:49 GMT
       nel:
       - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
         0.0}'
@@ -280,13 +274,11 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server:
-      - mw-api-ext.eqiad.main-66d79c8c8-hz9bq
+      - mw-api-ext.eqiad.main-66d79c8c8-rmmbq
       server-timing:
-      - cache;desc="pass", host;desc="cp1112",co_id;desc="2141433589"
+      - cache;desc="pass", host;desc="cp1112",co_id;desc="1545229400"
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
-      transfer-encoding:
-      - chunked
       vary:
       - Accept-Encoding,User-Agent
       x-analytics:
@@ -302,7 +294,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - e1875337-dbd6-4641-9568-7b0e2e0aeb6f
+      - a9c3caf2-2a40-4314-8599-aebeb8a7d04b
     status:
       code: 200
       message: OK
@@ -317,7 +309,7 @@ interactions:
       - keep-alive
       Cookie:
       - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
-        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=ezFp7HNjKhPOHNEf3NU9LgOiAAEBAFvd4i4Mfy_Bz7zEYjo9d8iub-5JZbbmkpc8
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=yUf011pcB8fdWUQXUzpT4gOiAAEBAFvdwqbTswaxjHXNM2tXOqRD6fNhUSRUlts9
       User-Agent:
       - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
     method: GET
@@ -336,8 +328,6 @@ interactions:
         Proje = Hindistan | S\u0131n\u0131f = C | \u00d6nem = Az }}"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{Vikiproje
         | Proje = Sinema | S\u0131n\u0131f = C | \u00d6nem = Az }}"}]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
     headers:
-      accept-ranges:
-      - bytes
       age:
       - '0'
       cache-control:
@@ -353,7 +343,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Sun, 19 Jul 2026 02:06:29 GMT
+      - Sun, 19 Jul 2026 02:08:49 GMT
       nel:
       - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
         0.0}'
@@ -361,9 +351,9 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server:
-      - mw-api-ext.eqiad.main-66d79c8c8-xgd59
+      - mw-api-ext.eqiad.main-66d79c8c8-hrqvg
       server-timing:
-      - cache;desc="pass", host;desc="cp1112",co_id;desc="243563274"
+      - cache;desc="pass", host;desc="cp1112",co_id;desc="117798497"
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
       vary:
@@ -381,7 +371,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - ce821e14-f7a0-4942-b9bf-cb71bbb9c068
+      - 47a5cbf8-c4b9-430c-b52a-43ca483bc7e9
     status:
       code: 200
       message: OK
@@ -396,7 +386,7 @@ interactions:
       - keep-alive
       Cookie:
       - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
-        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=ezFp7HNjKhPOHNEf3NU9LgOiAAEBAFvd4i4Mfy_Bz7zEYjo9d8iub-5JZbbmkpc8
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=yUf011pcB8fdWUQXUzpT4gOiAAEBAFvdwqbTswaxjHXNM2tXOqRD6fNhUSRUlts9
       User-Agent:
       - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
     method: GET
@@ -456,10 +446,8 @@ interactions:
         (bilinen sahne ad\u0131yla: ''''''Crazy Mohan'''''' ; d. [[16 Ekim]]...\"
         i\u00e7eri\u011fiyle yeni sayfa olu\u015fturdu"}]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
     headers:
-      accept-ranges:
-      - bytes
       age:
-      - '0'
+      - '2'
       cache-control:
       - private, must-revalidate, max-age=0
       content-disposition:
@@ -471,7 +459,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Sun, 19 Jul 2026 02:06:29 GMT
+      - Sun, 19 Jul 2026 02:08:49 GMT
       nel:
       - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
         0.0}'
@@ -479,9 +467,9 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server:
-      - mw-api-ext.eqiad.main-66d79c8c8-pgpj4
+      - mw-api-ext.eqiad.main-66d79c8c8-hz9bq
       server-timing:
-      - cache;desc="pass", host;desc="cp1112",co_id;desc="892290536"
+      - cache;desc="pass", host;desc="cp1112",co_id;desc="4193724439"
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
       transfer-encoding:
@@ -501,7 +489,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - 6ec3c493-b0bd-4e19-9916-8c5476d49422
+      - 5df321ac-f5c7-49bb-affc-4f9bcbb236c9
     status:
       code: 200
       message: OK
@@ -522,7 +510,7 @@ interactions:
     body:
       string: '{"batchcomplete":"","query":{"general":{"mainpage":"Main Page","base":"https://en.wikipedia.org/wiki/Main_Page","sitename":"Wikipedia","logo":"//en.wikipedia.org/static/images/project-logos/enwiki-25.png","generator":"MediaWiki
         1.47.0-wmf.11","phpversion":"8.3.32","phpsapi":"fpm-fcgi","dbtype":"mysql","dbversion":"10.11.16-MariaDB-log","langconversion":"","linkconversion":"","titleconversion":"","linkprefixcharset":"","linkprefix":"","linktrail":"/^([a-z]+)(.*)$/sD","legaltitlechars":"
-        %!\"$&''()*,\\-.\\/0-9:;=?@A-Z\\\\^_`a-z~\\x80-\\xFF+","invalidusernamechars":"@:>=","git-hash":"35ce3778f6617f21451012abc66e4bc84e742f03","git-branch":"wmf/1.47.0-wmf.11","case":"first-letter","lang":"en","fallback":[],"fallback8bitEncoding":"windows-1252","writeapi":"","maxarticlesize":2097152,"timezone":"UTC","timeoffset":0,"articlepath":"/wiki/$1","scriptpath":"/w","script":"/w/index.php","variantarticlepath":false,"server":"//en.wikipedia.org","servername":"en.wikipedia.org","wikiid":"enwiki","time":"2026-07-19T02:06:29Z","misermode":"","uploadsenabled":"","maxuploadsize":5368709120,"minuploadchunksize":1024,"galleryoptions":{"imagesPerRow":0,"imageWidth":120,"imageHeight":120,"captionLength":"","showBytes":"","mode":"traditional","showDimensions":""},"thumblimits":[180,250,400],"imagelimits":[{"width":320,"height":240},{"width":640,"height":480},{"width":800,"height":600},{"width":1024,"height":768},{"width":1280,"height":1024},{"width":2560,"height":2048}],"favicon":"https://en.wikipedia.org/static/favicon/wikipedia.ico","centralidlookupprovider":"CentralAuth","allcentralidlookupproviders":["CentralAuth","local"],"interwikimagic":"","magiclinks":[],"categorycollation":"uca-default-u-kn","nofollowlinks":"","nofollownsexceptions":[],"nofollowdomainexceptions":["mediawiki.org","wikibooks.org","wikimedia.com","wikimedia.org","wikinews.org","wikipedia.org","wikiquote.org","wikisource.org","wikiversity.org","wiktionary.org","wikivoyage.org","wikidata.org","wikifunctions.org","tools.wmflabs.org","toolforge.org","etherpad.wmflabs.org"],"wmf-config":{"wmfMasterDatacenter":"eqiad","wmfEtcdLastModifiedIndex":3855669},"citeresponsivereferences":"","max-page-id":83727155,"linter":{"high":["deletable-table-tag","duplicate-ids","html5-misnesting","misc-tidy-replacement-issues","multiline-html-table-in-list","multiple-unclosed-formatting-tags","pwrap-bug-workaround","self-closed-tag","template-arg-in-extension-tag","tidy-font-bug","tidy-whitespace-bug","unclosed-quotes-in-heading"],"medium":["bogus-image-options","fostered","misnested-tag","multi-colon-escape","wikilink-in-extlink"],"low":["empty-heading","missing-end-tag","missing-end-tag-in-heading","night-mode-unaware-background-color","obsolete-tag","pre-expansion","stripped-tag"]},"mobileserver":"https://en.wikipedia.org","pageviewservice-supported-metrics":{"pageviews":{"pageviews":""},"siteviews":{"pageviews":"","uniques":""},"mostviewed":{"pageviews":""}},"readinglists-config":{"maxListsPerUser":100,"maxEntriesPerList":5000,"deletedRetentionDays":30}},"namespaces":{"-2":{"id":-2,"case":"first-letter","canonical":"Media","*":"Media"},"-1":{"id":-1,"case":"first-letter","canonical":"Special","*":"Special"},"0":{"id":0,"case":"first-letter","content":"","*":""},"1":{"id":1,"case":"first-letter","subpages":"","canonical":"Talk","*":"Talk"},"2":{"id":2,"case":"first-letter","subpages":"","canonical":"User","*":"User"},"3":{"id":3,"case":"first-letter","subpages":"","canonical":"User
+        %!\"$&''()*,\\-.\\/0-9:;=?@A-Z\\\\^_`a-z~\\x80-\\xFF+","invalidusernamechars":"@:>=","git-hash":"35ce3778f6617f21451012abc66e4bc84e742f03","git-branch":"wmf/1.47.0-wmf.11","case":"first-letter","lang":"en","fallback":[],"fallback8bitEncoding":"windows-1252","writeapi":"","maxarticlesize":2097152,"timezone":"UTC","timeoffset":0,"articlepath":"/wiki/$1","scriptpath":"/w","script":"/w/index.php","variantarticlepath":false,"server":"//en.wikipedia.org","servername":"en.wikipedia.org","wikiid":"enwiki","time":"2026-07-19T02:08:50Z","misermode":"","uploadsenabled":"","maxuploadsize":5368709120,"minuploadchunksize":1024,"galleryoptions":{"imagesPerRow":0,"imageWidth":120,"imageHeight":120,"captionLength":"","showBytes":"","mode":"traditional","showDimensions":""},"thumblimits":[180,250,400],"imagelimits":[{"width":320,"height":240},{"width":640,"height":480},{"width":800,"height":600},{"width":1024,"height":768},{"width":1280,"height":1024},{"width":2560,"height":2048}],"favicon":"https://en.wikipedia.org/static/favicon/wikipedia.ico","centralidlookupprovider":"CentralAuth","allcentralidlookupproviders":["CentralAuth","local"],"interwikimagic":"","magiclinks":[],"categorycollation":"uca-default-u-kn","nofollowlinks":"","nofollownsexceptions":[],"nofollowdomainexceptions":["mediawiki.org","wikibooks.org","wikimedia.com","wikimedia.org","wikinews.org","wikipedia.org","wikiquote.org","wikisource.org","wikiversity.org","wiktionary.org","wikivoyage.org","wikidata.org","wikifunctions.org","tools.wmflabs.org","toolforge.org","etherpad.wmflabs.org"],"wmf-config":{"wmfMasterDatacenter":"eqiad","wmfEtcdLastModifiedIndex":3855669},"citeresponsivereferences":"","max-page-id":83727167,"linter":{"high":["deletable-table-tag","duplicate-ids","html5-misnesting","misc-tidy-replacement-issues","multiline-html-table-in-list","multiple-unclosed-formatting-tags","pwrap-bug-workaround","self-closed-tag","template-arg-in-extension-tag","tidy-font-bug","tidy-whitespace-bug","unclosed-quotes-in-heading"],"medium":["bogus-image-options","fostered","misnested-tag","multi-colon-escape","wikilink-in-extlink"],"low":["empty-heading","missing-end-tag","missing-end-tag-in-heading","night-mode-unaware-background-color","obsolete-tag","pre-expansion","stripped-tag"]},"mobileserver":"https://en.wikipedia.org","pageviewservice-supported-metrics":{"pageviews":{"pageviews":""},"siteviews":{"pageviews":"","uniques":""},"mostviewed":{"pageviews":""}},"readinglists-config":{"maxListsPerUser":100,"maxEntriesPerList":5000,"deletedRetentionDays":30}},"namespaces":{"-2":{"id":-2,"case":"first-letter","canonical":"Media","*":"Media"},"-1":{"id":-1,"case":"first-letter","canonical":"Special","*":"Special"},"0":{"id":0,"case":"first-letter","content":"","*":""},"1":{"id":1,"case":"first-letter","subpages":"","canonical":"Talk","*":"Talk"},"2":{"id":2,"case":"first-letter","subpages":"","canonical":"User","*":"User"},"3":{"id":3,"case":"first-letter","subpages":"","canonical":"User
         talk","*":"User talk"},"4":{"id":4,"case":"first-letter","subpages":"","canonical":"Project","*":"Wikipedia"},"5":{"id":5,"case":"first-letter","subpages":"","canonical":"Project
         talk","*":"Wikipedia talk"},"6":{"id":6,"case":"first-letter","canonical":"File","*":"File"},"7":{"id":7,"case":"first-letter","subpages":"","canonical":"File
         talk","*":"File talk"},"8":{"id":8,"case":"first-letter","canonical":"MediaWiki","namespaceprotection":"editinterface","*":"MediaWiki"},"9":{"id":9,"case":"first-letter","subpages":"","canonical":"MediaWiki
@@ -537,8 +525,6 @@ interactions:
         talk","*":"Module talk"},"1728":{"id":1728,"case":"first-letter","subpages":"","canonical":"Event","*":"Event"},"1729":{"id":1729,"case":"first-letter","subpages":"","canonical":"Event
         talk","*":"Event talk"}},"userinfo":{"id":0,"name":"107.167.253.208","anon":"","groups":["*"],"rights":["createaccount","autocreateaccount","read","edit","createtalk","viewmyprivateinfo","editmyprivateinfo","editmyoptions","abusefilter-log-detail","urlshortener-create-url","centralauth-merge","abusefilter-view","abusefilter-log","echo-read-notifications"]}}}'
     headers:
-      accept-ranges:
-      - bytes
       age:
       - '0'
       cache-control:
@@ -552,7 +538,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Sun, 19 Jul 2026 02:06:29 GMT
+      - Sun, 19 Jul 2026 02:08:50 GMT
       nel:
       - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
         0.0}'
@@ -560,9 +546,9 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server:
-      - mw-api-ext.eqiad.main-66d79c8c8-c22ct
+      - mw-api-ext.eqiad.main-66d79c8c8-flg6n
       server-timing:
-      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="1865443084"
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=treatment;we-1-8-account-creation-no-desktop-benefits=treatment;",co_id;desc="977052759"
       set-cookie:
       - WMF-Last-Access=19-Jul-2026;Path=/;HttpOnly;secure;Expires=Thu, 20 Aug 2026
         00:00:00 GMT
@@ -570,7 +556,7 @@ interactions:
         20 Aug 2026 00:00:00 GMT
       - GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; Path=/; secure; Domain=.wikipedia.org
       - NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600
-      - WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAAAAFvdDsaz25faGZMaEkEpwasca-q-XRIsu2Qy;Domain=.wikipedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Mon,
+      - WMF-Uniq=lOB8klJBdZwCh0jAKkxQQwOiAAAAAFvdvcaHTjS8DmmydGg-a7dQ8cSCEOKLNz0o;Domain=.wikipedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Mon,
         19 Jul 2027 00:00:00 GMT
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
@@ -591,7 +577,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - 60be68d4-bdfe-4051-bd8f-8523a8141e06
+      - cdf87c98-0370-48f2-9d40-6f8994195306
     status:
       code: 200
       message: OK
@@ -606,7 +592,7 @@ interactions:
       - keep-alive
       Cookie:
       - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
-        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAAAAFvdDsaz25faGZMaEkEpwasca-q-XRIsu2Qy
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=lOB8klJBdZwCh0jAKkxQQwOiAAAAAFvdvcaHTjS8DmmydGg-a7dQ8cSCEOKLNz0o
       User-Agent:
       - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
     method: GET
@@ -616,8 +602,6 @@ interactions:
       string: '{"batchcomplete":"","query":{"pages":{"11269250":{"pageid":11269250,"ns":0,"title":"Crazy
         Mohan","contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2026-07-17T02:54:52Z","lastrevid":1364133327,"length":25366,"protection":[],"restrictiontypes":["edit","move"]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
     headers:
-      accept-ranges:
-      - bytes
       age:
       - '0'
       cache-control:
@@ -633,7 +617,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Sun, 19 Jul 2026 02:06:29 GMT
+      - Sun, 19 Jul 2026 02:08:50 GMT
       nel:
       - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
         0.0}'
@@ -641,11 +625,11 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server:
-      - mw-api-ext.eqiad.main-66d79c8c8-qnmns
+      - mw-api-ext.eqiad.main-66d79c8c8-2gqwd
       server-timing:
-      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="1581280707"
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=treatment;we-1-8-account-creation-no-desktop-benefits=treatment;",co_id;desc="986806044"
       set-cookie:
-      - WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAEBAFvdouzjtjZOFu1VYxmrS6w5JlmoOpNVaTHU;Domain=.wikipedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Mon,
+      - WMF-Uniq=lOB8klJBdZwCh0jAKkxQQwOiAAEBAFvdi0W3Sd73WjytnZZQRQyn7UptcnbHqJvl;Domain=.wikipedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Mon,
         19 Jul 2027 00:00:00 GMT
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
@@ -664,7 +648,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - b369e0fa-9781-4b8b-b243-4edf5f80773c
+      - 0da8b9a8-ff6c-48b0-baee-19b1594dc090
     status:
       code: 200
       message: OK
@@ -679,7 +663,7 @@ interactions:
       - keep-alive
       Cookie:
       - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
-        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAEBAFvdouzjtjZOFu1VYxmrS6w5JlmoOpNVaTHU
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=lOB8klJBdZwCh0jAKkxQQwOiAAEBAFvdi0W3Sd73WjytnZZQRQyn7UptcnbHqJvl
       User-Agent:
       - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
     method: GET
@@ -689,8 +673,6 @@ interactions:
       string: '{"batchcomplete":"","query":{"pages":{"15244607":{"pageid":15244607,"ns":1,"title":"Talk:Crazy
         Mohan","contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr","touched":"2026-07-17T14:52:36Z","lastrevid":1323490471,"length":1289,"protection":[],"restrictiontypes":["edit","move"]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
     headers:
-      accept-ranges:
-      - bytes
       age:
       - '0'
       cache-control:
@@ -706,7 +688,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Sun, 19 Jul 2026 02:06:29 GMT
+      - Sun, 19 Jul 2026 02:08:50 GMT
       nel:
       - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
         0.0}'
@@ -714,9 +696,9 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server:
-      - mw-api-ext.eqiad.main-66d79c8c8-jkbjg
+      - mw-api-ext.eqiad.main-66d79c8c8-jpc78
       server-timing:
-      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="3327299825"
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=treatment;we-1-8-account-creation-no-desktop-benefits=treatment;",co_id;desc="207607044"
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
       vary:
@@ -734,7 +716,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - 40640279-e512-418c-b96d-1498700cf4da
+      - c9610dfa-3210-418b-943e-a526e8773489
     status:
       code: 200
       message: OK
@@ -749,7 +731,7 @@ interactions:
       - keep-alive
       Cookie:
       - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
-        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAEBAFvdouzjtjZOFu1VYxmrS6w5JlmoOpNVaTHU
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=lOB8klJBdZwCh0jAKkxQQwOiAAEBAFvdi0W3Sd73WjytnZZQRQyn7UptcnbHqJvl
       User-Agent:
       - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
     method: GET
@@ -782,8 +764,6 @@ interactions:
         ([[User:Kingbotk#FAQ|FAQ]]) ([[User:Kingbotk/P|Kingbotk Plugin]]) Tag [[Category:Living
         people]]. Added {{[[Template:WPBiography|WPBiography]]}}, living=yes."}]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
     headers:
-      accept-ranges:
-      - bytes
       age:
       - '0'
       cache-control:
@@ -792,14 +772,12 @@ interactions:
       - inline; filename=api-result.json
       content-encoding:
       - gzip
-      content-length:
-      - '1413'
       content-security-policy:
       - default-src 'self'; script-src 'none'; object-src 'none'
       content-type:
       - application/json; charset=utf-8
       date:
-      - Sun, 19 Jul 2026 02:06:30 GMT
+      - Sun, 19 Jul 2026 02:08:50 GMT
       nel:
       - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
         0.0}'
@@ -807,11 +785,13 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server:
-      - mw-api-ext.eqiad.main-66d79c8c8-68jjr
+      - mw-api-ext.eqiad.main-66d79c8c8-cdcjx
       server-timing:
-      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="3903008260"
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=treatment;we-1-8-account-creation-no-desktop-benefits=treatment;",co_id;desc="231088225"
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
+      transfer-encoding:
+      - chunked
       vary:
       - Accept-Encoding,User-Agent
       x-analytics:
@@ -827,7 +807,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - 6c73372d-d193-46aa-9ff3-758a23968bda
+      - 80d32fef-5fe1-46c2-ba85-4f5167d87425
     status:
       code: 200
       message: OK
@@ -842,7 +822,7 @@ interactions:
       - keep-alive
       Cookie:
       - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
-        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAEBAFvdouzjtjZOFu1VYxmrS6w5JlmoOpNVaTHU
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=lOB8klJBdZwCh0jAKkxQQwOiAAEBAFvdi0W3Sd73WjytnZZQRQyn7UptcnbHqJvl
       User-Agent:
       - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
     method: GET
@@ -967,8 +947,6 @@ interactions:
         = yes\n|needs-photo = yes\n|a&e-work-group = yes \n|listas = Mohan, Crazy\n}}"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{WPBiography\n|living=yes\n|class=Stub\n|needs-infobox
         = yes\n|needs-photo = yes\n|a&e-work-group = yes \n|listas = Mohan, Crazy\n}}"},{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{WPBiography\n|living=yes\n|class=\n|priority=\n}}"}]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
     headers:
-      accept-ranges:
-      - bytes
       age:
       - '0'
       cache-control:
@@ -982,7 +960,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Sun, 19 Jul 2026 02:06:30 GMT
+      - Sun, 19 Jul 2026 02:08:50 GMT
       nel:
       - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
         0.0}'
@@ -990,9 +968,9 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server:
-      - mw-api-ext.eqiad.main-66d79c8c8-6qk8t
+      - mw-api-ext.eqiad.main-66d79c8c8-gknk5
       server-timing:
-      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="3283976731"
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=treatment;we-1-8-account-creation-no-desktop-benefits=treatment;",co_id;desc="1634973088"
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
       transfer-encoding:
@@ -1012,7 +990,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - 0c708235-3fd4-4f84-b4ef-4a1c09e4909b
+      - d9119154-abd7-4d1f-b356-cec51b37ea7d
     status:
       code: 200
       message: OK
@@ -1027,7 +1005,7 @@ interactions:
       - keep-alive
       Cookie:
       - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
-        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAEBAFvdouzjtjZOFu1VYxmrS6w5JlmoOpNVaTHU
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=lOB8klJBdZwCh0jAKkxQQwOiAAEBAFvdi0W3Sd73WjytnZZQRQyn7UptcnbHqJvl
       User-Agent:
       - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
     method: GET
@@ -1080,10 +1058,8 @@ interactions:
         Philanthropy */"},{"revid":1226519557,"parentid":1221072136,"user":"106.222.222.92","anon":"","timestamp":"2024-05-31T04:21:08Z","comment":""},{"revid":1221072136,"parentid":1221059808,"user":"DareshMohan","timestamp":"2024-04-27T18:05:49Z","comment":""},{"revid":1221059808,"parentid":1221058900,"user":"DareshMohan","timestamp":"2024-04-27T16:29:18Z","comment":"/*
         Film */"}]}},"userinfo":{"id":0,"name":"107.167.253.208","anon":""}}}'
     headers:
-      accept-ranges:
-      - bytes
       age:
-      - '0'
+      - '2'
       cache-control:
       - private, must-revalidate, max-age=0
       content-disposition:
@@ -1095,7 +1071,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Sun, 19 Jul 2026 02:06:30 GMT
+      - Sun, 19 Jul 2026 02:08:50 GMT
       nel:
       - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
         0.0}'
@@ -1103,9 +1079,9 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server:
-      - mw-api-ext.eqiad.main-66d79c8c8-h2x7d
+      - mw-api-ext.eqiad.main-66d79c8c8-6tcgk
       server-timing:
-      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="3894473487"
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=treatment;we-1-8-account-creation-no-desktop-benefits=treatment;",co_id;desc="1025390392"
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
       transfer-encoding:
@@ -1125,7 +1101,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - 6f3e570f-a84c-4c67-afa5-8be825a30ce8
+      - 83155630-2c0a-429a-ab10-211c7bdfd07c
     status:
       code: 200
       message: OK
@@ -1140,7 +1116,7 @@ interactions:
       - keep-alive
       Cookie:
       - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
-        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAEBAFvdouzjtjZOFu1VYxmrS6w5JlmoOpNVaTHU
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=lOB8klJBdZwCh0jAKkxQQwOiAAEBAFvdi0W3Sd73WjytnZZQRQyn7UptcnbHqJvl
       User-Agent:
       - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
     method: GET
@@ -1212,8 +1188,6 @@ interactions:
         Films */"},{"revid":961420614,"parentid":961420512,"user":"221.124.18.219","anon":"","timestamp":"2020-06-08T10:52:45Z","comment":"/*
         Philanthropy */"}]}}}}'
     headers:
-      accept-ranges:
-      - bytes
       age:
       - '0'
       cache-control:
@@ -1227,7 +1201,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Sun, 19 Jul 2026 02:06:30 GMT
+      - Sun, 19 Jul 2026 02:08:51 GMT
       nel:
       - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
         0.0}'
@@ -1235,9 +1209,9 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server:
-      - mw-api-ext.eqiad.main-66d79c8c8-mxcmp
+      - mw-api-ext.eqiad.main-66d79c8c8-zz6mp
       server-timing:
-      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="1302144157"
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=treatment;we-1-8-account-creation-no-desktop-benefits=treatment;",co_id;desc="3462717658"
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
       transfer-encoding:
@@ -1257,7 +1231,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - 303c76d7-c263-4485-a222-3e1d708a07c3
+      - 59586024-0043-41dd-954a-d50758fae16b
     status:
       code: 200
       message: OK
@@ -1272,7 +1246,7 @@ interactions:
       - keep-alive
       Cookie:
       - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
-        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAEBAFvdouzjtjZOFu1VYxmrS6w5JlmoOpNVaTHU
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=lOB8klJBdZwCh0jAKkxQQwOiAAEBAFvdi0W3Sd73WjytnZZQRQyn7UptcnbHqJvl
       User-Agent:
       - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
     method: GET
@@ -1334,8 +1308,6 @@ interactions:
         is a shocker"},{"revid":901200999,"parentid":901200691,"user":"117.249.169.74","anon":"","timestamp":"2019-06-10T09:39:00Z","comment":""},{"revid":901200691,"parentid":901200132,"user":"Artegia","timestamp":"2019-06-10T09:35:27Z","comment":"death
         date and age"}]}}}}'
     headers:
-      accept-ranges:
-      - bytes
       age:
       - '0'
       cache-control:
@@ -1349,7 +1321,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Sun, 19 Jul 2026 02:06:30 GMT
+      - Sun, 19 Jul 2026 02:08:51 GMT
       nel:
       - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
         0.0}'
@@ -1357,9 +1329,9 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server:
-      - mw-api-ext.eqiad.main-66d79c8c8-7ffsv
+      - mw-api-ext.eqiad.main-66d79c8c8-644xx
       server-timing:
-      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="1377576630"
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=treatment;we-1-8-account-creation-no-desktop-benefits=treatment;",co_id;desc="2657324851"
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
       transfer-encoding:
@@ -1379,7 +1351,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - 4cc9a077-1d8c-41ed-810a-41570b78e43a
+      - 473ac0d7-f9ec-48f6-bd36-ea07f59b111e
     status:
       code: 200
       message: OK
@@ -1394,7 +1366,7 @@ interactions:
       - keep-alive
       Cookie:
       - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
-        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAEBAFvdouzjtjZOFu1VYxmrS6w5JlmoOpNVaTHU
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=lOB8klJBdZwCh0jAKkxQQwOiAAEBAFvdi0W3Sd73WjytnZZQRQyn7UptcnbHqJvl
       User-Agent:
       - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
     method: GET
@@ -1431,8 +1403,6 @@ interactions:
         Films */ fixed list"},{"revid":884934211,"parentid":879045910,"user":"73.194.55.153","anon":"","timestamp":"2019-02-24T23:14:39Z","comment":"/*
         Films */"},{"revid":879045910,"parentid":876606203,"user":"207.180.167.75","anon":"","timestamp":"2019-01-18T17:09:29Z","comment":""}]}}}}'
     headers:
-      accept-ranges:
-      - bytes
       age:
       - '0'
       cache-control:
@@ -1446,7 +1416,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Sun, 19 Jul 2026 02:06:31 GMT
+      - Sun, 19 Jul 2026 02:08:51 GMT
       nel:
       - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
         0.0}'
@@ -1454,9 +1424,9 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server:
-      - mw-api-ext.eqiad.main-66d79c8c8-k8tft
+      - mw-api-ext.eqiad.main-66d79c8c8-lxz4g
       server-timing:
-      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="1006988845"
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=treatment;we-1-8-account-creation-no-desktop-benefits=treatment;",co_id;desc="2959837356"
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
       transfer-encoding:
@@ -1476,7 +1446,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - 8c59be07-0afc-400c-9693-c5123deff556
+      - ea7c1a88-2ba6-44b1-bbd6-c71ae5401477
     status:
       code: 200
       message: OK
@@ -1491,7 +1461,7 @@ interactions:
       - keep-alive
       Cookie:
       - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
-        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAEBAFvdouzjtjZOFu1VYxmrS6w5JlmoOpNVaTHU
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=lOB8klJBdZwCh0jAKkxQQwOiAAEBAFvdi0W3Sd73WjytnZZQRQyn7UptcnbHqJvl
       User-Agent:
       - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
     method: GET
@@ -1550,8 +1520,6 @@ interactions:
         Raja Ravi Verma\u2019s portraitures and portraits of Gods and Prophets.\u00a0"},{"revid":814018207,"parentid":809161565,"minor":"","user":"Sharbath","timestamp":"2017-12-06T13:04:41Z","comment":"4500
         stage shows to 6500 stage shows"}]}}}}'
     headers:
-      accept-ranges:
-      - bytes
       age:
       - '0'
       cache-control:
@@ -1565,7 +1533,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Sun, 19 Jul 2026 02:06:31 GMT
+      - Sun, 19 Jul 2026 02:08:51 GMT
       nel:
       - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
         0.0}'
@@ -1573,9 +1541,9 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server:
-      - mw-api-ext.eqiad.main-66d79c8c8-62czd
+      - mw-api-ext.eqiad.main-66d79c8c8-cq6jf
       server-timing:
-      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="4176420561"
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=treatment;we-1-8-account-creation-no-desktop-benefits=treatment;",co_id;desc="3389007651"
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
       transfer-encoding:
@@ -1595,7 +1563,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - 4263997d-bc91-49e3-9528-6308fb08e1e0
+      - a857ed24-0c13-4391-9732-4e9de25cb3ab
     status:
       code: 200
       message: OK
@@ -1610,7 +1578,7 @@ interactions:
       - keep-alive
       Cookie:
       - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
-        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAEBAFvdouzjtjZOFu1VYxmrS6w5JlmoOpNVaTHU
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=lOB8klJBdZwCh0jAKkxQQwOiAAEBAFvdi0W3Sd73WjytnZZQRQyn7UptcnbHqJvl
       User-Agent:
       - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
     method: GET
@@ -1667,10 +1635,8 @@ interactions:
         top */"},{"revid":670788851,"parentid":669596157,"user":"Kuzhali.india","timestamp":"2015-07-10T06:20:22Z","comment":"/*
         External links */Crazy Mohan photos other links"},{"revid":669596157,"parentid":641576698,"user":"Srivin","timestamp":"2015-07-02T06:49:24Z","comment":""},{"revid":641576698,"parentid":641576599,"user":"Vaidyasr","timestamp":"2015-01-08T13:54:14Z","comment":""}]}}}}'
     headers:
-      accept-ranges:
-      - bytes
       age:
-      - '0'
+      - '2'
       cache-control:
       - private, must-revalidate, max-age=0
       content-disposition:
@@ -1682,7 +1648,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Sun, 19 Jul 2026 02:06:31 GMT
+      - Sun, 19 Jul 2026 02:08:51 GMT
       nel:
       - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
         0.0}'
@@ -1690,9 +1656,9 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server:
-      - mw-api-ext.eqiad.main-66d79c8c8-8bncd
+      - mw-api-ext.eqiad.main-66d79c8c8-v7cdw
       server-timing:
-      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="458883286"
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=treatment;we-1-8-account-creation-no-desktop-benefits=treatment;",co_id;desc="3133392895"
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
       transfer-encoding:
@@ -1712,7 +1678,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - ec2d1ade-af9a-4247-af59-003f1e0ee29c
+      - 855c0819-4bdc-47ed-8a6c-760fe6317c91
     status:
       code: 200
       message: OK
@@ -1727,7 +1693,7 @@ interactions:
       - keep-alive
       Cookie:
       - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
-        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAEBAFvdouzjtjZOFu1VYxmrS6w5JlmoOpNVaTHU
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=lOB8klJBdZwCh0jAKkxQQwOiAAEBAFvdi0W3Sd73WjytnZZQRQyn7UptcnbHqJvl
       User-Agent:
       - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
     method: GET
@@ -1783,8 +1749,6 @@ interactions:
         thomas80","timestamp":"2012-10-31T11:40:14Z","comment":"unexplained removal
         of BLP tag ([[WP:HG|HG]])"},{"revid":520729319,"parentid":517594038,"user":"97.119.207.251","anon":"","timestamp":"2012-10-31T10:55:55Z","comment":""}]}}}}'
     headers:
-      accept-ranges:
-      - bytes
       age:
       - '0'
       cache-control:
@@ -1798,7 +1762,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Sun, 19 Jul 2026 02:06:31 GMT
+      - Sun, 19 Jul 2026 02:08:52 GMT
       nel:
       - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
         0.0}'
@@ -1806,9 +1770,9 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server:
-      - mw-api-ext.eqiad.main-66d79c8c8-62czd
+      - mw-api-ext.eqiad.main-66d79c8c8-stctr
       server-timing:
-      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="1006813710"
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=treatment;we-1-8-account-creation-no-desktop-benefits=treatment;",co_id;desc="970215597"
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
       transfer-encoding:
@@ -1828,7 +1792,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - ae478583-a91e-4c0b-a83c-94f104509065
+      - 45cd6fed-81d2-4f26-ad14-0d810b9733f2
     status:
       code: 200
       message: OK
@@ -1843,7 +1807,7 @@ interactions:
       - keep-alive
       Cookie:
       - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
-        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAEBAFvdouzjtjZOFu1VYxmrS6w5JlmoOpNVaTHU
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=lOB8klJBdZwCh0jAKkxQQwOiAAEBAFvdi0W3Sd73WjytnZZQRQyn7UptcnbHqJvl
       User-Agent:
       - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
     method: GET
@@ -1909,8 +1873,6 @@ interactions:
         Review","timestamp":"2010-12-28T17:07:35Z","comment":"/* As an actor */"},{"revid":404663081,"parentid":404489959,"user":"Nashzone
         Review","timestamp":"2010-12-28T17:07:07Z","comment":"/* As an actor */"}]}}}}'
     headers:
-      accept-ranges:
-      - bytes
       age:
       - '0'
       cache-control:
@@ -1924,7 +1886,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Sun, 19 Jul 2026 02:06:31 GMT
+      - Sun, 19 Jul 2026 02:08:52 GMT
       nel:
       - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
         0.0}'
@@ -1932,9 +1894,9 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server:
-      - mw-api-ext.eqiad.main-66d79c8c8-nqdbd
+      - mw-api-ext.eqiad.main-66d79c8c8-jb54f
       server-timing:
-      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="2035509597"
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=treatment;we-1-8-account-creation-no-desktop-benefits=treatment;",co_id;desc="1843530118"
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
       transfer-encoding:
@@ -1954,7 +1916,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - 1d87278c-9f0d-430d-9f62-f472af12ebe7
+      - 4f6a56f9-c82f-41f6-8dcd-ad9ce1dfaaac
     status:
       code: 200
       message: OK
@@ -1969,7 +1931,7 @@ interactions:
       - keep-alive
       Cookie:
       - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
-        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAEBAFvdouzjtjZOFu1VYxmrS6w5JlmoOpNVaTHU
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=lOB8klJBdZwCh0jAKkxQQwOiAAEBAFvdi0W3Sd73WjytnZZQRQyn7UptcnbHqJvl
       User-Agent:
       - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
     method: GET
@@ -2016,10 +1978,8 @@ interactions:
         Stage Dramas */"},{"revid":246511693,"parentid":226154858,"user":"61.14.43.10","anon":"","timestamp":"2008-10-20T15:34:30Z","comment":"/*
         Stage Dramas */"}]}}}}'
     headers:
-      accept-ranges:
-      - bytes
       age:
-      - '2'
+      - '0'
       cache-control:
       - private, must-revalidate, max-age=0
       content-disposition:
@@ -2031,7 +1991,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Sun, 19 Jul 2026 02:06:31 GMT
+      - Sun, 19 Jul 2026 02:08:52 GMT
       nel:
       - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
         0.0}'
@@ -2039,9 +1999,9 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server:
-      - mw-api-ext.eqiad.main-66d79c8c8-m7b8j
+      - mw-api-ext.eqiad.main-66d79c8c8-4nmmh
       server-timing:
-      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="1764150114"
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=treatment;we-1-8-account-creation-no-desktop-benefits=treatment;",co_id;desc="3183329220"
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
       transfer-encoding:
@@ -2061,7 +2021,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - 3c953b38-d8b5-49f9-9d85-4d11ebabe29c
+      - 3b195578-9ce0-48ae-b64c-1f5e806e573e
     status:
       code: 200
       message: OK
@@ -2076,7 +2036,7 @@ interactions:
       - keep-alive
       Cookie:
       - WMF-Last-Access=19-Jul-2026; NetworkProbeLimit=0.001; WMF-Last-Access-Global=19-Jul-2026;
-        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=diDIeJnWw_Qcpns6_YW7zwOiAAEBAFvdouzjtjZOFu1VYxmrS6w5JlmoOpNVaTHU
+        GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; WMF-Uniq=lOB8klJBdZwCh0jAKkxQQwOiAAEBAFvdi0W3Sd73WjytnZZQRQyn7UptcnbHqJvl
       User-Agent:
       - mwclient/0.11.0 (https://github.com/mwclient/mwclient)
     method: GET
@@ -2116,8 +2076,6 @@ interactions:
         his career as stage play writer with his own drama troupe ''Crazy creations''
         which is popular for i...''"}]}}}}'
     headers:
-      accept-ranges:
-      - bytes
       age:
       - '0'
       cache-control:
@@ -2131,7 +2089,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Sun, 19 Jul 2026 02:06:32 GMT
+      - Sun, 19 Jul 2026 02:08:52 GMT
       nel:
       - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
         0.0}'
@@ -2139,9 +2097,9 @@ interactions:
       - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
         }] }'
       server:
-      - mw-api-ext.eqiad.main-66d79c8c8-fl4cl
+      - mw-api-ext.eqiad.main-66d79c8c8-kfh7s
       server-timing:
-      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=control;",co_id;desc="2915286512"
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=treatment;we-1-8-account-creation-no-desktop-benefits=treatment;",co_id;desc="689576923"
       strict-transport-security:
       - max-age=106384710; includeSubDomains; preload
       transfer-encoding:
@@ -2161,7 +2119,7 @@ interactions:
       x-frame-options:
       - DENY
       x-request-id:
-      - 3ea05d30-946e-4b5f-827d-01d168d94241
+      - 514e6929-313e-429b-b612-187cafc7e25b
     status:
       code: 200
       message: OK
