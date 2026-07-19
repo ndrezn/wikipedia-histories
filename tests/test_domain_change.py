@@ -1,5 +1,7 @@
 import asyncio
 
+import pytest
+
 from src import wikipedia_histories
 
 
@@ -40,6 +42,7 @@ def test_complex_extract_lang_code_from_domain() -> None:
     assert lang_code == "zh-min-nan"
 
 
+@pytest.mark.vcr
 def test_get_text_with_default_language() -> None:
     # testing with only one revision id instead of all revisions
     # passed id corresponds to 1st version of English Andrei Broder page
@@ -49,6 +52,7 @@ def test_get_text_with_default_language() -> None:
     assert "Andrei Broder" in text[0]
 
 
+@pytest.mark.vcr
 def test_get_text_with_other_language() -> None:
     lang = "zh-min-nan"
     # use id of first version of an article from Min Nan wikipedia
@@ -60,16 +64,18 @@ def test_get_text_with_other_language() -> None:
     )
 
 
+@pytest.mark.vcr
 def test_invalid_language_code() -> None:
     lang = ""
     text = asyncio.run(wikipedia_histories.get_text(321061, lang_code=lang))
     assert text == -1
 
 
+@pytest.mark.vcr
 def test_integration() -> None:
     domain = "tr.wikipedia.org"
     data_tr = wikipedia_histories.get_history(
-        "Crazy Mohan", include_text=True, domain=domain
+        "Crazy Mohan", include_text=False, domain=domain
     )
-    data_en = wikipedia_histories.get_history("Crazy Mohan", include_text=True)
+    data_en = wikipedia_histories.get_history("Crazy Mohan", include_text=False)
     assert data_tr != data_en

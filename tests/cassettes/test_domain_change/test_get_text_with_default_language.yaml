@@ -1,0 +1,169 @@
+interactions:
+- request:
+    body: null
+    headers:
+      User-Agent:
+      - wikipedia-histories/1.1 (https://github.com/ndrezn/wikipedia-histories)
+    method: GET
+    uri: https://en.wikipedia.org/w/api.php?action=parse&format=json&oldid=31820970
+  response:
+    body:
+      string: '{"parse":{"title":"Andrei Broder","pageid":3458109,"revid":31820970,"text":{"*":"<div
+        class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><p><b>Andrei
+        Broder</b> is a Research Fellow and Vice President of Emerging Search Technology
+        for <a href=\"/wiki/Yahoo\" title=\"Yahoo\">Yahoo</a>. He previously has worked
+        for <a href=\"/wiki/AltaVista\" title=\"AltaVista\">AltaVista</a> as the vice
+        president of research, and for <a href=\"/wiki/IBM_Research\" title=\"IBM
+        Research\">IBM Research</a> as a Distinguished Engineer &amp; CTO.\n</p><p>He
+        has done research into the <a href=\"/wiki/Internet\" title=\"Internet\">internet</a>,
+        and internet searching. He is credited with being one of the first people
+        to develop a <a href=\"/wiki/Captcha\" class=\"mw-redirect\" title=\"Captcha\">Captcha</a>,
+        while working for AltaVista.\n</p><p>He earned his PhD from <a href=\"/wiki/Stanford_University\"
+        title=\"Stanford University\">Stanford University</a> in <a href=\"/wiki/1985\"
+        title=\"1985\">1985</a>, where his advisor was <a href=\"/wiki/Donald_Knuth\"
+        title=\"Donald Knuth\">Donald Knuth</a>.\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1364181290\">.mw-parser-output
+        .asbox{position:relative;overflow:hidden}.mw-parser-output .asbox table{background:transparent}.mw-parser-output
+        .asbox p{margin:0}.mw-parser-output .asbox p+p{margin-top:0.25em}.mw-parser-output
+        .asbox-body{font-style:italic}.mw-parser-output .asbox-note{font-size:smaller}.mw-parser-output
+        .asbox .navbar{position:absolute;top:-0.75em;right:1em;display:none}.mw-parser-output
+        :not(p):not(.asbox)+.mw-empty-elt+.asbox{margin-top:3em}</style><div role=\"note\"
+        class=\"metadata plainlinks asbox stub\"><table role=\"presentation\"><tbody><tr
+        class=\"noresize\"><td><span typeof=\"mw:File\"><a href=\"/wiki/File:Desktop_computer_clipart_-_Yellow_theme.svg\"
+        class=\"mw-file-description\"><img alt=\"Stub icon\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Desktop_computer_clipart_-_Yellow_theme.svg/40px-Desktop_computer_clipart_-_Yellow_theme.svg.png\"
+        decoding=\"async\" width=\"40\" height=\"29\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Desktop_computer_clipart_-_Yellow_theme.svg/120px-Desktop_computer_clipart_-_Yellow_theme.svg.png
+        2x\" data-file-width=\"281\" data-file-height=\"203\" /></a></span></td><td><p
+        class=\"asbox-body\">This biographical article relating to a computer specialist
+        is a <a href=\"/wiki/Wikipedia:Stub\" title=\"Wikipedia:Stub\">stub</a>. You
+        can help Wikipedia by <a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org/w/index.php?title=Andrei_Broder&amp;action=edit\"
+        href=\"https://en.wikipedia.org/w/index.php?title=Andrei_Broder&amp;action=edit\">adding
+        missing information</a>.</p></td></tr></tbody></table><style data-mw-deduplicate=\"TemplateStyles:r1333133064\">.mw-parser-output
+        .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output
+        .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output
+        .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline
+        ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output
+        .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output
+        .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output
+        .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output
+        .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\":
+        \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0
+        \u00b7 \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output
+        .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output
+        .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output
+        .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output
+        .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output
+        .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output
+        .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output
+        .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output
+        .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output
+        .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output
+        .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output
+        .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output
+        .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output
+        .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output
+        .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output
+        .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0
+        \"}</style><style data-mw-deduplicate=\"TemplateStyles:r1239400231\">.mw-parser-output
+        .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output
+        .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output
+        .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output
+        .navbar-brackets::before{margin-right:-0.125em;content:\"[ \"}.mw-parser-output
+        .navbar-brackets::after{margin-left:-0.125em;content:\" ]\"}.mw-parser-output
+        .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output
+        .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output
+        .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0
+        4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}@media(prefers-color-scheme:dark){html.skin-theme-clientpref-os
+        .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}}@media
+        print{.mw-parser-output .navbar{display:none!important}}</style><div class=\"navbar
+        plainlinks hlist navbar-mini\"><ul><li class=\"nv-view\"><a href=\"/wiki/Template:Compu-bio-stub\"
+        title=\"Template:Compu-bio-stub\"><abbr title=\"View this template\">v</abbr></a></li><li
+        class=\"nv-talk\"><a href=\"/wiki/Template_talk:Compu-bio-stub\" title=\"Template
+        talk:Compu-bio-stub\"><abbr title=\"Discuss this template\">t</abbr></a></li><li
+        class=\"nv-edit\"><a href=\"/wiki/Special:EditPage/Template:Compu-bio-stub\"
+        title=\"Special:EditPage/Template:Compu-bio-stub\"><abbr title=\"Edit this
+        template\">e</abbr></a></li></ul></div></div>\n<!-- \nNewPP limit report\nParsed
+        by mw\u2010api\u2010ext.eqiad.main\u201066d79c8c8\u2010db94m\nCached time:
+        20260719020848\nCache expiry: 2592000\nReduced expiry: false\nComplications:
+        []\nCPU time usage: 0.070 seconds\nReal time usage: 0.083 seconds\nPreprocessor
+        visited node count: 26/1000000\nRevision size: 537/2097152 bytes\nPost\u2010expand
+        include size: 3063/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest
+        expansion depth: 4/100\nExpensive parser function count: 0/500\nUnstrip recursion
+        depth: 0/20\nUnstrip post\u2010expand size: 4220/5000000 bytes\nLua time usage:
+        0.050/10.000 seconds\nLua memory usage: 832574/52428800 bytes\nNumber of Wikibase
+        entities loaded: 0/500\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%   68.446      1
+        Template:Compu-bio-stub\n100.00%   68.446      1 -total\n 97.70%   66.872      1
+        Template:Article_stub_box\n-->\n\n<!-- Render ID c73747e5-8316-11f1-bfbb-1b863fdafedd
+        -->\n\n<!-- Saved in RevisionOutputCache with key enwiki:rcache:31820970:dateformat=default
+        and timestamp 20260719020848 and revision id 31820970.\n -->\n</div>"},"langlinks":[{"lang":"de","url":"https://de.wikipedia.org/wiki/Andrei_Broder","langname":"German","autonym":"Deutsch","*":"Andrei
+        Broder"},{"lang":"fr","url":"https://fr.wikipedia.org/wiki/Andrei_Broder","langname":"French","autonym":"fran\u00e7ais","*":"Andrei
+        Broder"},{"lang":"he","url":"https://he.wikipedia.org/wiki/%D7%90%D7%A0%D7%93%D7%A8%D7%99_%D7%91%D7%A8%D7%95%D7%93%D7%A8","langname":"Hebrew","autonym":"\u05e2\u05d1\u05e8\u05d9\u05ea","*":"\u05d0\u05e0\u05d3\u05e8\u05d9
+        \u05d1\u05e8\u05d5\u05d3\u05e8"},{"lang":"ig","url":"https://ig.wikipedia.org/wiki/Andrei_Broder","langname":"Igbo","autonym":"Igbo","*":"Andrei
+        Broder"},{"lang":"ro","url":"https://ro.wikipedia.org/wiki/Andrei_Broder","langname":"Romanian","autonym":"rom\u00e2n\u0103","*":"Andrei
+        Broder"},{"lang":"sw","url":"https://sw.wikipedia.org/wiki/Andrei_Broder","langname":"Swahili","autonym":"Kiswahili","*":"Andrei
+        Broder"},{"lang":"uk","url":"https://uk.wikipedia.org/wiki/%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B9_%D0%91%D1%80%D0%BE%D0%B4%D0%B5%D1%80","langname":"Ukrainian","autonym":"\u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430","*":"\u0410\u043d\u0434\u0440\u0435\u0439
+        \u0411\u0440\u043e\u0434\u0435\u0440"},{"lang":"yi","url":"https://yi.wikipedia.org/wiki/%D7%A2%D7%A0%D7%93%D7%A8%D7%99_%D7%91%D7%A8%D7%90%D7%93%D7%A2%D7%A8","langname":"Yiddish","autonym":"\u05d9\u05d9\u05b4\u05d3\u05d9\u05e9","*":"\u05e2\u05e0\u05d3\u05e8\u05d9
+        \u05d1\u05e8\u05d0\u05d3\u05e2\u05e8"}],"categories":[{"sortkey":"","hidden":"","*":"All_stub_articles"},{"sortkey":"","*":"Computer_specialist_stubs"}],"links":[{"ns":10,"exists":"","*":"Template:Compu-bio-stub"},{"ns":0,"exists":"","*":"1985"},{"ns":0,"exists":"","*":"AltaVista"},{"ns":0,"exists":"","*":"Captcha"},{"ns":0,"exists":"","*":"Donald
+        Knuth"},{"ns":0,"exists":"","*":"IBM Research"},{"ns":0,"exists":"","*":"Internet"},{"ns":0,"exists":"","*":"Stanford
+        University"},{"ns":0,"exists":"","*":"Yahoo"},{"ns":4,"exists":"","*":"Wikipedia:Stub"},{"ns":11,"exists":"","*":"Template
+        talk:Compu-bio-stub"}],"templates":[{"ns":10,"exists":"","*":"Template:Compu-bio-stub"},{"ns":10,"exists":"","*":"Template:Article
+        stub box"},{"ns":10,"exists":"","*":"Template:Hlist/styles.css"},{"ns":828,"exists":"","*":"Module:Article
+        stub box"},{"ns":828,"exists":"","*":"Module:Buffer"},{"ns":828,"exists":"","*":"Module:Arguments"},{"ns":828,"exists":"","*":"Module:Navbar"},{"ns":828,"exists":"","*":"Module:Navbar/configuration"},{"ns":828,"exists":"","*":"Module:Navbar/styles.css"},{"ns":828,"exists":"","*":"Module:Article
+        stub box/styles.css"}],"images":["Desktop_computer_clipart_-_Yellow_theme.svg"],"externallinks":[],"sections":[],"tocdata":null,"parsewarnings":[],"displaytitle":"<span
+        lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Andrei Broder</span></span>","iwlinks":[],"properties":[{"name":"wikibase_item","*":"Q2895803"}]}}'
+    headers:
+      Age:
+      - '0'
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      Content-Disposition:
+      - inline; filename=api-result.json
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 19 Jul 2026 02:11:36 GMT
+      Server:
+      - mw-api-ext.eqiad.main-66d79c8c8-cw2k6
+      Set-Cookie:
+      - WMF-Last-Access=19-Jul-2026;Path=/;HttpOnly;secure;Expires=Thu, 20 Aug 2026
+        00:00:00 GMT
+      - WMF-Last-Access-Global=19-Jul-2026;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Thu,
+        20 Aug 2026 00:00:00 GMT
+      - GeoIP=CA:QC:Qu__bec:46.86:-71.25:v4; Path=/; secure; Domain=.wikipedia.org
+      - NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600
+      - WMF-Uniq=oJncGD3E5_woWR0rg4bKlwOiAAAAAFvd18vZ1na7eSSk0vnWyXs-3sI-31GLtZdv;Domain=.wikipedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Mon,
+        19 Jul 2027 00:00:00 GMT
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding,X-Subdomain,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization,User-Agent
+      content-length:
+      - '10993'
+      content-security-policy:
+      - default-src 'self'; script-src 'none'; object-src 'none'
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server-timing:
+      - WMF-Uniq;desc="we-1-8-tempuser-post-edit=control;we-1-8-account-creation-no-desktop-benefits=treatment;",co_id;desc="50939494"
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      x-analytics:
+      - ''
+      x-cache:
+      - cp1112 miss, cp1112 pass
+      x-cache-status:
+      - pass
+      x-client-ip:
+      - 107.167.253.208
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - DENY
+      x-request-id:
+      - 7a37d2a0-c1e1-4d73-9a4a-2c8a9245fc52
+    status:
+      code: 200
+      message: OK
+version: 1
